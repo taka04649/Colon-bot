@@ -1,109 +1,114 @@
 {
-  "date": "2026-04-19T02:09:28.762014+00:00",
+  "date": "2026-04-19T21:45:34.193191+00:00",
   "plan": {
-    "topic_ja": "ctDNA・MRDモニタリングによるCRC術後再発予測と臨床応用の現在地",
-    "topic_en_query": "circulating tumor DNA minimal residual disease colorectal cancer recurrence surveillance adjuvant",
-    "domain": "ctDNA・MRD monitoring",
+    "topic_ja": "AI支援大腸内視鏡（CADe/CADx）の臨床実装：エビデンスと限界",
+    "topic_en_query": "artificial intelligence colonoscopy computer-aided detection polyp adenoma miss rate randomized controlled trial",
+    "domain": "AI-assisted colonoscopy（CADe, CADx）",
     "outline": [
-      "ctDNA検出技術の比較：tumor-informed vs tumor-agnostic アプローチの感度・特異度",
-      "術後ctDNA陽性の再発予測力：DYNAMIC試験・COBRA試験の最新データ解釈",
-      "補助化学療法のガイドとしてのctDNA：治療強化・de-escalationへの応用可能性",
-      "ctDNA陰性例のサーベイランス間隔最適化とCEA・画像検査との使い分け",
-      "臨床実装の障壁：保険未収載・偽陰性・腫瘍heterogeneityへの対処と今後の展望"
+      "CADe/CADxの技術基盤：CNNアーキテクチャとリアルタイム推論の仕組み",
+      "CADeのRCTメタ解析：ADR・AMR改善効果のサイズと異質性",
+      "CADxの光学診断支援：NICE/JNET分類との統合とspecificity問題",
+      "偽陽性・アラーム疲弊（alarm fatigue）が内視鏡医行動に与える影響",
+      "実装上の課題：学習データバイアス・機器依存性・規制承認と保険適用の現状"
     ],
-    "rationale": "DYNAMIC-III結果公表後、実臨床への橋渡しニーズが急増しており今が最適タイミング"
+    "rationale": "複数RCTが出そろい、ADR改善の恩恵と限界の両面を整理すべき時期に来ているため"
   },
-  "body": "ctDNAによるMRD（分子残存病変）モニタリングは、術後再発リスク層別化において従来のCEAや画像検査を凌駕する感度を示しつつある。技術的アプローチとしては、腫瘍組織の変異プロファイルを事前に同定してパーソナライズドパネルを構築するtumor-informed法（例：Signatera™に代表されるMPPCR）と、固定パネルで既知のホットスポット変異やメチル化マーカーを検出するtumor-agnostic法に大別される。Parikh et al.（Clin Cancer Res, 2021）はtumor-agnosticアプローチのみでStage II–IVのCRC術後MRD検出が可能であることを示したが、感度はtumor-informed法に比べ一般に劣り、特に低腫瘍量の早期再発例での偽陰性が問題となる。一方、tumor-informed法は特異度99%超を達成する反面、組織採取・シークエンシングのリードタイムと高コストが臨床実装の障壁となる（Loft et al., Lancet Gastroenterol Hepatol, 2023）。\n\nDYNAMIC試験（Stage II CRC対象）では、ctDNA誘導下の補助化学療法選択が標準的臨床病理学的判断と比較して化学療法使用率を削減しつつ再発率を非劣性に抑えたことが示された。続くDYNAMIC-IIIはStage III CRCへの拡張試験であり、ctDNA陽性例への治療強化（FOLFOX→FOLFOXIRIへのescalation等）とctDNA陰性例でのde-escalationという双方向の介入を検証している。Chen et al.（J Hematol Oncol, 2021）はStage II–IIIのCRC術後4週時点でのctDNA陽性がHR 10.0超の再発予測因子であることを報告しており、術後早期の単一時点測定でも強力な予後情報を提供する。直腸癌に特化したAndo et al.（Ann Surg, 2026）の前向きコホートでは、術前化学放射線療法なしで根治切除を受けた直腸癌患者においてMRD陽性例の再発率が陰性例と比較して有意に高く、局所進行例でもctDNAが独立した予後因子であることが確認されている。\n\nctDNA陰性例のサーベイランス最適化は現在もcontroversialな領域である。陰性例では理論上、画像検査・CEA測定の頻度を減らすことが患者負担軽減につながるが、腫瘍heterogeneityに起因するclonal evolutionや、一部のmucinous adenocarcinomaに代表されるctDNA低放出腫瘍では偽陰性リスクが無視できない（Mahuron et al., JAMA Surg, 2024）。現時点でNCCN・ESMOいずれのガイドラインもctDNA誘導型サーベイランスを標準推奨には組み込んでおらず、JSCCR 2024年版も同様の立場をとる。実臨床への橋渡しには、保険収載の問題（本邦では現時点で先進医療B等の枠組みに限定）、測定タイミングの標準化（術後4週・3ヶ月・6ヶ月の各時点の臨床的意義の差異）、そして陽性判定後の治療変更を支持するRCTエビデンスの蓄積が不可欠である。DYNAMIC-IIIの最終解析とその後の実装試験の結果を待ちつつ、現段階では高リスクStage II・Stage IIIにおける補助的情報としてctDNAを位置づけ、多職種カンファレンスで解釈することが現実的な運用と言える。",
+  "body": "CADe（Computer-Aided Detection）の技術基盤はCNN（Convolutional Neural Network）を用いたリアルタイム物体検出であり、代表的なアーキテクチャとしてYOLO系やFaster R-CNNが採用されている。内視鏡映像をフレーム単位（通常30fps）で解析し、ポリープ候補領域をバウンディングボックスで提示するまでの推論遅延は概ね33ms以下に抑えられている。CADx（Computer-Aided Diagnosis）はさらに一歩進み、検出した病変の組織型（腺腫 vs. 過形成性ポリープ等）を光学的に推定するものであり、NICE分類やJNET分類との統合が試みられている。\n\nCADeのADR（Adenoma Detection Rate）改善効果については複数のRCTが蓄積されている。Glissen Brown JRらが実施したCADeT-CS試験（Clin Gastroenterol Hepatol, 2022）では米国多施設タンデム大腸内視鏡デザインを採用し、CADe群でAMR（Adenoma Miss Rate）が有意に低下することを示した。Kamba Sらの多施設RCT（J Gastroenterol, 2021）でも同様にCADe使用群でADRの改善が確認されている。一方、Wei MTらのAI-SEE試験（Am J Gastroenterol, 2023）は米国市中病院を対象とした多施設RCTであり、CADe群でADRの有意な改善が得られなかったことを報告している。この異質性の背景には、参加施設のベースラインADR・術者経験・機器の差異が関与していると考えられ、高ADR術者においてCADeの上乗せ効果が減弱する可能性はcontroversialな点として残る。Wallace MBら（Gastroenterology, 2022）はミスレートに着目した解析を行い、CADe導入によるネオプラジアミスレートの低減を示したが、効果量は施設特性に依存していた。Nakashima Hらの単施設RCT（Digestion, 2023）も国内データとして参照に値する。\n\nCADxのspecificity問題は臨床実装上の重要な障壁である。過形成性ポリープを腺腫と誤判定する偽陽性は、「resect-and-discard」や「diagnose-and-leave」戦略の実行可能性を損なう。現状のCADxはNICE type 1/2の鑑別においてある程度の感度を示すものの、specificity（特に小型・平坦病変）は術者の光学診断熟練度に依然として劣るケースが報告されており、ESGEのガイドラインが求めるNPV≥90%の閾値を安定して超えるかは機器・病変サイズ依存で一定していない。\n\n偽陽性によるアラーム疲弊（alarm fatigue）は行動経済学的観点から無視できない。CADeが頻回にアラートを発することで術者の注意リソースが分散し、真の病変への集中が低下するという逆説的リスクが指摘されている。加えて、学習データの人種・食事・腸管前処置の偏りに起因するバイアス、機器ベンダー間の性能差、そして日本における保険適用・薬機法承認の整合性は、実装判断において個々の施設が慎重に評価すべき変数である。CADeはADR低い術者への補完ツールとして最も費用対効果が高い可能性があるが、全術者への一律導入の是非はエビデンスが未成熟であると言わざるを得ない。",
   "key_points": [
-    "Tumor-informed法は特異度99%超だが、コスト・リードタイムが実装障壁",
-    "術後4週ctDNA陽性はHR 10超の独立した再発予測因子（Chen et al., 2021）",
-    "DYNAMIC-IIIはStage IIIでの双方向介入（強化・de-escalation）を検証中",
-    "NCCN・ESMO・JSCCRいずれもctDNA誘導サーベイランスは未標準化"
+    "CADeT-CS試験・AI-SEE試験など複数RCTでADR改善効果に異質性があり、ベースラインADRが修飾因子となりうる",
+    "CADxのspecificityはESGEが求めるNPV≥90%を安定して達成できず、resect-and-discard戦略の普及を制限している",
+    "偽陽性の頻発によるアラーム疲弊が術者の注意配分を逆に低下させるリスクがある",
+    "学習データバイアス・機器依存性・保険適用の現状から、低ADR術者への選択的実装が最も合理的な戦略候補"
   ],
   "references": [
     {
-      "pmid": "37499673",
-      "title": "Clinical application of circulating tumour DNA in colorectal cancer.",
-      "abstract": "Liquid biopsies that detect circulating tumour DNA (ctDNA) have the potential to revolutionise the personalised management of colorectal cancer. For patients with early-stage disease, emerging clinical applications include the assessment of molecular residual disease after surgery, the monitoring of adjuvant chemotherapy efficacy, and early detection of recurrence during surveillance. In the advanced disease setting, data highlight the potential of ctDNA levels as a prognostic marker and as an early indicator of treatment response. ctDNA assessment can complement standard tissue-based testing for molecular characterisation, with the added ability to monitor emerging mutations under the selective pressure of targeted therapy. Here we provide an overview of the evidence supporting the use of ctDNA in colorectal cancer, the studies underway to address some of the outstanding questions, and the barriers to widespread clinical uptake.",
-      "journal": "Lancet Gastroenterol Hepatol",
-      "pub_date": "2023-Sep",
-      "doi": "10.1016/S2468-1253(23)00146-2",
+      "pmid": "35304117",
+      "title": "Impact of Artificial Intelligence on Miss Rate of Colorectal Neoplasia.",
+      "abstract": "BACKGROUND & AIMS: Artificial intelligence (AI) may detect colorectal polyps that have been missed due to perceptual pitfalls. By reducing such miss rate, AI may increase the detection of colorectal neoplasia leading to a higher degree of colorectal cancer (CRC) prevention.\nMETHODS: Patients undergoing CRC screening or surveillance were enrolled in 8 centers (Italy, UK, US), and randomized (1:1) to undergo 2 same-day, back-to-back colonoscopies with or without AI (deep learning computer aided diagnosis endoscopy) in 2 different arms, namely AI followed by colonoscopy without AI or vice-versa. Adenoma miss rate (AMR) was calculated as the number of histologically verified lesions detected at second colonoscopy divided by the total number of lesions detected at first and second colonoscopy. Mean number of lesions detected in the second colonoscopy and proportion of false negative subjects (no lesion at first colonoscopy and at least 1 at second) were calculated. Odds ratios (ORs) and 95% confidence intervals (CIs) were adjusted by endoscopist, age, sex, and indication for colonoscopy. Adverse events were also measured.\nRESULTS: A total of 230 subjects (116 AI first, 114 standard colonoscopy first) were included in the study analysis. AMR was 15.5% (38 of 246) and 32.4% (80 of 247) in the arm with AI and non-AI colonoscopy first, respectively (adjusted OR, 0.38; 95% CI, 0.23-0.62). In detail, AMR was lower for AI first for the ≤5 mm (15.9% vs 35.8%; OR, 0.34; 95% CI, 0.21-0.55) and nonpolypoid lesions (16.8% vs 45.8%; OR, 0.24; 95% CI, 0.13-0.43), and it was lower both in the proximal (18.3% vs 32.5%; OR, 0.46; 95% CI, 0.26-0.78) and distal colon (10.8% vs 32.1%; OR, 0.25; 95% CI, 0.11-0.57). Mean number of adenomas at second colonoscopy was lower in the AI-first group as compared with non-AI colonoscopy first (0.33 ± 0.63 vs 0.70 ± 0.97, P < .001). False negative rates were 6.8% (3 of 44 patients) and 29.6% (13 of 44) in the AI and non-AI first arms, respectively (OR, 0.17; 95% CI, 0.05-0.67). No difference in the rate of adverse events was found between the 2 groups.\nCONCLUSIONS: AI resulted in an approximately 2-fold reduction in miss rate of colorectal neoplasia, supporting AI-benefit in reducing perceptual errors for small and subtle lesions at standard colonoscopy.\nCLINICALTRIALS: gov, Number: NCT03954548.",
+      "journal": "Gastroenterology",
+      "pub_date": "2022-Jul",
+      "doi": "10.1053/j.gastro.2022.03.007",
       "authors": [
-        "Loft M",
-        "To YH",
-        "Gibbs P"
+        "Wallace MB",
+        "Sharma P",
+        "Bhandari P"
       ],
       "pub_types": [
         "Journal Article",
-        "Review"
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
       ]
     },
     {
-      "pmid": "37910091",
-      "title": "Applications of Liquid Biopsy for Surgical Patients With Cancer: A Review.",
-      "abstract": "IMPORTANCE: Liquid biopsy is an emerging tool with the potential to change oncologic care practices. Optimal clinical applications for its use are currently undefined for surgical patients.\nOBSERVATIONS: Liquid biopsy analytes such as circulating tumor cells (CTCs) and circulating tumor DNA (ctDNA) have been the most clinically studied assays and were initially limited to advanced-stage disease. In the metastatic setting, CTCs and ctDNA levels are prognostic. Although their levels correlate with treatment response, CTC-guided systemic regimen switches for nonresponders have not been shown to improve clinical outcomes. ctDNA genomic profiling has succeeded, and there are now multiple plasma-based assays approved by the US Food and Drug Administration that can detect actionable mutations to guide systemic therapy. Technological advancements in assay sensitivity have expanded the use of ctDNA to early-stage and resectable disease, allowing for detection of minimal residual disease. Postoperative ctDNA levels are a strong predictor of disease recurrence, and ctDNA detection often precedes serum carcinoembryonic antigen elevation and radiographic changes. However, its use for surveillance has not been shown to improve clinical outcomes. A promising application of ctDNA is for adjuvant therapy escalation and de-escalation. A phase 2 clinical trial demonstrated that treatment de-escalation for patients with high-risk stage II colorectal cancer and negative postoperative ctDNA had similar recurrence-free survival as patients receiving standard-of-care chemotherapy. These results suggest that ctDNA may help select patients who will benefit from adjuvant chemotherapy, and multiple clinical trials are actively underway.\nCONCLUSIONS AND RELEVANCE: Although uncertainties regarding the optimal use of liquid biopsy remain, it has the potential to significantly improve care for patients with cancer at all stages of disease. It is critical that surgeons understand how to use and interpret these assays, and they should be active participants in clinical trials to advance the field.",
-      "journal": "JAMA Surg",
-      "pub_date": "2024-Jan-01",
-      "doi": "10.1001/jamasurg.2023.5394",
+      "pmid": "34530161",
+      "title": "Deep Learning Computer-aided Polyp Detection Reduces Adenoma Miss Rate: A United States Multi-center Randomized Tandem Colonoscopy Study (CADeT-CS Trial).",
+      "abstract": "BACKGROUND & AIMS: Artificial intelligence-based computer-aided polyp detection (CADe) systems are intended to address the issue of missed polyps during colonoscopy. The effect of CADe during screening and surveillance colonoscopy has not previously been studied in a United States (U.S.) population.\nMETHODS: We conducted a prospective, multi-center, single-blind randomized tandem colonoscopy study to evaluate a deep-learning based CADe system (EndoScreener, Shanghai Wision AI, China). Patients were enrolled across 4 U.S. academic medical centers from 2019 through 2020. Patients presenting for colorectal cancer screening or surveillance were randomized to CADe colonoscopy first or high-definition white light (HDWL) colonoscopy first, followed immediately by the other procedure in tandem fashion by the same endoscopist. The primary outcome was adenoma miss rate (AMR), and secondary outcomes included sessile serrated lesion (SSL) miss rate and adenomas per colonoscopy (APC).\nRESULTS: A total of 232 patients entered the study, with 116 patients randomized to undergo CADe colonoscopy first and 116 patients randomized to undergo HDWL colonoscopy first. After the exclusion of 9 patients, the study cohort included 223 patients. AMR was lower in the CADe-first group compared with the HDWL-first group (20.12% [34/169] vs 31.25% [45/144]; odds ratio [OR], 1.8048; 95% confidence interval [CI], 1.0780-3.0217; P = .0247). SSL miss rate was lower in the CADe-first group (7.14% [1/14]) vs the HDWL-first group (42.11% [8/19]; P = .0482). First-pass APC was higher in the CADe-first group (1.19 [standard deviation (SD), 2.03] vs 0.90 [SD, 1.55]; P = .0323). First-pass ADR was 50.44% in the CADe-first group and 43.64 % in the HDWL-first group (P = .3091).\nCONCLUSION: In this U.S. multicenter tandem colonoscopy randomized controlled trial, we demonstrate a decrease in AMR and SSL miss rate and an increase in first-pass APC with the use of a CADe-system when compared with HDWL colonoscopy alone.",
+      "journal": "Clin Gastroenterol Hepatol",
+      "pub_date": "2022-Jul",
+      "doi": "10.1016/j.cgh.2021.09.009",
       "authors": [
-        "Mahuron KM",
-        "Fong Y"
+        "Glissen Brown JR",
+        "Mansour NM",
+        "Wang P"
       ],
       "pub_types": [
-        "Review",
+        "Journal Article",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    },
+    {
+      "pmid": "36892545",
+      "title": "Evaluation of Computer-Aided Detection During Colonoscopy in the Community (AI-SEE): A Multicenter Randomized Clinical Trial.",
+      "abstract": "INTRODUCTION: There has been increasing interest in artificial intelligence in gastroenterology. To reduce miss rates during colonoscopy, there has been significant exploration in computer-aided detection (CADe) devices. In this study, we evaluate the use of CADe in colonoscopy in community-based, nonacademic practices.\nMETHODS: Between September 28, 2020, and September 24, 2021, a randomized controlled trial (AI-SEE) was performed evaluating the impact of CADe on polyp detection in 4 community-based endoscopy centers in the United States Patients were block-randomized to undergoing colonoscopy with or without CADe (EndoVigilant). Primary outcomes measured were adenomas per colonoscopy and adenomas per extraction (the percentage of polyps removed that are adenomas). Secondary end points included serrated polyps per colonoscopy; nonadenomatous, nonserrated polyps per colonoscopy; adenoma and serrated polyp detection rates; and procedural time.\nRESULTS: A total of 769 patients were enrolled (387 with CADe), with similar patient demographics between the 2 groups. There was no significant difference in adenomas per colonoscopy in the CADe and non-CADe groups (0.73 vs 0.67, P = 0.496). Although the use of CADe did not improve identification of serrated polyps per colonoscopy (0.08 vs 0.08, P = 0.965), the use of CADe increased identification of nonadenomatous, nonserrated polyps per colonoscopy (0.90 vs 0.51, P < 0.0001), resulting in detection of fewer adenomas per extraction in the CADe group. The adenoma detection rate (35.9 vs 37.2%, P = 0.774) and serrated polyp detection rate (6.5 vs 6.3%, P = 1.000) were similar in the CADe and non-CADe groups. Mean withdrawal time was longer in the CADe group compared with the non-CADe group (11.7 vs 10.7 minutes, P = 0.003). However, when no polyps were identified, there was similar mean withdrawal time (9.1 vs 8.8 minutes, P = 0.288). There were no adverse events.\nDISCUSSION: The use of CADe did not result in a statistically significant difference in the number of adenomas detected. Additional studies are needed to better understand why some endoscopists derive substantial benefits from CADe and others do not. ClinicalTrials.gov number: NCT04555135.",
+      "journal": "Am J Gastroenterol",
+      "pub_date": "2023-Oct-01",
+      "doi": "10.14309/ajg.0000000000002239",
+      "authors": [
+        "Wei MT",
+        "Shankar U",
+        "Parvin R"
+      ],
+      "pub_types": [
+        "Randomized Controlled Trial",
+        "Multicenter Study",
         "Journal Article"
       ]
     },
     {
-      "pmid": "41002143",
-      "title": "Molecular Residual Disease and Recurrence in Rectal Cancer Patients Undergoing Upfront Surgery: A Prospective Cohort Study.",
-      "abstract": "OBJECTIVE: To evaluate the prognostic utility of postoperative circulating tumor DNA (ctDNA) for recurrence and treatment response in patients with rectal cancer undergoing upfront surgery.\nBACKGROUND: ctDNA-based molecular residual disease (MRD) testing shows promise in colorectal cancer, but its role in patients with rectal cancer not receiving neoadjuvant therapy is unclear. This study evaluates whether postoperative ctDNA predicts disease-free survival (DFS) and guides adjuvant chemotherapy (ACT) decisions.\nMETHODS: We analyzed ctDNA from patients with stage II to III rectal cancer (N=250) enrolled in the GALAXY study, a multicenter registry in Japan. A clinically validated, personalized, tumor-informed 16-plex PCR next-generation sequencing assay (Signatera) was used to detect and quantify ctDNA. The primary outcome was DFS, defined as the time from landmark to recurrence, death, or the latest radiologic assessment.\nRESULTS: In the MRD window (2-10 wk postsurgery, before ACT), 14.2% (35/246) of patients were ctDNA-positive and had significantly shorter DFS (HR: 9.96, 95% CI: 5.76-17.2, P <0.0001). Among patients who were ctDNA-positive in the MRD window, a significant benefit from ACT was observed (HR: 0.28, 95% CI: 0.09-0.89, P =0.031), whereas no benefit was seen in ctDNA-negative patients (HR: 0.59, 95% CI: 0.26-1.35, P =0.211). When analyzing ctDNA dynamics from the MRD window to 6 months postsurgery, recurrence risk was higher in patients who converted from ctDNA-negative to positive (HR: 8.22, 95% CI: 1.86-36.32, P =0.0055) and who remained ctDNA-positive (HR: 45.48, 95% CI: 14.31-144.57, P <0.0001) compared with serially ctDNA-negative patients.\nCONCLUSIONS: Postoperative ctDNA status is a robust biomarker predicting recurrence risk and ACT benefit in patients with rectal cancer undergoing upfront surgery.",
-      "journal": "Ann Surg",
-      "pub_date": "2026-Jan-01",
-      "doi": "10.1097/SLA.0000000000006948",
+      "pmid": "34218329",
+      "title": "Reducing adenoma miss rate of colonoscopy assisted by artificial intelligence: a multicenter randomized controlled trial.",
+      "abstract": "BACKGROUND: We have developed the computer-aided detection (CADe) system using an original deep learning algorithm based on a convolutional neural network for assisting endoscopists in detecting colorectal lesions during colonoscopy. The aim of this study was to clarify whether adenoma miss rate (AMR) could be reduced with CADe assistance during screening and surveillance colonoscopy.\nMETHODS: This study was a multicenter randomized controlled trial. Patients aged 40 to 80 years who were referred for colorectal screening or surveillance at four sites in Japan were randomly assigned at a 1:1 ratio to either the \"standard colonoscopy (SC)-first group\" or the \"CADe-first group\" to undergo a back-to-back tandem procedure. Tandem colonoscopies were performed on the same day for each participant by the same endoscopist in a preassigned order. All polyps detected in each pass were histopathologically diagnosed after biopsy or resection.\nRESULTS: A total of 358 patients were enrolled and 179 patients were assigned to the SC-first group or CADe-first group. The AMR of the CADe-first group was significantly lower than that of the SC-first group (13.8% vs. 36.7%, P < 0.0001). Similar results were observed for the polyp miss rate (14.2% vs. 40.6%, P < 0.0001) and sessile serrated lesion miss rate (13.0% vs. 38.5%, P = 0.03). The adenoma detection rate of CADe-assisted colonoscopy was 64.5%, which was significantly higher than that of standard colonoscopy (53.6%; P = 0.036).\nCONCLUSION: Our study results first showed a reduction in the AMR when assisting with CADe based on deep learning in a multicenter randomized controlled trial.",
+      "journal": "J Gastroenterol",
+      "pub_date": "2021-Aug",
+      "doi": "10.1007/s00535-021-01808-w",
       "authors": [
-        "Ando K",
-        "Hamabe A",
-        "Nakamura Y"
+        "Kamba S",
+        "Tamai N",
+        "Saitoh I"
       ],
       "pub_types": [
         "Journal Article",
-        "Multicenter Study"
+        "Multicenter Study",
+        "Randomized Controlled Trial"
       ]
     },
     {
-      "pmid": "34001194",
-      "title": "Postoperative circulating tumor DNA as markers of recurrence risk in stages II to III colorectal cancer.",
-      "abstract": "BACKGROUND: Precise methods for postoperative risk stratification to guide the administration of adjuvant chemotherapy (ACT) in localized colorectal cancer (CRC) are still lacking. Here, we conducted a prospective, observational, and multicenter study to investigate the utility of circulating tumor DNA (ctDNA) in predicting the recurrence risk.\nMETHODS: From September 2017 to March 2020, 276 patients with stage II/III CRC were prospectively recruited in this study and 240 evaluable patients were retained for analysis, of which 1290 serial plasma samples were collected. Somatic variants in both the primary tumor and plasma were detected via a targeted sequencing panel of 425 cancer-related genes. Patients were treated and followed up per standard of care.\nRESULTS: Preoperatively, ctDNA was detectable in 154 of 240 patients (64.2%). At day 3-7 postoperation, ctDNA positivity was associated with remarkably high recurrence risk (hazard ratio [HR], 10.98; 95%CI, 5.31-22.72; P < 0.001). ctDNA clearance and recurrence-free status was achieved in 5 out of 17 ctDNA-positive patients who were subjected to ACT. Likewise, at the first sampling point after ACT, ctDNA-positive patients were 12 times more likely to experience recurrence (HR, 12.76; 95%CI, 5.39-30.19; P < 0.001). During surveillance after definitive therapy, ctDNA positivity was also associated with extremely high recurrence risk (HR, 32.02; 95%CI, 10.79-95.08; P < 0.001). In all multivariate analyses, ctDNA positivity remained the most significant and independent predictor of recurrence-free survival after adjusting for known clinicopathological risk factors. Serial ctDNA analyses identified recurrence with an overall accuracy of 92.0% and could detect disease recurrence ahead of radiological imaging with a mean lead time of 5.01 months.\nCONCLUSIONS: Postoperative serial ctDNA detection predicted high relapse risk and identified disease recurrence ahead of radiological imaging in patients with stage II/III CRC. ctDNA may be used to guide the decision-making in postsurgical management.",
-      "journal": "J Hematol Oncol",
-      "pub_date": "2021-May-17",
-      "doi": "10.1186/s13045-021-01089-z",
+      "pmid": "36599306",
+      "title": "Clinical Evaluation of Computer-Aided Colorectal Neoplasia Detection Using a Novel Endoscopic Artificial Intelligence: A Single-Center Randomized Controlled Trial.",
+      "abstract": "INTRODUCTION: Computer-aided diagnostic systems are emerging in the field of gastrointestinal endoscopy. In this study, we assessed the clinical performance of the computer-aided detection (CADe) of colonic adenomas using a new endoscopic artificial intelligence system.\nMETHODS: This was a single-center prospective randomized study including 415 participants allocated into the CADe group (n = 207) and control group (n = 208). All endoscopic examinations were performed by experienced endoscopists. The performance of the CADe was assessed based on the adenoma detection rate (ADR). Additionally, we compared the adenoma miss rate for the rectosigmoid colon (AMRrs) between the groups.\nRESULTS: The basic demographic and procedural characteristics of the CADe and control groups were as follows: mean age, 54.9 and 55.9 years; male sex, 73.9% and 69.7% of participants; and mean withdrawal time, 411.8 and 399.0 s, respectively. The ADR was 59.4% in the CADe group and 47.6% in the control group (p = 0.018). The AMRrs was 11.9% in the CADe group and 26.0% in the control group (p = 0.037).\nCONCLUSION: The colonoscopy with the CADe system yielded an 11.8% higher ADR than that performed by experienced endoscopists alone. Moreover, there was no need to extend the examination time or request the assistance of additional medical staff to achieve this improved effectiveness. We believe that the novel CADe system can lead to considerable advances in colorectal cancer diagnosis.",
+      "journal": "Digestion",
+      "pub_date": "2023",
+      "doi": "10.1159/000528085",
       "authors": [
-        "Chen G",
-        "Peng J",
-        "Xiao Q"
+        "Nakashima H",
+        "Kitazawa N",
+        "Fukuyama C"
       ],
       "pub_types": [
-        "Journal Article",
-        "Research Support, Non-U.S. Gov't"
-      ]
-    },
-    {
-      "pmid": "33926918",
-      "title": "Minimal Residual Disease Detection using a Plasma-only Circulating Tumor DNA Assay in Patients with Colorectal Cancer.",
-      "abstract": "PURPOSE: Detection of persistent circulating tumor DNA (ctDNA) after curative-intent surgery can identify patients with minimal residual disease (MRD) who will ultimately recur. Most ctDNA MRD assays require tumor sequencing to identify tumor-derived mutations to facilitate ctDNA detection, requiring tumor and blood. We evaluated a plasma-only ctDNA assay integrating genomic and epigenomic cancer signatures to enable tumor-uninformed MRD detection.\nEXPERIMENTAL DESIGN: A total of 252 prospective serial plasma specimens from 103 patients with colorectal cancer undergoing curative-intent surgery were analyzed and correlated with recurrence.\nRESULTS: Of 103 patients, 84 [stage I (9.5%), II (23.8%), III (47.6%), IV (19%)] had evaluable plasma drawn after completion of definitive therapy, defined as surgery only (n = 39) or completion of adjuvant therapy (n = 45). In \"landmark\" plasma drawn 1-month (median, 31.5 days) after definitive therapy and >1 year follow-up, 15 patients had detectable ctDNA, and all 15 recurred [positive predictive value (PPV), 100%; HR, 11.28 (P < 0.0001)]. Of 49 patients without detectable ctDNA at the landmark timepoint, 12 (24.5%) recurred. Landmark recurrence sensitivity and specificity were 55.6% and 100%. Incorporating serial longitudinal and surveillance (drawn within 4 months of recurrence) samples, sensitivity improved to 69% and 91%. Integrating epigenomic signatures increased sensitivity by 25%-36% versus genomic alterations alone. Notably, standard serum carcinoembryonic antigen levels did not predict recurrence [HR, 1.84 (P = 0.18); PPV = 53.9%].\nCONCLUSIONS: Plasma-only MRD detection demonstrated favorable sensitivity and specificity for recurrence, comparable with tumor-informed approaches. Integrating analysis of epigenomic and genomic alterations enhanced sensitivity. These findings support the potential clinical utility of plasma-only ctDNA MRD detection.See related commentary by Bent and Kopetz, p. 5449.",
-      "journal": "Clin Cancer Res",
-      "pub_date": "2021-Oct-15",
-      "doi": "10.1158/1078-0432.CCR-21-0410",
-      "authors": [
-        "Parikh AR",
-        "Van Seventer EE",
-        "Siravegna G"
-      ],
-      "pub_types": [
-        "Journal Article",
-        "Research Support, N.I.H., Extramural",
-        "Research Support, Non-U.S. Gov't"
+        "Randomized Controlled Trial",
+        "Journal Article"
       ]
     }
   ]

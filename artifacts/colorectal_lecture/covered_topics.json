@@ -10,5 +10,11 @@
     "topic_ja": "ctDNA・MRDモニタリングによるCRC術後再発予測と臨床応用の現在地",
     "domain": "ctDNA・MRD monitoring",
     "rationale": "DYNAMIC-III結果公表後、実臨床への橋渡しニーズが急増しており今が最適タイミング"
+  },
+  {
+    "date": "2026-04-19T21:45:34.194006+00:00",
+    "topic_ja": "AI支援大腸内視鏡（CADe/CADx）の臨床実装：エビデンスと限界",
+    "domain": "AI-assisted colonoscopy（CADe, CADx）",
+    "rationale": "複数RCTが出そろい、ADR改善の恩恵と限界の両面を整理すべき時期に来ているため"
   }
 ]
