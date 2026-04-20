@@ -16,5 +16,11 @@
     "topic_ja": "AI支援大腸内視鏡（CADe/CADx）の臨床実装：エビデンスと限界",
     "domain": "AI-assisted colonoscopy（CADe, CADx）",
     "rationale": "複数RCTが出そろい、ADR改善の恩恵と限界の両面を整理すべき時期に来ているため"
+  },
+  {
+    "date": "2026-04-20T21:55:19.943530+00:00",
+    "topic_ja": "Interval Cancerの発生機序と予防戦略：見逃し・遺残・de novo発生を分解する",
+    "domain": "interval cancer, post-colonoscopy CRC",
+    "rationale": "AI・SSLを直近でカバー済みのため、両者が交差するInterval cancerを質管理の視点から整理する好機"
   }
 ]
