@@ -22,5 +22,11 @@
     "topic_ja": "Interval Cancerの発生機序と予防戦略：見逃し・遺残・de novo発生を分解する",
     "domain": "interval cancer, post-colonoscopy CRC",
     "rationale": "AI・SSLを直近でカバー済みのため、両者が交差するInterval cancerを質管理の視点から整理する好機"
+  },
+  {
+    "date": "2026-04-21T21:53:56.498826+00:00",
+    "topic_ja": "Lynch症候群のサーベイランス戦略：MMR遺伝子別リスク層別化と最適内視鏡間隔",
+    "domain": "Lynch症候群診断・surveillance",
+    "rationale": "CAPP3結果公表後、遺伝子型別リスク層別化と化学予防の統合戦略が再整理される好機"
   }
 ]

@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-21T21:53:56.498117+00:00",
+  "plan": {
+    "topic_ja": "Lynch症候群のサーベイランス戦略：MMR遺伝子別リスク層別化と最適内視鏡間隔",
+    "topic_en_query": "Lynch syndrome surveillance colonoscopy interval MMR gene pathogenic variant risk stratification",
+    "domain": "Lynch症候群診断・surveillance",
+    "outline": [
+      "MMR遺伝子（MLH1/MSH2/MSH6/PMS2）別のCRCおよび異時性癌リスクの定量的差異",
+      "従来の1〜2年間隔サーベイランスのエビデンス再検証：CAPP2試験とその後のコホート研究",
+      "遺伝子型・性別・家族歴に基づくリスク層別化と個別化サーベイランス間隔の設定",
+      "アスピリン化学予防（CAPP2/CAPP3）の機序・用量・導入タイミングの臨床判断",
+      "内視鏡品質指標（ADR・盲腸到達率・後退時間）がLynch症候群サーベイランス成績に与える影響"
+    ],
+    "rationale": "CAPP3結果公表後、遺伝子型別リスク層別化と化学予防の統合戦略が再整理される好機"
+  },
+  "body": "Lynch症候群はMLH1・MSH2・MSH6・PMS2の4遺伝子それぞれが独立した臨床表現型を示す疾患スペクトラムであり、Liu et al.（Cancers, 2026）はNGS時代における遺伝子型別精密管理の必要性を改めて整理している。累積大腸癌リスクは70歳時点でMLH1変異で約40〜50%、MSH2で約40〜60%と高リスクを示す一方、MSH6では約10〜20%、PMS2では約10〜15%と有意に低く、この差異を無視した一律サーベイランスは過剰介入と過少介入を同時に生む。さらに性別の影響も無視できず、MSH6変異女性では子宮内膜癌リスク（生涯累積40〜60%）が大腸癌を上回るため、婦人科サーベイランスとの統合設計が必須となる。\n\n内視鏡サーベイランス間隔のエビデンス基盤として、CAPP2試験（n=861、二重盲検RCT）は主にMLH1/MSH2変異者を対象にアスピリン600mg/日の化学予防効果を検証し、4年以上の服用群でCRCリスクが約60%低下（HR 0.41、95%CI 0.21–0.82）することを示した。ただしCAPP2の内視鏡間隔は1〜2年で統一されており、遺伝子型別の最適間隔は検証されていない。その後のコホート研究では、MLH1/MSH2変異者において2年間隔サーベイランスでも間隔癌（interval cancer）が一定頻度で発生することが報告されており、少なくともこの高リスク群では1〜2年間隔を維持すべきとする見解がESMOおよびJSCCRのガイドラインと整合する。一方MSH6・PMS2変異者については、ESGEは2〜3年間隔を許容する立場を示しており、リスク層別化に基づく個別化が現実的な選択肢となっている。\n\nCAPP3試験はCAPP2の知見を受け、アスピリン100mg/日・300mg/日・600mg/日の3用量を比較する大規模RCTとして設計され、低用量でも同等の化学予防効果が得られるかを検証した。主要評価項目はCRC発生率であり、低用量群での副作用軽減と忍容性改善が期待されている。現時点でCAPP3の最終結果は公表されていないため、用量選択に関する断定的推奨は時期尚早であるが、600mg/日の長期継続が困難な症例に対して100〜300mg/日を暫定的に使用する臨床判断は許容範囲と考えられる。導入タイミングについては、CAPP2の事後解析から25歳以降の早期開始が効果を最大化する可能性が示唆されている。\n\n内視鏡品質指標がLynch症候群サーベイランス成績に直結する点も強調したい。Lynch症候群関連腺腫は平坦・鋸歯状形態をとりやすく、通常の腺腫より発見困難であるため、ADR（腺腫発見率）の低い術者によるサーベイランスは間隔癌リスクを実質的に高める。盲腸到達率95%以上・後退時間6分以上を担保したうえで、必要に応じてNBI・BLI等の画像強調観察を組み合わせることが、遺伝子型別リスク層別化と並んでサーベイランス戦略の根幹をなす（Liu et al., Cancers, 2026）。",
+  "key_points": [
+    "MLH1/MSH2は70歳時CRCリスク40〜60%、MSH6/PMS2は10〜20%と遺伝子型で大きく異なる",
+    "CAPP2ではアスピリン600mg/日4年以上でCRCリスクがHR 0.41に低下",
+    "CAPP3の最終結果未公表のため至適用量は現時点でcontroversial",
+    "Lynch症候群腺腫の平坦・鋸歯状形態を踏まえ内視鏡品質指標の担保が不可欠"
+  ],
+  "references": [
+    {
+      "pmid": "41681978",
+      "title": "Lynch Syndrome as a Spectrum of Four Distinct Genetic Disorders: Toward Genotype-Guided Precision Management in the NGS Era.",
+      "abstract": "BACKGROUND/OBJECTIVES: Lynch syndrome (LS), is traditionally managed uniformly despite being caused by pathogenic variants in four distinct mismatch repair (MMR) genes (MLH1, MSH2, MSH6, and PMS2). This approach fails to leverage gene-specific characteristics for precision healthcare delivery. This review redefines LS as four distinct genetic syndromes and establishes a genotype-guided precision management framework to optimize risk stratification, surveillance, and therapeutic interventions.\nMETHODS: We synthesized molecular, clinical, and outcomes data from the Prospective Lynch Syndrome Database (8500+ carriers; 70,000 person-years), genomic studies characterizing gene-specific mutational patterns, and immunotherapy trials while referencing international guidelines [National Comprehensive Cancer Network (NCCN), European Hereditary Tumour Group (EHTG)/European Society of Coloproctology (ESCP), and European Society for Medical Oncology (ESMO)] to formulate genotype-stratified recommendations.\nRESULTS: Fundamental molecular differences necessitate differentiated management strategies. MLH1 deficiency exhibits unique \"two-in-one hit\" mechanisms driving aggressive tumorigenesis with high interval cancer rates. MSH2 deficiency presents the highest tumor mutational burden (≈47 mutations per megabase; Mut/Mb) and broadest cancer spectrum. MSH6 deficiency displays distinctive high-single-nucleotide variant (SNV)/low-insertion-deletion (Indel) patterns often presenting as microsatellite instability-low (MSI-low) or microsatellite stable (MSS), complicating conventional detection. PMS2 deficiency demonstrates substantial attenuation due to redundancy. These translate into precision interventions: MLH1/MSH2 carriers require colonoscopy from age 25 at 1-2-year intervals with extended colectomy preferred, while MSH6/PMS2 carriers can defer surveillance to age 35-40 with longer intervals and undergo segmental resection. Immune checkpoint inhibitors (ICIs) are effective in deficient MMR (dMMR)/microsatellite instability-high (MSI-H) tumors across all four MMR genotypes.\nCONCLUSIONS: Genotype-specific precision management optimizes the benefit-burden balance, enhances early cancer detection, reduces overtreatment, and enables personalized genetic counseling, advancing precision healthcare for LS families and addressing critical gaps in hereditary cancer care.",
+      "journal": "Cancers (Basel)",
+      "pub_date": "2026-Feb-03",
+      "doi": "10.3390/cancers18030506",
+      "authors": [
+        "Liu Y",
+        "Ye S",
+        "Liu Z"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ]
+    }
+  ]
+}
