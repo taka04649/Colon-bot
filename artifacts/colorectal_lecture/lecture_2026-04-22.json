@@ -1,0 +1,115 @@
+{
+  "date": "2026-04-22T21:58:07.201362+00:00",
+  "plan": {
+    "topic_ja": "BRAF V600E変異CRCの分子病態と治療戦略：BEACON試験以降の展開",
+    "topic_en_query": "BRAF V600E mutation colorectal cancer targeted therapy BEACON encorafenib binimetinib",
+    "domain": "KRAS/NRAS/BRAF 変異と分子標的治療",
+    "outline": [
+      "BRAF V600E変異CRCの疫学的特徴（右側優位・MSI-H合併・予後不良の背景機序）",
+      "MAPKシグナルのフィードバック再活性化：なぜBRAF単剤が無効か（EGFR依存性リバウンドの機序）",
+      "BEACON試験の設計と結果：encorafenib＋cetuximabが標準治療となった根拠",
+      "MSI-H/dMMR合併BRAF V600E例における免疫療法との併用・シーケンス戦略",
+      "1st lineへの前倒し（BREAKWATER試験）と今後の臨床実装課題"
+    ],
+    "rationale": "BEACON後の標準治療確立から数年、1st line展開の新試験結果が出揃いつつあり臨床判断の更新が急務"
+  },
+  "body": "BRAF V600E変異はmCRCの約8〜10%に認められ、右側結腸優位・高齢女性・MSI-H合併（約30%）・腹膜播種傾向という臨床病理学的クラスターを形成する。予後不良の背景には単なる増殖シグナル亢進にとどまらない複合機序がある。BRAF V600Eはクラスモノマーとして機能し、RASに非依存的にMEK-ERKを持続活性化する一方、野生型BRAFと異なりネガティブフィードバックを回避するため、腫瘍微小環境の免疫抑制とも相まって治療抵抗性が構造的に組み込まれている（Ros et al., Expert Rev Anticancer Ther, 2023）。\n\nBRAF阻害薬単剤が奏効しない根本的理由は、EGFRを介したMAPKシグナルのリバウンド再活性化にある。encorafenibによるBRAF V600E阻害は、RAS-GTPの蓄積とEGFRリガンドの自己分泌ループを通じてCRAFおよびMEKの代償的活性化を誘導する。この「フィードバック脱抑制」をEGFR遮断（cetuximab）で封じることが合理的であり、MEK阻害（binimetinib）の追加でさらなる下流遮断を図るのがBEACON試験の設計思想である。BEACON CRC試験（n=665）では、encorafenib＋cetuximab（EC）群のOSが9.0か月、ORRが20%と、対照のirinotecan/FOLFIRI＋cetuximab群（OS 5.4か月、ORR 2%）に対してHR 0.61（p<0.001）で有意な改善を示し、EC二剤がbinimetinib三剤に対して非劣性であることも確認された。Kopetz et al.（Nat Med, 2024）によるBEACON分子プロファイリング解析では、TP53・PIK3CA・SMAD4の共変異がEC群の予後に影響することが示されており、今後のバイオマーカー層別化に向けた重要な知見となっている。\n\nMSI-H/dMMR合併BRAF V600E例は特殊なサブセットとして扱う必要がある。1st lineではペムブロリズマブ単剤（KEYNOTE-158のサブ解析）やニボルマブ＋イピリムマブ（CheckMate 142）が高いORRを示すため、免疫チェックポイント阻害薬（ICI）先行が現実的な選択肢となる。ただしICI後にBRAF標的治療を行う際の有効性データは限定的であり、シーケンス戦略はcontroversialである。Boccaccino et al.（ESMO Open, 2022）のイタリア実臨床データでは、前治療歴がEC療法の奏効率に影響する傾向が示唆されており、ICI既治療例での有効性は前向き試験による検証が必要な段階にある。\n\n1st lineへの展開としてBREAKWATER試験（encorafenib＋cetuximab＋mFOLFOX6）が進行中であり、化学療法との組み合わせによる更なる上乗せ効果が期待されている。Inagaki et al.（Future Oncol, 2023）のJACCRO CC-18（BEETS試験）は日本人コホートにおける実態把握と並行トランスレーショナル解析を目的としており、人種差・共変異スペクトラムの観点から国内データの蓄積が急務である。現時点でJSCCRガイドラインはBEACON結果を踏まえEC療法を2nd line以降の標準治療として位置付けているが、1st line実装はBREAKWATERの最終解析待ちであり、MSS例とMSI-H例でのシーケンス最適化は今後の最重要課題と言える。",
+  "key_points": [
+    "BRAF V600E単剤無効の主因はEGFR依存性MAPKフィードバック再活性化",
+    "BEACON試験でEC二剤がOS HR 0.61で標準治療を確立、三剤は非劣性",
+    "Nat Med 2024の分子解析でTP53/PIK3CA/SMAD4共変異が予後層別化に有望",
+    "MSI-H合併例のICI→BRAF標的治療シーケンスはevidenceが不十分で要注意"
+  ],
+  "references": [
+    {
+      "pmid": "33836264",
+      "title": "Management of BRAF-mutant metastatic colorectal cancer: a review of treatment options and evidence-based guidelines.",
+      "abstract": "BACKGROUND: Colorectal cancer (CRC) is still a leading cause of cancer-related deaths in the United States and worldwide, despite recent improvements in cancer management. CRC, like many malignancies, is a heterogeneous disease, with subtypes characterized by genetic alterations. One common mutation in CRC is in the BRAF gene (most commonly V600E substitution). This occurs in ∼10% of patients with metastatic CRC (mCRC) and is a marker of poor prognosis.\nDESIGN: Herein, we review the clinical and translational literature on the role of the BRAF V600E mutation in the pathogenesis of mCRC, its mechanisms as a prognostic marker, and its potential utility as a predictive marker of treatment response. We then summarize the current evidence-based recommendations for management of BRAF V600E-mutated mCRC, with a focus on recent clinical research advances in this setting.\nRESULTS: The current standard therapies for first-line treatment of BRAF-mutated mCRC are chemotherapy with bevacizumab as well as 5-fluorouracil, leucovorin, oxaliplatin, and irinotecan (FOLFOXIRI) plus bevacizumab in patients with a good performance status. Combination strategies involving mitogen-activated protein kinase (MAPK) pathway blockade have shown promising results for the treatment of patients with BRAF V600E-mutated mCRC. The Binimetinib, Encorafenib, And Cetuximab cOmbiNed to treat BRAF-mutant ColoRectal Cancer (BEACON CRC) study represents the largest study in this population to date and has given strong clinical evidence to support BRAF and epidermal growth factor receptor inhibition with the combination of encorafenib plus cetuximab.\nCONCLUSIONS: The treatment of BRAF-mutated mCRC has evolved rapidly over the last several years. Recently, combination strategies involving MAPK pathway blockade have shown promising results in BRAF V600E-mutated mCRC, and other potential targets continue to be explored. In addition, a greater understanding of the role of BRAF V600E mutation in the pathogenesis of CRC should also continue to fuel advances in the management of patients with mCRC harboring this genetic aberration.",
+      "journal": "Ann Oncol",
+      "pub_date": "2021-Aug",
+      "doi": "10.1016/j.annonc.2021.03.206",
+      "authors": [
+        "Grothey A",
+        "Fakih M",
+        "Tabernero J"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ]
+    },
+    {
+      "pmid": "35696748",
+      "title": "Encorafenib plus cetuximab with or without binimetinib in patients with BRAF V600E-mutated metastatic colorectal cancer: real-life data from an Italian multicenter experience.",
+      "abstract": "BACKGROUND: Encorafenib plus cetuximab with or without binimetinib showed increased objective response rate (ORR), progression-free survival (PFS), and overall survival (OS) compared with chemotherapy plus anti-EGFR in previously treated patients with BRAF V600E-mutated (mut) metastatic colorectal cancer (mCRC). Although no formal comparison was planned, addition of binimetinib to encorafenib plus cetuximab did not provide significant efficacy advantage.\nPATIENTS AND METHODS: This real-life study was aimed at evaluating safety, activity, and efficacy of encorafenib plus cetuximab with or without binimetinib in patients with BRAF V600E-mut mCRC treated at 21 Italian centers within a nominal use program launched in May 2019.\nRESULTS: Out of 133 patients included, 97 (73%) received encorafenib plus cetuximab (targeted doublet) and 36 (27%) the same therapy plus binimetinib (targeted triplet). Most patients had Eastern Cooperative Group Performance Status (ECOG-PS) of 0 or 1 (86%), right-sided primary tumor (69%), and synchronous disease (66%). Twenty (15%) tumors were DNA mismatch repair deficiency (dMMR)/microsatellite instability (MSI)-high. As many as 44 (34%) patients had received two or more prior lines of therapy, 122 (92%) were previously exposed to oxaliplatin, and 109 (82%) to anti-vascular endothelial growth factor (anti-VEGF). Most frequent adverse events were asthenia (62%) and anti-EGFR-related skin rash (52%). Any grade nausea (P = 0.03), vomiting (P = 0.04), and diarrhea (P = 0.07) were more frequent with the triplet therapy, while melanocytic nevi were less common (P = 0.06). Overall, ORR and disease control rate (DCR) were 23% and 69%, respectively, with numerically higher rates in the triplet group (ORR 31% versus 17%, P = 0.12; DCR 78% versus 65%, P = 0.23). Median PFS and OS were 4.5 and 7.2 months, respectively. Worse ECOG-PS, peritoneal metastases, and more than one prior treatment were independent poor prognostic factors for PFS and OS. Clonality of BRAF mutation measured as adjusted mutant allele fraction in tumor tissue was not associated with clinical outcome.\nCONCLUSIONS: Our real-life data are consistent with those from the BEACON trial in terms of safety, activity, and efficacy. Patients in good general condition and not heavily pretreated are those more likely to derive benefit from the targeted treatment.",
+      "journal": "ESMO Open",
+      "pub_date": "2022-Jun",
+      "doi": "10.1016/j.esmoop.2022.100506",
+      "authors": [
+        "Boccaccino A",
+        "Borelli B",
+        "Intini R"
+      ],
+      "pub_types": [
+        "Clinical Trial",
+        "Journal Article",
+        "Multicenter Study",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    },
+    {
+      "pmid": "37482749",
+      "title": "Treatment of BRAF-V600E mutant metastatic colorectal cancer: new insights and biomarkers.",
+      "abstract": "INTRODUCTION: The presence of a BRAF-V600E mutation in metastatic colorectal cancer (mCRC) is observed in approximately 12% of cases and is associated with poor prognosis and aggressive disease. Unlike melanoma, the development of successful BRAF blockade in colorectal cancer has been complex. The phase III BEACON trial made significant progress in the development of BRAF inhibitors by establishing encorafenib-cetuximab as the new standard of care for patients with mCRC who have progressed to one or two previous lines of treatment. Nonetheless, not all patients respond to encorafenib-based combinations, and some responses are short-lived. Identifying new strategies to boost antitumor activity and improve survival is paramount.\nAREAS COVERED: The development of targeted therapy for BRAF-V600E mCRC starting with BRAF inhibitors as monotherapy through novel combinations with anti-VEGF or anti-PD1 agents to enhance antitumor activity is reviewed, with a particular focus on the development of predictive and prognostic biomarkers.\nEXPERT OPINION: There is a crucial need to better understand tumor biology and develop accurate and reliable biomarkers to enhance the antitumor activity of encorafenib-based combinations. The RNF43 mutation is an accurate and reliable predictive biomarker of response, and combinations that target crosstalk between the MAPK pathway, the immune system, and WNT pathways seem promising.",
+      "journal": "Expert Rev Anticancer Ther",
+      "pub_date": "2023",
+      "doi": "10.1080/14737140.2023.2236794",
+      "authors": [
+        "Ros J",
+        "Rodríguez-Castells M",
+        "Saoudi N"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ]
+    },
+    {
+      "pmid": "37458152",
+      "title": "The BEETS (JACCRO CC-18) trial: an observational and translational study of BRAF-mutated metastatic colorectal cancer.",
+      "abstract": "For BRAF V600E-mutated metastatic colorectal cancer (mCRC), the BEACON phase 3 trial showed survival benefit of triplet therapy with cetuximab (anti-EGFR antibody), encorafenib (BRAF inhibitor) and binimetinib (MEK inhibitor) as well as doublet therapy with cetuximab and encorafenib over irinotecan-based chemotherapy plus anti-EGFR antibody. Both regimens are standards of care in Japan, but definite biomarkers for predicting efficacy and selecting treatment remain lacking. The mechanisms underlying resistance to these regimens also warrant urgent exploration to further evolve treatment. This prospective observational/translational study evaluated real-word clinical outcomes with cetuximab and encorafenib with or without binimetinib for BRAF-mutated mCRC patients and investigated biomarkers for response and resistance by collecting blood samples before and after treatment. Clinical Trial Registration: UMIN000045530 (https://center6.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000051983).",
+      "journal": "Future Oncol",
+      "pub_date": "2023-Jun",
+      "doi": "10.2217/fon-2023-0209",
+      "authors": [
+        "Inagaki C",
+        "Matoba R",
+        "Yuki S"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Clinical Trial Protocol"
+      ]
+    },
+    {
+      "pmid": "39313594",
+      "title": "Molecular profiling of BRAF-V600E-mutant metastatic colorectal cancer in the phase 3 BEACON CRC trial.",
+      "abstract": "The BEACON CRC study demonstrated that encorafenib (Enco)+cetuximab (Cetux)±binimetinib (Bini) significantly improved overall survival (OS) versus Cetux + chemotherapy in previously treated patients with BRAF-V600E-mutant mCRC, providing the basis for the approval of the Enco+Cetux regimen in the United States and the European Union. A greater understanding of biomarkers predictive of response to Enco+Cetux±Bini treatment is of clinical relevance. In this prespecified, exploratory biomarker analysis of the BEACON CRC study, we characterize genomic and transcriptomic correlates of clinical outcomes and acquired resistance mechanisms through integrated clinical and molecular analysis, including whole-exome and -transcriptome tissue sequencing and circulating tumor DNA genomic profiling. Tumors with higher immune signatures showed a trend towards increased OS benefit with Enco+Bini+Cetux. RAS, MAP2K1 and MET alterations were most commonly acquired with Enco+Cetux±Bini, and more frequent in patients with a high baseline cell-cycle gene signature; baseline TP53 mutation was associated with acquired MET amplification. Acquired mutations were subclonal and polyclonal, with evidence of increased tumor mutation rate with Enco+Cetux±Bini and mutational signatures (SBS17a/b). These findings support treatment with Enco+Cetux±Bini for patients with BRAF-V600E-mutant mCRC and provide insights into the biology of response and resistance to MAPK-pathway-targeted therapy. ClinicalTrials.gov registration: NCT02928224.",
+      "journal": "Nat Med",
+      "pub_date": "2024-Nov",
+      "doi": "10.1038/s41591-024-03235-9",
+      "authors": [
+        "Kopetz S",
+        "Murphy DA",
+        "Pu J"
+      ],
+      "pub_types": [
+        "Clinical Trial, Phase III",
+        "Journal Article",
+        "Multicenter Study",
+        "Randomized Controlled Trial"
+      ]
+    }
+  ]
+}
