@@ -1,0 +1,34 @@
+{
+  "date": "2026-04-22",
+  "domain": "大腸分野",
+  "topic": "BRAF V600E変異転移性大腸癌に対する最適治療選択",
+  "scenario": "62歳男性。6ヶ月前に右側結腸癌（cT4aN2M1a、肝転移2個）で右半結腸切除術を施行。術後病理でBRAF V600E変異陽性、RAS野生型、MSS（pMMR）、HER2非増幅を確認。切除不能肝転移に対しFOLFOX+ベバシズマブを一次治療として6ヶ月間施行したが、肝転移が増大（PD）。PS 1、総ビリルビン0.9 mg/dL、ALT 38 U/L、Cr 0.8 mg/dL。二次治療の方針を検討するためカンファレンスを行った。なお、ゲノムプロファイリング検査では他に治療標的となる遺伝子変異は検出されていない。",
+  "question": "この患者に対する二次治療として最も適切なレジメンはどれか。",
+  "choices": [
+    "A: エンコラフェニブ＋ビニメチニブ＋セツキシマブ（BEACON-CRC準拠）",
+    "B: FOLFIRI＋ラムシルマブ",
+    "C: FOLFIRI＋セツキシマブ",
+    "D: トリフルリジン・チピラシル（TAS-102）＋ベバシズマブ",
+    "E: ベムラフェニブ＋セツキシマブ"
+  ],
+  "correct_letter": "A",
+  "correct_index": 0,
+  "rationale_correct": "BRAF V600E変異MSS転移性大腸癌は予後不良群であり、BRAF阻害薬単剤では代償的なMAPKシグナル再活性化（EGFR経由のフィードバック）により奏効率が低い。BEACON-CRC試験（NEJM 2019）では、エンコラフェニブ（BRAF阻害）＋ビニメチニブ（MEK阻害）＋セツキシマブ（EGFR阻害）の三剤併用が、対照群（セツキシマブ＋FOLFIRI/イリノテカン）と比較してOS中央値9.0 vs 5.4ヶ月（HR 0.52）、ORR 26% vs 2%と有意に優越性を示した。本患者はRAS野生型・BRAF V600E変異・MSSであり、BEACON-CRC適格基準を満たす。ESMO・JSCCRガイドラインともに本三剤併用を一次治療後のBRAF V600E変異CRCに対して推奨している。",
+  "rationale_others": [
+    "A: エンコラフェニブ＋ビニメチニブ＋セツキシマブ：BEACON-CRC試験で一次治療後BRAF V600E変異CRCに対する有意なOS改善が証明された標準治療。RAS野生型であることがセツキシマブ使用の前提条件として必須。",
+    "B: FOLFIRI＋ラムシルマブ：VEGFR2阻害薬ラムシルマブとの併用はRAINBOW-C試験で検討されたが、BRAF V600E変異CRCに特化した優越性は示されておらず、本病態に対する優先選択肢とはならない。",
+    "C: FOLFIRI＋セツキシマブ：RAS野生型CRCでは有効性が期待されるが、BRAF V600E変異例では奏効率が著しく低下することが複数の後方視的解析で示されており、BEACON-CRC対照群でもORR 2%と不十分であった。",
+    "D: TAS-102＋ベバシズマブ：SUNLIGHT試験で三次治療以降に有用性が示されたレジメンであり、二次治療での優先使用は根拠に乏しく、BRAF V600E変異に特化した有効性データも限定的である。",
+    "E: ベムラフェニブ＋セツキシマブ：BRAF阻害薬とEGFR阻害薬の二剤併用は大腸癌でMEK経路の代償的活性化が残存するため奏効率が低く、三剤併用（BEACON-CRC）に比べ劣ることが示されており推奨されない。"
+  ],
+  "teaching_points": [
+    "BRAF V600E変異CRCはEGFR経由のフィードバック再活性化によりBRAF阻害薬単剤が無効となる",
+    "BEACON-CRC試験：エンコラフェニブ＋ビニメチニブ＋セツキシマブ三剤がOS・ORRで有意改善",
+    "BRAF V600E変異CRCへのセツキシマブ単独上乗せは不十分でMEK同時阻害が必須"
+  ],
+  "references": [
+    "Kopetz S, et al. Encorafenib, Binimetinib, and Cetuximab in BRAF V600E-Mutated Colorectal Cancer. NEJM 2019 (BEACON-CRC trial)",
+    "ESMO Clinical Practice Guidelines: Metastatic Colorectal Cancer (2023 update)",
+    "大腸癌治療ガイドライン 2024年版（日本大腸癌研究会・JSCCR）"
+  ]
+}
