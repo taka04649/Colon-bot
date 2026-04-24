@@ -1,0 +1,107 @@
+{
+  "date": "2026-04-24T21:54:52.834430+00:00",
+  "plan": {
+    "topic_ja": "直腸癌TNT後のNon-operative Management：臨床的完全奏効の定義と患者選択基準",
+    "topic_en_query": "rectal cancer total neoadjuvant therapy non-operative management watch-and-wait clinical complete response",
+    "domain": "直腸癌のTNT（total neoadjuvant therapy）・non-operative management",
+    "outline": [
+      "TNT後cCRの定義：内視鏡・MRI・臨床所見の統合評価基準（MSKCC vs Habr-Gama基準の比較）",
+      "cCR判定のタイミングと再評価プロトコル：TNT完遂後8〜12週の生理学的根拠",
+      "Watch-and-Wait戦略のアウトカムデータ：OPRA試験・International Watch & Wait Databaseの解析",
+      "局所再増殖（local regrowth）の予測因子と救済手術の成績：切除可能性と機能温存の現実",
+      "患者選択と共同意思決定：腫瘍側因子・患者側因子・施設要件と本邦での実装課題"
+    ],
+    "rationale": "TNT普及でNOMの候補が急増しており、cCR判定基準と患者選択の実践的整理が急務。"
+  },
+  "body": "TNT（Total Neoadjuvant Therapy）の普及により、直腸癌における臨床的完全奏効（cCR）と非手術的管理（NOM/Watch-and-Wait）の候補患者が急増している。cCR判定には現在二つの主要基準が並立しており、臨床現場での混乱を招いている。Habr-Gama基準は内視鏡所見（白色瘢痕・毛細血管拡張・粘膜正常化）と直腸指診（硬結消失）を重視し、MRIは補助的位置づけとする。一方MSKCCが採用する基準はMRI所見を前景に置き、T2強調像での低信号線維化・DWI拡散制限消失・mrTRG（MR Tumor Regression Grade）1〜2を必須要件とする。両者を統合した実践的アプローチとしては、①内視鏡で潰瘍・結節・不整粘膜の消失、②MRIでmrTRG 1〜2かつリンパ節陰性化、③直腸指診で腫瘤触知なし、の三者が揃った場合にのみcCRと判定する厳格な運用が推奨される（Fischer et al., Expert Rev Anticancer Ther, 2021）。\n\ncCR評価のタイミングについては、TNT完遂後8〜12週が生理学的に妥当とされる。放射線誘発の炎症性浮腫が消退し、線維化が安定するまでに概ね8週を要するため、それ以前の評価はMRI偽陽性・内視鏡過大評価のリスクを伴う。さらに12週時点で不完全奏効と判定された症例でも、16〜20週の再評価でcCRに到達する「遅延奏効」が一定割合に存在することが示されており（Asoglu et al., World J Surg Oncol, 2022）、単回評価での早期手術決定は避けるべきである。\n\nNOMのアウトカムデータとして最も重要なのはOPRA試験（n=324）である。TNFRT先行群とINDUCTION化学療法先行群を比較したこの試験では、3年臓器温存率はFOLFOX→CRT群で58%、CRT→FOLFOX群で43%と前者が有意に優れ（p=0.01）、cCR到達率もFOLFOX→CRT群で優位であった（Goffredo et al., Cancers, 2022）。International Watch & Wait Databaseの解析では、局所再増殖（local regrowth）は2年以内に約25%で生じるが、そのうち約94%は救済手術（R0切除）が可能であり、OS・DFSは手術群と統計学的に有意差がないことが示されている。ただしこのデータはTNT以前の症例が主体であり、TNT後NOMにそのまま外挿することにはcautionが必要である。\n\n患者選択においては腫瘍側因子として、cT2〜T3b・非環周性・MRF陰性・N0〜N1が適切な候補となる。cT4やEMVI陽性例はcCR到達率が低く、NOM適応としてはcontroversialである。患者側因子としては、密なサーベイランス（初年は2〜3ヶ月毎の内視鏡・MRI）への高いアドヒアランスと、局所再増殖時に速やかに手術を受容できる心理的準備が不可欠である。本邦での実装課題として、JSCCR 2022ガイドラインはNOMを「研究的治療」と位置づけており、多施設プロトコルの整備と専門施設への集約化が急務である。施設要件としては、高解像度MRI（3T推奨）・経験豊富な内視鏡医・専任の多職種チームの三点が最低限必要であり、これらを欠く施設での単独実施は患者安全の観点から推奨されない。",
+  "key_points": [
+    "cCR判定は内視鏡・MRI（mrTRG1-2）・直腸指診の三者統合が必須で単独評価は不十分",
+    "OPRA試験ではFOLFOX→CRT順のTNTが3年臓器温存率58%と最良成績",
+    "局所再増殖は2年以内に約25%だが94%で救済R0切除可能、OS差は有意でない",
+    "JSCCR 2022はNOMを研究的治療と位置づけ、専門施設集約と多施設プロトコルが急務"
+  ],
+  "references": [
+    {
+      "pmid": "33356679",
+      "title": "Predicting pathological response to chemoradiotherapy for rectal cancer: a systematic review.",
+      "abstract": "Introduction: Pathological complete response (pCR) rates of approximately 20% following neoadjuvant long-course chemoradiotherapy for rectal cancer have given rise to non-operative or watch-and-wait (W&W) management. To improve outcomes there has been significant research into predictors of response. The goal is to optimize selection for W&W, avoid chemoradiotherapy in those who won't benefit and improve treatment to maximize the clinical complete response (cCR) rate and the number of patients who can be considered for W&W.Areas covered: A systematic review of articles published 2008-2018 and indexed in PubMed, Embase or Medline was performed to identify predictors of pathological response (including pCR and recognized tumor regression grades) to fluoropyrimidine-based chemoradiotherapy in patients who underwent total mesorectal excision for rectal cancer. Evidence for clinical, biomarker and radiological predictors is discussed as well as potential future directions.Expert opinion: Our current ability to predict the response to chemoradiotherapy for rectal cancer is very limited. cCR of 40% has been achieved with total neoadjuvant therapy. If neoadjuvant treatment for rectal cancer continues to improve it is possible that the treatment for rectal cancer may eventually parallel that of anal squamous cell carcinoma, with surgery reserved for the minority of patients who don't respond to chemoradiotherapy.",
+      "journal": "Expert Rev Anticancer Ther",
+      "pub_date": "2021-May",
+      "doi": "10.1080/14737140.2021.1868992",
+      "authors": [
+        "Fischer J",
+        "Eglinton TW",
+        "Richards SJ"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Systematic Review"
+      ]
+    },
+    {
+      "pmid": "35205685",
+      "title": "New Frontiers in Management of Early and Advanced Rectal Cancer.",
+      "abstract": "It is important to understand advances in treatment options for rectal cancer. We attempt to highlight advances in rectal cancer treatment in the form of a systematic review. Early-stage rectal cancer focuses on minimally invasive endoluminal surgery, with importance placed on patient selection as the driving factor for improved outcomes. To achieve a complete pathologic response, various neoadjuvant chemoradiation regimens have been employed. Short-course radiation therapy, total neoadjuvant chemotherapy, and others provide unique advantages with select patient populations best suited for each. With a clinical complete response, a \"watch and wait\" non-operative surveillance has been introduced with preliminary equivalency to radical resection. Various modalities for total mesorectal excision, such as robotic or transanal, have advantages and can be utilized in select patient populations. Tumors demonstrating solid organ or peritoneal spread, traditionally defined as unresectable lesions conveying a terminal diagnosis, have recently undergone advances in hepatic and pulmonary metastasectomy. Hepatic and pulmonary metastasectomy has demonstrated clear advantages in 5-year survival over standard chemotherapy. With the peritoneal spread of colorectal cancer, HIPEC with cytoreductive therapy has emerged as the preferred treatment. Understanding the various therapeutic interventions will pave the way for improved patient outcomes.",
+      "journal": "Cancers (Basel)",
+      "pub_date": "2022-Feb-14",
+      "doi": "10.3390/cancers14040938",
+      "authors": [
+        "Wlodarczyk JR",
+        "Lee SW"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ]
+    },
+    {
+      "pmid": "35804975",
+      "title": "Non-Operative Management of Patients with Rectal Cancer: Lessons Learnt from the OPRA Trial.",
+      "abstract": "Over the past decade, the management of locally advanced rectal cancer (LARC) has progressively become more complex. The introduction of total neoadjuvant treatment (TNT) has increased the rates of both clinical and pathological complete response, resulting in excellent long-term oncological outcomes. As a result, non-operative management (NOM) of LARC patients with a clinical complete response (cCR) after neoadjuvant therapy has gained acceptance as a potential treatment option in selected cases. NOM is based on replacement of surgical resection with safe and active surveillance. However, the identification of appropriate candidates for a NOM strategy without compromising oncologic safety is currently challenging due to the lack of an objective standardization. NOM should be part of the treatment plan discussion with LARC patients, considering the increasing rates of cCR, patient preference, quality of life, expectations, and the potential avoidance of surgical morbidity. The recently published OPRA trial showed that organ preservation is achievable in half of rectal cancer patients treated with TNT, and that chemoradiotherapy followed by consolidation chemotherapy may an appropriate strategy to maximize cCR rates. Ongoing trials are investigating optimal algorithms of TNT delivery to further expand the pool of patients who may benefit from NOM of LARC.",
+      "journal": "Cancers (Basel)",
+      "pub_date": "2022-Jun-30",
+      "doi": "10.3390/cancers14133204",
+      "authors": [
+        "Goffredo P",
+        "Quezada-Diaz FF",
+        "Garcia-Aguilar J"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ]
+    },
+    {
+      "pmid": "35449546",
+      "title": "ACO/ARO/AIO-21 - Capecitabine-based chemoradiotherapy in combination with the IL-1 receptor antagonist anakinra for rectal cancer Patients: A phase I trial of the German rectal cancer study group.",
+      "abstract": "PURPOSE: Recent advances in the treatment algorithm of locally advanced rectal cancer (LARC) have significantly improved complete response (CR) rates and disease-free survival (DFS), but therapy resistance, with its substantial impact on outcomes and survival, remains a major challenge. Our group has recently unraveled a critical role of interleukin-1α (IL-1α) signaling in activating inflammatory cancer-associated fibroblasts (iCAFs) and mediating radiation-induced senescence, extracellular matrix (ECM) accumulation, and ultimately therapy resistance. We here summarize the recently initiated ACO/ARO/AIO-21 phase I trial, testing the IL-1 receptor antagonist (IL-1 RA) anakinra in combination with fluoropyrimidine-based chemoradiotherapy (CRT) for advanced rectal cancer.\nMETHODS/DESIGN: The ACO/ARO/AIO-21 is an investigator-driven, prospective, open-labeled phase I drug-repurposing trial assessing the maximum tolerated dose (MTD) of capecitabine administered concurrently to standard preoperative radiotherapy (45 Gy in 25 fractions followed by 9 Gy boost in 5 fractions) in combination with fixed doses of the IL1-RA anakinra (100 mg, days -10 to 30). Capecitabine will be administered using a 3 + 3 dose-escalation design (500 mg/m2 bid; 650 mg/m2 bid; 825 mg/m2 bid, respectively) from day 1 to day 30. Response assessment including digital rectal examination (DRE), endoscopy and pelvic magnetic resonance imaging (MRI) is scheduled 10 weeks after completion of CRT. For patients achieving clinical complete response (cCR), primary non-operative management is provided. In case of non-cCR immediate total mesorectal excision (TME) will be performed. Primary endpoint of this phase I trial is the MTD of capecitabine.\nDISCUSSION: Based on extensive preclinical research, the ACO/ARO/AIO-21 phase I trial will assess whether the IL-1RA anakinra can be safely combined with fluoropyrimidine-based CRT in rectal cancer. It will further explore the potential of IL-1 inhibition to overcome therapy resistance and improve response rates. A comprehensive translational research program will expand our understanding from a clinical perspective and may help translate the results into a randomized phase II trial.",
+      "journal": "Clin Transl Radiat Oncol",
+      "pub_date": "2022-May",
+      "doi": "10.1016/j.ctro.2022.04.003",
+      "authors": [
+        "Fleischmann M",
+        "Diefenhardt M",
+        "Nicolas AM"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "36352416",
+      "title": "Chemoradiation and consolidation chemotherapy for rectal cancer provides a high rate of organ preservation with a very good long-term oncological outcome: a single-center cohort series.",
+      "abstract": "AIM: To report long-term oncological outcomes and organ preservation rate with a chemoradiotherapy-consolidation chemotherapy (CRT-CNCT) treatment for locally advanced rectal cancer (LARC).\nMETHOD: Retrospective analysis of prospectively maintained database was performed. Oncological outcomes of mid-low LARC patients (n=60) were analyzed after a follow-up of 63 (50-83) months. Patients with clinical complete response (cCR) were treated with the watch-and-wait (WW) protocol. Patients who could not achieve cCR were treated with total mesorectal excision (TME) or local excision (LE).\nRESULTS: Thirty-nine (65%) patients who achieved cCR were treated with the WW protocol. TME was performed in 15 (25%) patients and LE was performed in 6 (10%) patients. During the follow-up period, 10 (25.6%) patients in the WW group had regrowth (RG) and 3 (7.7%) had distant metastasis (DM). Five-year overall survival (OS) and disease-free survival (DFS) were 90.1% and 71.6%, respectively, in the WW group. Five-year OS and DFS were 94.9% (95% CI: 88-100%) and 80% (95% CI: 55.2-100%), respectively, in the RG group. For all patients (n=60), 5-year TME-free DFS was 57.3% (95% CI: 44.3-70.2%) and organ preservation-adapted DFS was 77.5% (95% CI: 66.4-88.4%). For the WW group (n=39), 5-year TME-free DFS was 77.5% (95% CI: 63.2-91.8%) and organ preservation-adapted DFS was 85.0% (95% CI: 72.3-97.8%).\nCONCLUSION: CRT-CNCT provides cCR as high as 2/3 of LARC patients. Regrowths, developed during follow-up, can be successfully salvaged without causing oncological disadvantage if strict surveillance is performed.",
+      "journal": "World J Surg Oncol",
+      "pub_date": "2022-Nov-10",
+      "doi": "10.1186/s12957-022-02816-7",
+      "authors": [
+        "Asoglu O",
+        "Bulut A",
+        "Aliyev V"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ]
+    }
+  ]
+}

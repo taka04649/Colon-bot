@@ -40,5 +40,11 @@
     "topic_ja": "HER2陽性転移性CRCの診断基準・検査法と新規抗HER2療法の最新エビデンス",
     "domain": "HER2陽性CRC・その他の新規標的",
     "rationale": "T-DXdのCRC適応拡大が現実化しつつあり、検査法標準化と耐性機序の理解が急務"
+  },
+  {
+    "date": "2026-04-24T21:54:52.835192+00:00",
+    "topic_ja": "直腸癌TNT後のNon-operative Management：臨床的完全奏効の定義と患者選択基準",
+    "domain": "直腸癌のTNT（total neoadjuvant therapy）・non-operative management",
+    "rationale": "TNT普及でNOMの候補が急増しており、cCR判定基準と患者選択の実践的整理が急務。"
   }
 ]
