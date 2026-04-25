@@ -46,5 +46,11 @@
     "topic_ja": "直腸癌TNT後のNon-operative Management：臨床的完全奏効の定義と患者選択基準",
     "domain": "直腸癌のTNT（total neoadjuvant therapy）・non-operative management",
     "rationale": "TNT普及でNOMの候補が急増しており、cCR判定基準と患者選択の実践的整理が急務。"
+  },
+  {
+    "date": "2026-04-25T21:46:06.951775+00:00",
+    "topic_ja": "転移性CRC一次治療における化学療法レジメン選択：RAS/BRAF・原発巣側性・患者背景の統合判断",
+    "domain": "転移性CRCの1st/2nd line戦略",
+    "rationale": "PARADIGM試験以降、側性と分子背景を統合した一次治療選択の再整理が急務で臨床インパクト大"
   }
 ]

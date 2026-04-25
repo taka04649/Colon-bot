@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-25T21:46:06.951191+00:00",
+  "plan": {
+    "topic_ja": "転移性CRC一次治療における化学療法レジメン選択：RAS/BRAF・原発巣側性・患者背景の統合判断",
+    "topic_en_query": "metastatic colorectal cancer first-line chemotherapy regimen selection RAS BRAF sidedness molecular subtype",
+    "domain": "転移性CRCの1st/2nd line戦略",
+    "outline": [
+      "原発巣側性（右側vs左側）が予後・治療反応性に与える分子生物学的背景（CMS分類との対応）",
+      "RAS野生型・左側：抗EGFR vs 抗VEGF—FIRE-3/CALGB80405/PARADIGM試験の統合解釈",
+      "RAS変異型・BRAF V600E型における一次治療の最適化：FOLFOXIRI+Bev vs 標準doublet",
+      "高齢者・PS不良例へのintensity de-escalation戦略：TRIPLETE・AVEX試験と実臨床への落とし込み",
+      "ctDNA・TMB・HER2増幅を一次治療前に評価すべきか：biomarker-driven治療選択の現実と限界"
+    ],
+    "rationale": "PARADIGM試験以降、側性と分子背景を統合した一次治療選択の再整理が急務で臨床インパクト大"
+  },
+  "body": "転移性CRCの一次治療選択において、RAS/BRAF変異状態と原発巣側性の統合評価は今や不可欠な臨床フレームワークとなっている。右側結腸癌はCMS1（MSI-high/免疫活性型）およびCMS3（代謝型）に富み、KRAS/NRAS変異・BRAF V600E変異・HER2増幅・高度MSIの頻度が高い。一方、左側結腸・直腸癌はCMS2（上皮型/WNT・EGFR経路依存）が主体であり、RAS野生型の割合が相対的に高く、抗EGFR療法の標的となるEGFRシグナル依存性が強い。この分子生物学的差異が、側性を治療選択の代理マーカーとして機能させる根拠である。\n\nRAS野生型・左側原発例では、抗EGFR療法（セツキシマブまたはパニツムマブ）をoxaliplatinまたはirinotecanベースdoubletに上乗せする戦略が標準となりつつある。FIRE-3試験ではFOLFIRI＋セツキシマブがFOLFIRI＋ベバシズマブに対しOS中央値を有意に延長し（28.7 vs 25.0か月）、CALGB80405試験でもRAS野生型左側サブグループにおいて抗EGFR優位の傾向が示された。さらにPARADIGM試験（RAS野生型、N=823）では、FOLFOX4＋パニツムマブがFOLFOX4＋ベバシズマブに対し全体集団でOSを有意に改善し（HR 0.84、p=0.031）、左側サブグループではその効果がより顕著であった（OS中央値 37.9 vs 34.3か月）。これらの知見を統合すると、RAS野生型・左側例への一次治療は抗EGFR＋doubletを第一選択とするコンセンサスが形成されつつある。ただし右側RAS野生型例への抗EGFR適用はcontroversialであり、現時点では積極的推奨は困難である。\n\nRAS変異型ではベバシズマブ＋doubletが基軸となるが、BRAF V600E変異例（全CRCの約8〜12%）は予後不良群として別途戦略が必要である。BRAF V600EはMAPKシグナルの構成的活性化をもたらし、FOLFOXIRI＋ベバシズマブはこのサブグループにおいてdoubletレジメンと比較してPFS・OS改善の傾向を示しており、performanceが許容できる症例では強化tripletを考慮する根拠となる。一方でBRAF阻害薬（エンコラフェニブ）＋抗EGFR療法の一次治療への前倒しについては現時点でRCTエビデンスが不十分であり、二次治療以降での使用が標準である。\n\n高齢者・PS不良例ではintensity de-escalationが現実的選択肢となる。AVEX試験ではカペシタビン＋ベバシズマブが高齢者（70歳以上）においてPFS改善を示し（中央値 9.1 vs 5.1か月）、doubletを忍容できない層への選択肢として位置づけられる。また一次治療前のbiomarker評価として、MSI-H/dMMR（免疫チェックポイント阻害薬適応）、HER2増幅（トラスツズマブ系薬剤の適応）、TMBはNGSパネルで同時評価が推奨される。ctDNAは治療効果モニタリングへの応用が期待されるが、一次治療選択を変更するエビデンスは現時点では確立しておらず、臨床試験の文脈での評価が妥当である。",
+  "key_points": [
+    "RAS野生型・左側原発例ではPARADIGM/FIRE-3を根拠に抗EGFR＋doubletを第一選択とする",
+    "右側原発例への抗EGFR適用はcontroversialであり積極的推奨は現時点で困難",
+    "BRAF V600E変異例はFOLFOXIRI＋Bevを考慮するが、一次BRAF阻害薬はエビデンス不十分",
+    "高齢者・PS不良例にはAVEX試験を根拠にカペシタビン＋Bevのde-escalationを検討"
+  ],
+  "references": []
+}
