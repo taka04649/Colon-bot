@@ -1,0 +1,108 @@
+{
+  "date": "2026-04-26T21:49:58.339491+00:00",
+  "plan": {
+    "topic_ja": "Oligometastatic CRC肝転移のconversion therapy：切除可能性判断と最適レジメン選択",
+    "topic_en_query": "colorectal cancer liver metastases conversion therapy resectability chemotherapy regimen selection",
+    "domain": "oligometastatic CRC（肝転移・肺転移）",
+    "outline": [
+      "切除不能肝転移の「切除可能性」定義の変遷：技術的vs腫瘍学的切除不能の分類",
+      "Conversion therapyにおける奏効率と切除率：CELIM・OLIVIA・TRIBE試験の比較解析",
+      "RAS/BRAF変異・原発巣側性が切除可能化率に与える影響と分子マーカー別レジメン戦略",
+      "肝毒性（oxaliplatin誘発性類洞傷害・bevacizumab効果）と術前化学療法のタイミング管理",
+      "切除後の術後補助療法：EPOC試験の再評価とctDNAを用いた再発リスク層別化の可能性"
+    ],
+    "rationale": "1st line戦略の翌日として、切除不能→切除可能化という実臨床で判断を迫られる応用テーマに接続できるため"
+  },
+  "body": "切除不能肝転移の「切除不能性」は、技術的切除不能（残肝容量不足・主要血管浸潤・両葉多発）と腫瘍学的切除不能（生物学的悪性度が高く切除しても予後改善が期待できない）に分類される。この二分法はConversion therapyの適応判断に直結する。Kobayashi et al.（Surgery, 2023）は技術的切除不能の定義を精緻化し、腫瘍数・分布・残肝機能を統合した選択基準を提示している。腫瘍学的切除不能の代表はBRAF V600E変異例であり、こちらはConversionの目標よりも全身治療の最適化が優先される。\n\nConversion therapyにおける奏効率と切除率の比較では、レジメン強度が鍵となる。CELIM試験（FOLFOX6またはFOLFIRI＋cetuximab）ではKRAS野生型でORR 68〜70%、切除率は34〜38%を達成した。OLIVIA試験ではFOLFOXIRI＋bevacizumab群がmFOLFOX6＋bevacizumab群に対しORR 81% vs 62%、R0/R1切除率49% vs 23%と有意に優れた（p=0.021）。TRIBE試験でもFOLFOXIRI＋bevacizumabはPFS中央値13.3ヶ月（vs FOLFIRI＋bevacizumab 9.7ヶ月、HR 0.56）を示し、三剤併用の強度が切除可能化に寄与することを支持する。RAS野生型・左側原発ではFOLFOX/FOLFIRI＋抗EGFR抗体（cetuximab/panitumumab）が高いORRを示し、Conversion目的では抗EGFR戦略が合理的である。一方RAS変異型ではFOLFOXIRI＋bevacizumabが第一選択となる。Villard et al.（Eur J Surg Oncol, 2021）はConversion後のR0切除達成が生存改善の独立因子であることを示しており、切除の質が予後を規定する点は強調に値する。\n\n術前化学療法の肝毒性管理は見落とされやすい。Oxaliplatinは類洞傷害（sinusoidal obstruction syndrome）を誘発し、6サイクル超で肝切除後の合併症リスクが上昇する。Bevacizumabはこの類洞傷害を軽減するとされるが、一方で術後出血リスクと創傷治癒遅延を考慮し、最終投与から手術まで少なくとも6週間の間隔が必要である。IrinotecanはSTEATOHEPATITISリスクを高めるため、肥満・代謝症候群合併例では注意を要する。Lin et al.（Eur J Cancer, 2023）のRECUT試験では、無症候性同時性肝限局転移に対する術前化学療法先行戦略の有効性を検証しており、原発巣先行切除との比較でConversion率・R0切除率に差がなく、全身治療先行の安全性を支持するデータとなっている。\n\n切除後の補助療法については、EPOC試験（FOLFOX6 vs 手術単独）がOS改善を示せなかったことは広く知られているが、per-protocol解析ではPFS延長が示されており、高リスク例への術後化学療法は依然として議論が続く。現時点でJSCCRガイドラインはConversion後の補助化学療法を推奨するが、エビデンスレベルは高くない。ctDNAを用いた術後minimal residual disease（MRD）評価は再発リスク層別化の有望なツールであり、ctDNA陽性例への強化補助療法・陰性例への過剰治療回避という個別化戦略が今後の方向性となる。Verheij et al.（Ann Surg Oncol, 2023）やApel et al.（Ann Surg Oncol, 2025）が報告する肝動注療法（HAI）との全身化学療法併用もConversion率向上の選択肢として注目されており、技術的に施行可能な施設では検討に値する。",
+  "key_points": [
+    "技術的vs腫瘍学的切除不能の分類がConversion適応判断の起点となる",
+    "OLIVIA試験でFOLFOXIRI+bevacizumabはR0/R1切除率49%を達成し三剤併用の優位性を示した",
+    "Oxaliplatin誘発類洞傷害はbevacizumabで軽減可能だが術前最終投与から6週間の間隔が必要",
+    "術後ctDNA-MRD評価による補助療法の個別化がEPOC後の新たな戦略軸となる"
+  ],
+  "references": [
+    {
+      "pmid": "37639032",
+      "title": "Combined Hepatic Arterial Infusion Pump and Systemic Chemotherapy in the Modern Era for Chemotherapy-Naive Patients with Unresectable Colorectal Liver Metastases.",
+      "abstract": "PURPOSE: Chemotherapy-naive patients with unresectable colorectal liver metastases (CRLM) have been the best responders to hepatic arterial infusion (HAI) therapy. The current treatment paradigm has drifted away from HAI in the first-line setting. We aimed to analyze outcomes of combined first-line systemic therapy with HAI therapy (HAI+SYS) in the modern era.\nMETHODS: We conducted a retrospective study of consecutive chemotherapy-naive patients with unresectable CRLM who received HAI+SYS between 2003 and 2019. Patients were selected from a prospectively maintained database. Outcomes included radiological response rate, conversion to resection (CTR) rate, and overall survival (OS).\nRESULTS: Fifty-eight chemotherapy-naive patients were identified out of 546 patients with unresectable CRLM managed with HAI. After induction treatment, 4 patients (7%) had a complete radiological response, including two durable responses. In total, 32 patients (55%) underwent CTR. CTR or complete response without resection was achieved after seven cycles of systemic therapy and four cycles of HAI therapy. Median OS for the whole cohort was 53.0 months (95% confidence interval 23.0-82.9). Three- and 5-year OS in patients who achieved CTR or complete response versus patients who did not was 88% and 72% versus 27% and 0% respectively. Of patients who underwent CTR, complete and major pathological response (no and <10% viable tumor cells, respectively) was observed in 7 (22%) and 12 patients (38%).\nCONCLUSIONS: Combined HAI+SYS in chemotherapy-naive patients resulted in durable and substantial response in a large proportion of patients. Nearly two-thirds of patients achieved a complete response or proceeded to conversion surgery, which was associated with prolonged survival.",
+      "journal": "Ann Surg Oncol",
+      "pub_date": "2023-Dec",
+      "doi": "10.1245/s10434-023-14073-3",
+      "authors": [
+        "Verheij FS",
+        "Kuhlmann KFD",
+        "Silliman DR"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40715626",
+      "title": "Israel's First Port-Based Hepatic Artery Infusion Program: Early Outcomes in Colorectal Liver Metastases.",
+      "abstract": "BACKGROUND: Over the last three decades, hepatic arterial infusion (HAI) chemotherapy combined with systemic therapy has been established as a treatment strategy for patients with unresectable liver metastases. Facilitating a HAI program outside the USA and Europe remains underutilized in regions, including Israel, and requires multidisciplinary collaboration. The purpose of this study is to describe the feasibility and early outcomes of the initiation of the first hepatic artery infusion program in Israel.\nPATIENTS AND METHODS: This retrospective analysis was conducted at a tertiary medical center in Israel. It included 21 patients with unresectable colorectal liver metastases who underwent hepatic artery infusion port placement between February 2020 and March 2022. All participants underwent hepatic artery infusion port placement with most subsequently receiving chemotherapy. The study evaluated perioperative outcomes, complication rates, response rates, and conversion to resectability at 6 months.\nRESULTS: Hepatic arterial infusion chemotherapy was successfully administered to 95% of patients. The overall 90-day major complication rate was 24%, with no reported mortality. At 6 months, the partial response rate was 33%, and the disease control rate was 83%. Four out of five patients (80%) with neoadjuvant intent converted from unresectable to resectable during HAI treatment.\nCONCLUSIONS: This study demonstrates the feasibility and safety of implementing a new HAI program for carefully selected patients with colorectal liver metastases. Despite the cohort being heavily pretreated with systemic chemotherapy, promising hepatic response rates and disease control rates were observed. These findings support the potential for expanding access to HAI therapy in new geographic regions.",
+      "journal": "Ann Surg Oncol",
+      "pub_date": "2025-Oct",
+      "doi": "10.1245/s10434-025-17910-9",
+      "authors": [
+        "Apel R",
+        "Sulimani O",
+        "Perl G"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "33640172",
+      "title": "Conversion therapy in patients with colorectal liver metastases.",
+      "abstract": "BACKGROUND: The occurrence of colorectal liver metastases (CRLM) impairs prognosis, yet long-term survival can be achieved by enabling liver resection. This study aims to describe factors associated with conversion therapy leading to liver surgery and treatment outcome.\nMETHODS: A retrospective cohort study was conducted including all patients with CRLM discussed at multidisciplinary team conference at Karolinska University Hospital, Stockholm, Sweden, from 2013 to 2018. Factors associated with conversion therapy and outcome following conversion therapy were analysed with logistic regression and survival analyses.\nRESULTS: Out of 1023 patients with CRLM, 100 patients (10%) received conversion chemotherapy, out of whom 31 patients (31%) subsequently underwent liver resection. Patients in whom conversion chemotherapy resulted in liver resection were younger (median age 61 vs. 66 years, p = .024), less likely to have a KRAS/NRAS-mutated primary tumours (25% vs. 53%, p = .039) and more likely to have received anti-EGFR agents (32% vs. 4%, p = .001) than patients progressing during conversion chemotherapy. The median OS for patients treated with conversion chemotherapy leading to liver resection was 24 months, compared to 14 months for patients progressing during conversion chemotherapy, p < .001. The OS for patients progressing during conversion chemotherapy was similar to patients given palliative chemotherapy, approximately 13 months.\nCONCLUSION: Conversion therapy offers a survival benefit in selected patients. Despite treatment advances, the majority of patients undergoing conversion chemotherapy never become eligible for curative treatment.",
+      "journal": "Eur J Surg Oncol",
+      "pub_date": "2021-Aug",
+      "doi": "10.1016/j.ejso.2021.02.019",
+      "authors": [
+        "Villard C",
+        "Habib M",
+        "Nordenvall C"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "36384649",
+      "title": "Optimizing the selection of technically unresectable colorectal liver metastases.",
+      "abstract": "BACKGROUND: The prediction of conversion surgery in patients with technically unresectable colorectal liver metastases has not been generalized or well-established. We developed a predictive model for conversion surgery and assessed the long-term outcomes of patients with technically unresectable colorectal liver metastases.\nMETHODS: In this single-center, retrospective study, we analyzed the perioperative parameters and outcomes of 892 consecutive patients (2014-2021). Conversion surgery was indicated when the chemotherapy response allowed the complete resection of colorectal liver metastases with negative margins and adequate remnant liver volume.\nRESULTS: Of the 892 patients, 122 had technically unresectable colorectal liver metastases; 61 underwent conversion surgery (conversion surgery group) and 61 did not (nonconversion surgery group). The median overall survival was significantly higher in the conversion surgery group than in the nonconversion surgery group (5.6 vs 1.8 years, P < .001). After univariate and multivariate analyses, the predictive model for conversion surgery was constructed using 4 predictive factors: Rat sarcoma viral oncogene homolog status (mutant, +2 points), tumor number (≥15, +1), hepatic vein contact (≥2 hepatic veins, +1), and the presence of preservable sections (absence of preservable sections, +2). The area under the curve for conversion surgery was 0.889. Patients were graded according to the scores (A [0-2], B [3-4], and C [5-6]), and the conversion rates were 91.5% (A), 32.6% (B), and 10.3% (C) (P < .001). Grade A patients (median survival time, 5.7 years) had significantly better overall survival than grade B and C patients (median survival time, 2.2 and 1.6 years, respectively; P < .001).\nCONCLUSION: Patients who underwent conversion surgery for technically unresectable colorectal liver metastases had better prognoses, and our novel predictive model was useful in predicting conversion surgery and prognosis.",
+      "journal": "Surgery",
+      "pub_date": "2023-Feb",
+      "doi": "10.1016/j.surg.2022.10.013",
+      "authors": [
+        "Kobayashi K",
+        "Inoue Y",
+        "Kitano Y"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "37473466",
+      "title": "Preoperative chemotherapy prior to primary tumour resection for asymptomatic synchronous unresectable colorectal liver-limited metastases: The RECUT multicenter randomised controlled trial.",
+      "abstract": "PURPOSE: Primary tumour resection (PTR) is still a selection for patients with low tumour burden and good condition, especially with conversion therapy purpose for colorectal liver-limited metastases (CRLMs). The objective was to evaluate whether pre-PTR chemotherapy could improve progression-free survival (PFS) for patients with asymptomatic synchronous unresectable CRLMs.\nPATIENTS AND METHODS: Patients with asymptomatic synchronous unresectable CRLMs were randomly assigned to receive pre-PTR chemotherapy (arm A) or upfront PTR (arm B). Chemotherapy regimens of mFOLFOX6 plus cetuximab, mFOLFOX6 plus bevacizumab or mFOLFOX6 alone were chosen according to the RAS genotype. The primary end-point was PFS; secondary end-points included overall survival (OS), tumour response, disease control rate (DCR), liver metastases resection rate, surgical complications and chemotherapy toxicity.\nRESULTS: Three hundred and twenty patients were randomly assigned to arm A (160 patients) and arm B (160 patients). Patients in arm A had significantly improved the median PFS compared with arm B (10.5 versus 9.1 months; P = 0.013). Patients in arm A also had significantly better DCR (84.4% versus 75.0%; P = 0.037). The median OS (29.4 versus 27.2 months; P = 0.058), objective response rate (ORR) (53.1% versus 45.0%; P = 0.146) and liver metastases resection rate (21.9% versus 18.1%; P = 0.402) were not significantly different. The Clavien-Dindo 3-4 complications post PTR (4.5% versus 3.8%, P = 0.759) and the incidence of grade 3/4 chemotherapy events (42.2% versus 40.4%, P = 0.744) reached no statistical significance.\nCONCLUSIONS: For asymptomatic synchronous unresectable CRLMs, Pre-PTR chemotherapy improved the PFS compared with upfront PTR.",
+      "journal": "Eur J Cancer",
+      "pub_date": "2023-Sep",
+      "doi": "10.1016/j.ejca.2023.112961",
+      "authors": [
+        "Lin Q",
+        "Ding K",
+        "Zhao R"
+      ],
+      "pub_types": [
+        "Randomized Controlled Trial",
+        "Multicenter Study",
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    }
+  ]
+}

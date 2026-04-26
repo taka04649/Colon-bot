@@ -52,5 +52,11 @@
     "topic_ja": "転移性CRC一次治療における化学療法レジメン選択：RAS/BRAF・原発巣側性・患者背景の統合判断",
     "domain": "転移性CRCの1st/2nd line戦略",
     "rationale": "PARADIGM試験以降、側性と分子背景を統合した一次治療選択の再整理が急務で臨床インパクト大"
+  },
+  {
+    "date": "2026-04-26T21:49:58.340298+00:00",
+    "topic_ja": "Oligometastatic CRC肝転移のconversion therapy：切除可能性判断と最適レジメン選択",
+    "domain": "oligometastatic CRC（肝転移・肺転移）",
+    "rationale": "1st line戦略の翌日として、切除不能→切除可能化という実臨床で判断を迫られる応用テーマに接続できるため"
   }
 ]
