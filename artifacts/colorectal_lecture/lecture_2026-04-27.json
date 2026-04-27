@@ -1,0 +1,106 @@
+{
+  "date": "2026-04-27T22:01:06.583780+00:00",
+  "plan": {
+    "topic_ja": "大腸癌術後補助化学療法の最適期間と強度：IDEA試験後の個別化戦略",
+    "topic_en_query": "stage III colon cancer adjuvant chemotherapy duration IDEA trial oxaliplatin individualization",
+    "domain": "Stage III adjuvant chemotherapy (IDEA trial以降)",
+    "outline": [
+      "IDEA試験の設計と主要結果：3ヶ月vs6ヶ月・レジメン別サブグループ解析の読み解き方",
+      "T・N因子によるリスク層別化：low-risk(T1-3N1)でのCAPOX3ヶ月短縮の妥当性",
+      "神経障害リスクとQOLエビデンス：オキサリプラチン累積投与量と末梢神経毒性の用量反応関係",
+      "高齢者・PS不良例・腎機能低下例への外挿：サブグループエビデンスの限界と臨床判断の実際",
+      "MSI-H/dMMR Stage IIIへの免疫療法適応拡大（ATOMIC試験等）とadjuvant戦略の今後"
+    ],
+    "rationale": "IDEA試験後も補助化学療法の個別化判断は日常診療の頻出課題であり、免疫療法参入で戦略が再編されつつある"
+  },
+  "body": "IDEA試験は6カ国・12,834例を対象とした前向きプール解析であり、Stage III結腸癌に対する補助化学療法の3ヶ月vs6ヶ月を比較した。主要評価項目である3年DFSにおいて3ヶ月群は6ヶ月群に対し非劣性マージン1.12を満たせなかった（HR 1.07, 95%CI 1.00–1.15）ものの、レジメン別サブグループ解析が臨床実装の根拠となった。CAPOXでは3ヶ月vs6ヶ月のHRが0.95（非劣性成立）であったのに対し、FOLFOXでは1.16と劣性傾向を示した。さらにリスク層別では、T1-3N1のlow-risk群においてCAPOX3ヶ月のHRは0.85と良好であり、T4またはN2を含むhigh-risk群ではCAPOX・FOLFOX双方で6ヶ月の優位性が示唆された。この結果を受け、実臨床への浸透は比較的迅速であった。Iveson et al.（JNCI Cancer Spectr, 2021）はIDEA結果公表後の英国・アイルランドにおける処方変化を解析し、low-risk症例でのCAPOX3ヶ月採用が急速に拡大したことを報告している。van Rooijen et al.（Int J Cancer, 2022）はオランダのガイドライン改訂後の実装分析を行い、low-risk群でのCAPOX3ヶ月への移行率が80%超に達した一方、high-risk群では6ヶ月継続が維持されたことを示した。\n\nオキサリプラチン累積投与量と末梢神経毒性（CIPN）の用量反応関係は明確であり、6ヶ月FOLFOX（累積約510mg/m²）では Grade 2以上のCIPNが30–40%に達するのに対し、CAPOX3ヶ月（累積約390mg/m²）では有意に低減する。Franken et al.（Eur J Cancer, 2024）はオランダの実世界データを用い、high-risk Stage IIおよびStage III患者においてCAPOX6ヶ月から3ヶ月へ短縮した前後のOS・DFSおよびPROを比較解析した。3ヶ月群でCIPN関連QOLスコアが有意に改善し、かつ生存アウトカムに統計的有意差を認めなかったことは、IDEA試験の外的妥当性を実世界で補強する重要なエビデンスである。高齢者・PS不良例・腎機能低下例（eGFR<50では用量調整が必要）については、IDEA試験のサブグループ解析で統計的検出力が不十分であり、外挿には慎重を要する。Samnani et al.（JCO Oncol Pract, 2024）のカナダ集団ベース研究でも、75歳以上ではIDEA結果とは独立して6ヶ月完遂率が低く、実臨床では個別のPS・臓器機能評価に基づく判断が不可欠である。\n\n今後の戦略を大きく変え得るのがMSI-H/dMMR Stage IIIへの免疫療法導入である。ATOMIC試験（NCT02912559）はStage III dMMR結腸癌を対象にFOLFOX6ヶ月±アテゾリズマブを評価しており、補助免疫療法の有効性検証が進行中である。現時点でdMMR Stage IIIへの免疫チェックポイント阻害薬はNCCN・ESMOいずれのガイドラインでも標準補助療法として推奨されておらず、ATOMIC試験の成熟データが待たれる。Pastorino et al.（JAMA Oncol, 2025）は15RCTのプール解析から「治癒」の定義を統計的に検討し、Stage IIIにおける再発ハザードが術後5年以降に基底値へ収束することを示した。この知見は補助療法の恩恵が早期再発抑制に集中することを示唆し、短期集中型レジメンの生物学的合理性を支持する。現段階での実践的結論として、low-risk Stage III（T1-3N1）にはCAPOX3ヶ月、high-risk（T4またはN2）にはCAPOX6ヶ月またはFOLFOX6ヶ月を基本とし、dMMR症例については試験参加を積極的に検討することが妥当である。",
+  "key_points": [
+    "CAPOX3ヶ月はlow-risk Stage III（T1-3N1）で非劣性が成立し標準選択肢となる",
+    "FOLFOX3ヶ月はhigh-risk群で劣性傾向を示し6ヶ月継続が推奨される",
+    "CAPOX3ヶ月への短縮はCIPN関連QOLを有意改善し実世界でも生存差を認めない",
+    "dMMR Stage IIIへの補助免疫療法はATOMIC試験成熟待ちで現時点では非標準"
+  ],
+  "references": [
+    {
+      "pmid": "41037274",
+      "title": "The Definition of Cure in Colon Cancer: A Pooled Analysis of 15 Randomized Clinical Trials.",
+      "abstract": "IMPORTANCE: The definition of cure in stage II to III colon cancer (CC) remains unclear due to limitations in conventional end points, which include deaths and second primary tumors as events. These can complicate communication with patients regarding long-term outcomes.\nOBJECTIVE: To distinguish relapses from competing health-related events to classify long-term outcomes years after surgery and explore when the incidence of true relapses of the initial CC approaches 0% to define cure in this disease.\nDESIGN, SETTING, AND PARTICIPANTS: This pooled analysis of individual patient-level data from 15 phase 3 randomized clinical trials assessed time to CC-related relapse using Kaplan-Meier and Aalen-Johansen methods, with death and second primary tumors treated as competing risks. Cox regression models evaluated prognostic associations, stratified by sex, stage, and tumor. Patients with stage II to III CC who underwent adjuvant chemotherapy were included. All patients had undergone radical surgery for CC and received adjuvant chemotherapy with a median follow-up of at least 6 years. The Adjuvant Colon Cancer Endpoints (ACCENT) and the International Duration Evaluation of Adjuvant Chemotherapy (IDEA) databases included adjuvant studies conducted between 1996 and 2015. Data were analyzed from February 2022 to June 2025.\nEXPOSURES: Adjuvant chemotherapy regimens varied across trials, including fluoropyrimidines alone or in combination with oxaliplatin or biologic agents.\nMAIN OUTCOMES AND MEASURES: The primary outcome was time to CC-related recurrence. The predefined threshold for cure was a recurrence risk below 0.5%.\nRESULTS: Of 35 213 included patients, 19 346 (54.9%) were male, and the mean (SD) age was 60.2 (10.8) years. The incidence rate of recurrence peaked at 6.4% (1993 of 31 373) between month 6 and month 12 and decreased continuously until year 10 of follow-up never exceeding 0.5%. Recurrence rate appeared to increase again after year 10 and peaked at 2.0% during year 12.5 to year 13, a pattern observed exclusively in the MOSAIC trial. Competing-event analysis revealed that death and second primary tumors inflated the apparent recurrence rate, especially for older patients. The overall cumulative incidence of relapse with death as competing risk was lower among female patients (hazard ratio, 0.58; 95% CI, 0.45-0.76; P < .001).\nCONCLUSIONS AND RELEVANCE: In this pooled analysis of phase 3 randomized clinical trials, a recurrence rate less than 0.5% occurred after 6 years from surgery, supporting a practical definition of cure. Recognizing this milestone may improve patient communication, guide follow-up duration, and reduce unnecessary long-term surveillance.",
+      "journal": "JAMA Oncol",
+      "pub_date": "2025-Dec-01",
+      "doi": "10.1001/jamaoncol.2025.3760",
+      "authors": [
+        "Pastorino A",
+        "Liu H",
+        "Pederson L"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "34350375",
+      "title": "The Early Impact of the IDEA Collaboration Results: How the Results Changed Prescribing Practice.",
+      "abstract": "BACKGROUND: Traditionally, adjuvant treatment for colon cancer has been 6 months of combination chemotherapy. Six phase III trials tested the hypothesis that 3 months is noninferior in efficacy to 6 months and reduces long-term side effects for patients. The results were pooled in the International Duration Evaluation of Adjuvant therapy (IDEA) collaboration. Although this did not meet the noninferiority endpoint, a preplanned subgroup analysis by chemotherapy regimen did demonstrate noninferiority for capecitabine and oxaliplatin. Additionally, risk stratification by T and N stage was defined.\nMETHODS: In an effort to understand the real-life impact of these results, 4 months after the IDEA results, an online survey was distributed to clinicians to ask their approach to the adjuvant treatment of patients with stage III colon cancer.\nRESULTS: The survey was completed by 458 clinicians from 12 countries. Assuming that 6 months of treatment was the pretrial standard of care, 89.5% of clinicians reported they had changed practice to prescribe 3 months of treatment for some patients. For patients with low-risk stage III disease, there was a preference for 3 months, and for patients with high-risk stage III disease, most clinicians still prescribed 6 months at that time. Overall, capecitabine and oxaliplatin regimen was the most popular. There were important differences in responses depending on the location of respondent and T and N stage of disease.\nCONCLUSION: This survey shows that the IDEA collaboration has been practice changing but reveals important differences in the way results are interpreted by individual clinicians.",
+      "journal": "JNCI Cancer Spectr",
+      "pub_date": "2021-Aug",
+      "doi": "10.1093/jncics/pkab043",
+      "authors": [
+        "Iveson T",
+        "Hanna C",
+        "Iveson P"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    },
+    {
+      "pmid": "35657640",
+      "title": "Translation of IDEA trial results into clinical practice: Analysis of the implementation of a new guideline for colon cancer.",
+      "abstract": "The IDEA trial showed no clinical relevant differences in efficacy between 3 and 6 months of oxaliplatin-based adjuvant chemotherapy (ACT) in colon cancer (CC), while toxicity was substantially lower in the 3 months regimen. Therefore, in 2017 the Dutch colorectal cancer guideline was revised and currently recommends 3 months of oxaliplatin-based ACT. Furthermore, the definition of high-risk stage II CC was restricted to pT4 tumors. We analyzed changes in ACT between 2015 and 2019. From the Netherlands Cancer Registry all 16 721 patients ≥18 years with resected high-risk stage II and stage III CC during 2015 to 2019 were selected. Differences in patient and treatment characteristics were analyzed per calendar year according to stage and age. Mean duration of oxaliplatin-based ACT decreased from 18.6 (±8.0) to 9.5 (±3.8) weeks between 2015 and 2019. In patients receiving ACT (n = 8170), the proportion treated with oxaliplatin increased from 74% to 83%. The proportion of patients receiving ACT was stable, 61% to 69% in stage III and 26% to 29% in pT4 stage II. ACT in previous high-risk pT3N0 disease decreased from 15% to 3%. Use of oxaliplatin increased from 27% to 49% in patients aged ≥75 years. The revised guideline was rapidly implemented and led to an increase in oxaliplatin-based ACT in the elderly and increased guideline-adherence in high-risk stage II CC.",
+      "journal": "Int J Cancer",
+      "pub_date": "2022-Oct-15",
+      "doi": "10.1002/ijc.34149",
+      "authors": [
+        "van Rooijen KL",
+        "Derksen JWG",
+        "Verkooijen HM"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "38913969",
+      "title": "Impact of the IDEA Collaboration Study on Real-World Practice Patterns of Adjuvant Chemotherapy in Patients With Stage III Colon Cancer: A Population-Based Study.",
+      "abstract": "PURPOSE: The International Duration Evaluation of Adjuvant Chemotherapy (IDEA) collaboration showed no significant clinical difference in outcomes in patients with stage III colon cancer (CC) treated with 3 versus 6 months of oxaliplatin-based adjuvant chemotherapy (O-ACT). We aimed to assess change in real-world practice patterns before and after publication of the IDEA study.\nMETHODS: This retrospective cohort study included patients age ≥18 years with stage III CC diagnosed between January 1, 2012, and December 31, 2020. Eligible patients received >1 dose of ACT between March 20, 2012, and May 10, 2021 inclusive. They were categorized into pre-IDEA (diagnosed before March 31, 2018) and post-IDEA (diagnosed on or after April 1, 2018) groups. The primary outcome was the median duration and type of ACT and factors associated with a shorter duration. Secondary outcomes were 2-year overall survival (OS) and cancer-specific survival (CSS).\nRESULTS: In total, 740 patients were included (median age, 64 years, range, 27-90; 52.7% male). 48.8% had pT4 and/or pN2 disease. 77% received O-ACT. In the post-IDEA era, capecitabine plus oxaliplatin (CAPOX) ACT use increased (22.8%-50.7%, P < .001), and median duration of treatment was significantly shorter (2.7 v 4.8 months, P < .001). Factors associated with shorter O-ACT duration included diagnosis in the post-IDEA era (odds ratio, 2.08, P = .002), absence of pT4 and/or pN2 disease (hazard ratio [HR], 1.71, P = .01), and receipt of CAPOX (HR, 2.58, P < .001). Two-year OS and CSS were comparable between pre- and post-IDEA eras (OS 95% v 94%; CSS 96% v 96%).\nCONCLUSION: Our study shows that the results of the IDEA trial have been largely adopted in clinical practice with shorter duration of ACT in low-risk stage III CC.",
+      "journal": "JCO Oncol Pract",
+      "pub_date": "2024-Dec",
+      "doi": "10.1200/OP.24.00060",
+      "authors": [
+        "Samnani S",
+        "Ding PQ",
+        "Lee-Ying R"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "39024724",
+      "title": "Survival and patient-reported outcomes of real-world high-risk stage II and stage III colon cancer patients after reduction of adjuvant CAPOX duration from 6 to 3 months.",
+      "abstract": "AIM: Adjuvant chemotherapy has been advised for high-risk stage II and III colon cancer since 2004. After the IDEA study showed no clinically relevant difference in outcome, reduction of adjuvant CAPOX duration from 6 to 3 months was rapidly adopted in the Dutch treatment guideline in 2017. This study investigates the real-world impact of the guideline change on overall survival (OS) and patient-reported outcomes (PROs).\nMETHODS: Patients with high-risk stage II (pT4 +) and III (pN+) colon cancer were selected from the Netherlands Cancer Registry, based on surgical resection and adjuvant CAPOX before (2015-2016) versus after (2018-2019) the guideline change. Both groups were compared on OS, using multivariable Cox regression, and on PROs.\nRESULTS: Patients treated before (n = 2330) and after (n = 2108) the guideline change showed similar OS (HR 1.02; 95 %CI [0.89-1.16]), also in high-risk stage III (pT4/N2, HR 1.06 [0.89-1.26]). After the guideline change, 90 % of patients were treated for 3 months with no inferior OS to those still receiving 6 months (HR 0.89 [0.66-1.20]). PROs 2 years after CAPOX completion, available for a subset of patients, suggest a lower neuropathy (n = 366; 26.2 [21.3-31.1] to 16.5 [14.4-18.6]) and better quality of life (n = 396; 80.9 [78.6-83.2] to 83.9 [82.8-84.9]), but no significant difference in workability (n = 120; 31.5 [27.9-35.1]) to 35.3 [33.8-36.7]), with reduction from 6 to 3 months of CAPOX.\nCONCLUSION: This real-world study confirmed that shorter adjuvant CAPOX did not compromise OS and may improve PROs, complementing the IDEA study and supporting 3 months of adjuvant CAPOX in daily clinical practice.",
+      "journal": "Eur J Cancer",
+      "pub_date": "2024-Sep",
+      "doi": "10.1016/j.ejca.2024.114207",
+      "authors": [
+        "Franken IA",
+        "van der Baan FH",
+        "Vink GR"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ]
+    }
+  ]
+}

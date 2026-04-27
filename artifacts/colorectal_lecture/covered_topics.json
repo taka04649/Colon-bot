@@ -58,5 +58,11 @@
     "topic_ja": "Oligometastatic CRC肝転移のconversion therapy：切除可能性判断と最適レジメン選択",
     "domain": "oligometastatic CRC（肝転移・肺転移）",
     "rationale": "1st line戦略の翌日として、切除不能→切除可能化という実臨床で判断を迫られる応用テーマに接続できるため"
+  },
+  {
+    "date": "2026-04-27T22:01:06.584547+00:00",
+    "topic_ja": "大腸癌術後補助化学療法の最適期間と強度：IDEA試験後の個別化戦略",
+    "domain": "Stage III adjuvant chemotherapy (IDEA trial以降)",
+    "rationale": "IDEA試験後も補助化学療法の個別化判断は日常診療の頻出課題であり、免疫療法参入で戦略が再編されつつある"
   }
 ]
