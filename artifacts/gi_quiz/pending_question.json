@@ -1,0 +1,34 @@
+{
+  "date": "2026-04-28",
+  "domain": "大腸分野",
+  "topic": "ctDNA MRDに基づくStage II大腸癌の術後adjuvant判断",
+  "scenario": "58歳男性。健診の便潜血陽性を契機に精査。下部消化管内視鏡で上行結腸に2型腫瘤を認め、生検でtubular adenocarcinoma（高分化）と診断。CTでは遠隔転移なし。腹腔鏡下右半結腸切除術施行。病理結果：pT4a(SE)N0M0、Stage IIB。腫瘍径5.5cm、脈管侵襲ly1/v1、神経周囲浸潤あり、切除断端陰性。MMR免疫染色：MLH1・MSH2・MSH6・PMS2いずれも保存（pMMR/MSS）。術後4週時点でのctDNA（循環腫瘍DNA）検査を施行したところ、腫瘍特異的変異が検出された（ctDNA陽性）。PS 0、主要臓器機能正常。",
+  "question": "本症例の術後補助化学療法の方針として最も適切なものはどれか。",
+  "choices": [
+    "A. ctDNA陽性・高リスクStage IIであり、CAPOX（カペシタビン+オキサリプラチン）6ヶ月投与を行う",
+    "B. pMMR Stage IIBはoxaliplatin上乗せのエビデンスが乏しく、カペシタビン単剤6ヶ月投与を行う",
+    "C. Stage IIのadjuvantは一般的に推奨されないため、経過観察のみとし3ヶ月後にctDNAを再検する",
+    "D. pMMR/MSSであるため免疫チェックポイント阻害薬（ペムブロリズマブ）を投与する",
+    "E. ctDNA陽性は偽陽性の可能性があるため、2週間後に再検して陰性を確認してから経過観察とする"
+  ],
+  "correct_letter": "A",
+  "correct_index": 0,
+  "rationale_correct": "本症例はpMMR/MSS・pT4a・脈管浸潤・神経周囲浸潤を有するStage IIB高リスク症例であり、かつ術後ctDNA陽性（MRD陽性）である。DYNAMIC試験（NEJM 2022）はStage II CRCにおいてctDNA陽性例への補助化学療法施行が再発リスク低減に寄与することを示し、ctDNA陰性例では化学療法を省略できる可能性を示した。ctDNA陽性は微小残存病変（MRD）の存在を示唆し、再発リスクが著しく高い。JSCCRガイドライン2022ではStage IIの高リスク症例（T4、脈管侵襲陽性等）にoxaliplatinベースレジメン（CAPOX）を含む補助化学療法を考慮するとしており、ctDNA陽性が重なる本例ではCAPOXが最も積極的な治療選択として妥当である。",
+  "rationale_others": [
+    "A. 正解。高リスクStage IIB＋ctDNA（MRD）陽性の組み合わせはCAPOXによる補助化学療法の最も強い適応であり、DYNAMIC試験の知見とJSCCRガイドライン2022に合致する。",
+    "B. カペシタビン単剤はoxaliplatin忍容性不良例の代替であり、高リスクStage IIB＋ctDNA陽性例では積極性が不十分。IDEA試験はStage IIIを対象とし、Stage IIへの外挿には注意が必要だが、T4高リスク例ではoxaliplatin追加が支持される。",
+    "C. ctDNA陰性の低リスクStage IIでは経過観察が選択肢となるが、本例はctDNA陽性かつT4a・脈管浸潤陽性の高リスク症例であり、経過観察のみは再発リスク管理として不十分。",
+    "D. ペムブロリズマブはdMMR/MSI-H CRCのadjuvantとしてKEYNOTE-158等で検討されているが、本例はpMMR/MSSであり適応外。pMMRへの免疫療法は現時点でエビデンスなし。",
+    "E. ctDNA検査（腫瘍特異的変異追跡型）の偽陽性率は低く、術後4週陽性は臨床的に意義ある所見。再検待機による治療開始遅延は推奨されず、MRD陽性を前提に治療判断を進めるのが標準的アプローチ。"
+  ],
+  "teaching_points": [
+    "術後ctDNA（MRD）陽性Stage II CRCは再発高リスクであり積極的補助化学療法の適応となる",
+    "DYNAMIC試験はctDNA誘導型adjuvant戦略がStage IIで有効であることを示した先駆的RCT",
+    "pMMR/MSSのStage IIには免疫チェックポイント阻害薬の適応はなく、dMMR/MSI-Hとの鑑別が必須"
+  ],
+  "references": [
+    "Tie J, et al. Circulating tumor DNA analysis guiding adjuvant therapy in stage II colon cancer. NEJM 2022 (DYNAMIC trial)",
+    "大腸癌治療ガイドライン医師用2022年版（JSCCR）",
+    "NCCN Clinical Practice Guidelines in Oncology: Colon Cancer Version 2024"
+  ]
+}
