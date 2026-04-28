@@ -64,5 +64,11 @@
     "topic_ja": "大腸癌術後補助化学療法の最適期間と強度：IDEA試験後の個別化戦略",
     "domain": "Stage III adjuvant chemotherapy (IDEA trial以降)",
     "rationale": "IDEA試験後も補助化学療法の個別化判断は日常診療の頻出課題であり、免疫療法参入で戦略が再編されつつある"
+  },
+  {
+    "date": "2026-04-28T22:06:30.901736+00:00",
+    "topic_ja": "MSI-H/dMMR転移性CRCにおける免疫チェックポイント阻害薬：一次治療選択と耐性機序",
+    "domain": "MSI/MMR deficient CRC と免疫療法",
+    "rationale": "CheckMate 8HWで併用療法が一次治療標準候補となり、耐性機序の理解が急務となっているため"
   }
 ]

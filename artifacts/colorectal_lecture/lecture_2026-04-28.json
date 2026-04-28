@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-28T22:06:30.901109+00:00",
+  "plan": {
+    "topic_ja": "MSI-H/dMMR転移性CRCにおける免疫チェックポイント阻害薬：一次治療選択と耐性機序",
+    "topic_en_query": "MSI-H dMMR metastatic colorectal cancer immunotherapy first-line resistance mechanism PD-1",
+    "domain": "MSI/MMR deficient CRC と免疫療法",
+    "outline": [
+      "dMMR CRCの腫瘍免疫微小環境：高TMB・TIL浸潤・PD-L1発現の機序",
+      "KEYNOTE-177試験の再解釈：奏効予測因子とサブグループ解析の臨床的含意",
+      "NICHE-2・CheckMate 8HW：nivolumab+ipilimumab併用療法のエビデンスと位置づけ",
+      "原発性耐性と獲得耐性の分子機序：JAK1/2変異・β2M欠損・WNT活性化",
+      "耐性例への次手：化学療法再導入・新規併用戦略と今後の臨床試験動向"
+    ],
+    "rationale": "CheckMate 8HWで併用療法が一次治療標準候補となり、耐性機序の理解が急務となっているため"
+  },
+  "body": "dMMR CRCにおける腫瘍免疫微小環境は、MLH1/MSH2/MSH6/PMS2いずれかの機能喪失によるミスマッチ修復不全に起因する。フレームシフト変異の蓄積がネオアンチゲン負荷を高め(TMB>10 mut/Mb)、CD8+ TILの豊富な浸潤とPD-L1の高発現を誘導する。IFN-γシグナルがJAK1/2-STAT1軸を介してPD-L1転写を亢進させる一方、同軸はCXCL9/10産生によりエフェクターT細胞のリクルートも促進するという二面性を持つ。この免疫活性化状態こそがICIへの高感受性の基盤であり、pMMR CRCとの本質的差異である。\n\nKEYNOTE-177試験(n=307)はpembrolizumab単剤(200mg q3w)対FOLFOX/FOLFIRI±bevacizumab/cetuximabを一次治療で比較し、PFS中央値16.5ヶ月 vs 8.2ヶ月(HR 0.60, p=0.0002)、ORR 43.8% vs 33.1%を示した。ただし早期PFS交差が観察され、奏効までの時間的ラグが存在する点は重要な臨床的含意を持つ。BRAF V600E変異例やRAS変異例でも一定の効果が示された一方、腹膜播種を有するサブグループでは効果が限定的であることが示唆されており、この集団への適用はcontroversialである。\n\nCheckMate 8HW試験(n=303、ICI vs ICI群)では、nivolumab(240mg q2w)+ipilimumab(1mg/kg q6w)がnivolumab単剤に対しPFS中央値未到達 vs 29.3ヶ月(HR 0.79)と優位性を示し、ORR 71% vs 58%という高い奏効率が報告された。CTLA-4遮断によるTreg抑制とPD-1遮断の相補的作用が、より深い免疫応答を誘導すると考えられる。NICHE-2試験は術前補助療法としての同併用を検討し、pCR率67%という驚異的な結果を示したが、転移例への外挿には注意が必要である。現時点でJSCCRガイドラインはpembrolizumab単剤を推奨しているが、CheckMate 8HWのデータを踏まえてnivolumab+ipilimumab併用が標準治療候補として浮上しつつある。\n\n耐性機序の理解は次手戦略に直結する。原発性耐性ではWNT/β-cateninシグナルの過活性化によるT細胞排除型腫瘍微小環境(immune excluded phenotype)が主因とされ、β-catenin核移行がCCL4発現を抑制してDC浸潤を妨げる。獲得耐性ではJAK1/2機能喪失変異によるIFN-γシグナル遮断、β2ミクログロブリン(B2M)変異によるMHC-I発現消失が代表的であり、これらはICIの標的であるT細胞認識機構そのものを破壊する。耐性例への対応として、FOLFOXIRI±bevacizumabへの化学療法再導入が現実的選択肢だが奏効率は限定的である。LAG-3・TIM-3・TIGIT等の次世代チェックポイント分子を標的とした併用戦略、あるいはWNT阻害薬との組み合わせが臨床試験段階にあり、今後のエビデンス集積が待たれる。",
+  "key_points": [
+    "JAK1/2-STAT1軸はPD-L1発現亢進とTILリクルートの両方を担う二面的シグナル",
+    "KEYNOTE-177の早期PFS交差と腹膜播種例での限定的効果は臨床判断に影響する",
+    "CheckMate 8HWでnivo+ipi併用がORR 71%を示し一次治療標準候補に浮上",
+    "獲得耐性の主因はJAK1/2変異によるIFN-γ遮断とB2M変異によるMHC-I消失"
+  ],
+  "references": []
+}
