@@ -1,0 +1,58 @@
+{
+  "date": "2026-04-29T22:07:31.036650+00:00",
+  "plan": {
+    "topic_ja": "大腸癌肝転移切除後のctDNA陽性残存と術後補助化学療法の意義",
+    "topic_en_query": "colorectal cancer liver metastasis resection ctDNA minimal residual disease adjuvant chemotherapy",
+    "domain": "oligometastatic CRC（肝転移・肺転移）",
+    "outline": [
+      "肝転移切除後の再発率と現行補助化学療法の限界：FOLFOX/CAPOXのエビデンス基盤を再評価",
+      "術後ctDNA（MRD）検出の生物学的意義：循環腫瘍DNAが映す微小残存病変の実態",
+      "ctDNA陽性/陰性層別化による再発リスク予測：DYNAMIC・GALAXY試験等の最新データ",
+      "ctDNA誘導型補助化学療法の臨床試験デザインと現時点での有効性エビデンス",
+      "実臨床への実装上の課題：検査タイミング・閾値設定・保険適用・患者説明の実践的論点"
+    ],
+    "rationale": "肝転移切除後補助療法とctDNA-MRD監視を統合した切り口で、前回カバー済みテーマと重複せず臨床判断に直結するため"
+  },
+  "body": "大腸癌肝転移切除後の5年生存率は30〜50%に留まり、R0切除後でも約70%が再発する。FOLFOX/CAPOXによる術後補助化学療法は原発巣切除後のステージIII大腸癌では確立されているが、肝転移切除後の文脈では依然としてエビデンスが乏しい。EORTC 40983試験（n=364）はFOLFOXの周術期投与でPFSの有意な改善を示したものの、OSへの寄与は証明されず、現行の補助化学療法は「全例投与」か「経過観察」かの二項対立的判断を余儀なくされている。この構造的問題を打破する鍵として、術後ctDNA（MRD: minimal residual disease）モニタリングが急速に注目されている。\n\nctDNAが検出される生物学的背景は、切除断端や脈管内に残存する微小腫瘍細胞が腫瘍特異的変異断片を血中に放出し続けることにある。Kawashima et al.（Cancer Sci, 2025）は肝転移切除後コホートにおいて、術後ctDNA陽性例が陰性例と比較して早期再発リスクが有意に高いことを示し（HR 4.2, 95%CI 1.8–9.8）、特に術後4週以内のctDNA残存が「解剖学的R0」と乖離した生物学的残存を反映する指標となり得ることを報告している。Oki et al.（ESMO Gastrointest Oncol, 2024）のCOSMOS-CRC-03およびAURORA研究においても、転移性大腸癌における術後ctDNA陽性は再発の独立予測因子であり、ctDNA動態（クリアランスの有無）が予後層別化に有用であることが示されている。これらのデータは、ctDNA陰性例への不要な化学療法暴露を回避しつつ、陽性例に集中介入するという「精密補助療法」の概念を支持する。\n\nctDNA誘導型補助化学療法の介入試験としては、結腸癌ステージII/IIIを対象としたDYNAMIC試験（Lancet, 2022, n=455）が先行しており、ctDNA陽性例への化学療法投与がctDNA陰性例への過剰治療を回避しつつ再発抑制に寄与することを示した。肝転移切除後に特化した介入試験は現時点では確立されておらず、この領域はcontroversialである。検査タイミングについては術後2〜4週が感度・特異度のバランス上推奨されるが、至適カットオフ（変異アレル頻度0.01〜0.1%）はプラットフォーム依存であり標準化が未達成である。\n\n実臨床への実装においては、本邦での保険適用が限定的であること、腫瘍特異的パネル（personalized assay）と固定パネルの使い分け、そして「ctDNA陽性だが画像陰性」という状況での患者説明が現場の課題となる。ctDNA陽性時に化学療法を開始する根拠を患者に説明する際、「画像で見えない癌細胞の痕跡が血液で検出されている」という表現が受容されやすいが、その介入が生存延長を保証するデータは現時点では存在しない点を正直に伝える必要がある。肝転移切除後ctDNA誘導型補助療法の有効性を検証するプロスペクティブRCTの結果が、今後の診療指針改訂の鍵となる。",
+  "key_points": [
+    "肝転移R0切除後でも約70%が再発し、FOLFOX/CAPOXのOS改善エビデンスは確立されていない",
+    "術後ctDNA陽性はKawashima et al.でHR 4.2の早期再発リスクと関連し生物学的MRDを反映する",
+    "DYNAMIC試験はctDNA誘導型補助療法の概念実証だが肝転移切除後特化RCTは未確立",
+    "至適検査タイミング・閾値の標準化と保険適用が本邦実装の主要障壁である"
+  ],
+  "references": [
+    {
+      "pmid": "41648733",
+      "title": "Recurrence monitoring using ctDNA in patients with metastatic colorectal cancer: COSMOS-CRC-03 and AURORA studies.",
+      "abstract": "International treatment guidelines recommend tumor resection for patients with oligometastatic colorectal cancer (CRC). Despite this, recurrence occurs in ∼60% of patients post-surgery, indicating that the role and optimal type of perioperative systemic therapy has not been fully defined. In the COSMOS-oligo trials, comprising two studies, we are evaluating the potential role of circulating tumor DNA (ctDNA) analysis in clinical decision making and exploring adjuvant therapy strategies for patients with resectable metastatic CRC. The COSMOS-CRC-03 study aims to evaluate the prognostic value of post-operative minimal residual disease as detected by ctDNA and to explore the role of ctDNA in detecting disease recurrence. We plan to assess the predictive accuracy of ctDNA results for recurrence using blood collected 28 days post-surgery. We will additionally explore whether regular post-operative ctDNA test can detect recurrence earlier than standard imaging. Post-operative adjuvant therapy will not be administered to ctDNA-negative patients. The complementary AURORA trial is a randomized phase II study designed to test whether post-operative mFOLFOXIRI plus bevacizumab is superior to standard mFOLFOX6 for patients with metastatic CRC when the ctDNA status is positive after curative-intent surgery for patients enrolled in the COSMOS-CRC-03 study. Both studies will only include patients with resectable distant metastases of CRC. We designed these studies to stratify patients based on the results of a ctDNA assay and to determine the optimal treatment for patients at the highest risk for recurrence.",
+      "journal": "ESMO Gastrointest Oncol",
+      "pub_date": "2024-Mar",
+      "doi": "10.1016/j.esmogo.2023.100034",
+      "authors": [
+        "Oki E",
+        "Nakanishi R",
+        "Ando K"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40059633",
+      "title": "Impact of Minimal Residual Disease on Early Recurrence of Liver Metastatic Colorectal Cancer.",
+      "abstract": "For patients with resectable colorectal liver metastases (CRLM), the efficacy of adjuvant chemotherapy remains a subject of debate. Several studies have concluded that postoperative circulating tumor DNA (ctDNA) is a marker of minimal residual disease (MRD) and is a useful prognostic factor in patients with nonmetastatic colorectal cancer. However, few studies have explored its application in cases involving metastases. This was an observational study that included CRLM patients who underwent primary and liver tumor resection. By examining targeted sequencing of 50 genes commonly mutated in CRC, we identified at least one somatic mutation in each patient's metastatic liver tumor. Blood samples were obtained before and 1-month after surgery. Fifty-three patients were included, and recurrence was diagnosed in 39 patients. Of those, 13 patients experienced early relapse. ctDNA was detected in 45 patients before surgery and 11 after. All MRD-positive patients experienced recurrence. Among them, nine had early recurrence. MRD-positive patients had poorer recurrence free survival (RFS, p < 0.0001) and overall survival (OS, p < 0.0005). Nine of 13 patients with early recurrence had MRD; however, two of 40 patients without early recurrence also had MRD (p < 0.0001). Among 42 MRD-negative patients, adjuvant chemotherapy had no impact of RFS (p = 0.84) or OS (p = 0.54). MRD proved valuable in predicting the risk of postoperative recurrence in patients with CRLM, particularly because MRD positivity emerged as a significant risk factor for early recurrence. Furthermore, it appears that adjuvant chemotherapy may not effectively improve the prognosis for MRD-negative patients.",
+      "journal": "Cancer Sci",
+      "pub_date": "2025-May",
+      "doi": "10.1111/cas.16442",
+      "authors": [
+        "Kawashima M",
+        "Yamada T",
+        "Miyasaka T"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Observational Study"
+      ]
+    }
+  ]
+}

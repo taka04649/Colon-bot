@@ -70,5 +70,11 @@
     "topic_ja": "MSI-H/dMMR転移性CRCにおける免疫チェックポイント阻害薬：一次治療選択と耐性機序",
     "domain": "MSI/MMR deficient CRC と免疫療法",
     "rationale": "CheckMate 8HWで併用療法が一次治療標準候補となり、耐性機序の理解が急務となっているため"
+  },
+  {
+    "date": "2026-04-29T22:07:31.037283+00:00",
+    "topic_ja": "大腸癌肝転移切除後のctDNA陽性残存と術後補助化学療法の意義",
+    "domain": "oligometastatic CRC（肝転移・肺転移）",
+    "rationale": "肝転移切除後補助療法とctDNA-MRD監視を統合した切り口で、前回カバー済みテーマと重複せず臨床判断に直結するため"
   }
 ]
