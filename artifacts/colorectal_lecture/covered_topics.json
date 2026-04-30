@@ -76,5 +76,11 @@
     "topic_ja": "大腸癌肝転移切除後のctDNA陽性残存と術後補助化学療法の意義",
     "domain": "oligometastatic CRC（肝転移・肺転移）",
     "rationale": "肝転移切除後補助療法とctDNA-MRD監視を統合した切り口で、前回カバー済みテーマと重複せず臨床判断に直結するため"
+  },
+  {
+    "date": "2026-04-30T22:02:59.390525+00:00",
+    "topic_ja": "大腸癌腹膜転移の診断・予後層別化とCHIPEC時代の治療戦略",
+    "domain": "oligometastatic CRC（肝転移・肺転移）",
+    "rationale": "肝転移・肺転移と異なり腹膜転移は治療戦略が混沌としており、PRODIGE 7後の再考が急務"
   }
 ]

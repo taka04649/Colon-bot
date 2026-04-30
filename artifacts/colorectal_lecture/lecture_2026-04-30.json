@@ -1,0 +1,106 @@
+{
+  "date": "2026-04-30T22:02:59.389826+00:00",
+  "plan": {
+    "topic_ja": "大腸癌腹膜転移の診断・予後層別化とCHIPEC時代の治療戦略",
+    "topic_en_query": "colorectal cancer peritoneal metastasis HIPEC cytoreductive surgery prognosis treatment",
+    "domain": "oligometastatic CRC（肝転移・肺転移）",
+    "outline": [
+      "腹膜転移の発生機序と分子病態：腹膜播種のルート・KRAS/BRAF変異との関連",
+      "Peritoneal Cancer Index（PCI）と切除可能性判断：CCスコアとの組み合わせ",
+      "PRODIGE 7試験の衝撃と再解釈：HIPECの上乗せ効果をどう読むか",
+      "全身化学療法 vs CRS単独 vs CRS+HIPEC：現時点でのエビデンス統合と患者選択",
+      "新規展開：pressurized intraperitoneal aerosol chemotherapy（PIPAC）とimmunotherapy併用の可能性"
+    ],
+    "rationale": "肝転移・肺転移と異なり腹膜転移は治療戦略が混沌としており、PRODIGE 7後の再考が急務"
+  },
+  "body": "腹膜転移の発生には、原発巣からの直接浸潤・漿膜露出による腹腔内遊離、リンパ行性播種、そして術中操作による医原性播種という複数のルートが関与する。分子病態の観点では、KRAS変異株は腹膜転移との親和性が高く、BRAF V600E変異例では腹膜転移を伴う多発転移形式をとりやすいことが知られている。Nizri et al.（Ann Surg Oncol, 2022）は、腹膜転移巣のリンパ節転移陽性例では全身再発リスクが有意に上昇することを示しており、腹膜転移を「局所疾患」として単純に割り切れない生物学的複雑性を示唆している。\n\n切除可能性の判断軸はPeritoneal Cancer Index（PCI）とCompleteness of Cytoreduction（CC）スコアの組み合わせに集約される。PCI≦20かつCC-0/1達成が見込める症例がCRS（腫瘍減量手術）の適応となるが、Sugarbaker et al.（J Surg Oncol, 2022）はリンパ節転移陽性の腹膜転移例において従来のPCIカットオフを再検討し、リンパ節陽性かつPCI高値例では生存ベネフィットが限定的であることを示した。これは患者選択の精緻化に直結する重要な知見であり、単純なPCI数値のみで手術適応を決定することへの警鐘となっている。\n\nPRODIGE 7試験（n=265、CRS単独 vs CRS+HIPEC：オキサリプラチン460mg/m²、30分、43℃）は、mOS 41.7ヶ月 vs 41.2ヶ月（HR 1.00、p=0.99）という結果でHIPECの上乗せ効果を否定した。しかしこの試験にはいくつかの解釈上の留意点がある。第一に、オキサリプラチンの腹腔内暴露時間が30分と短く、かつ高温による末梢神経毒性増強が懸念されるレジメンであった点。第二に、CRS単独群のOSが予想外に良好であり、厳格な患者選択の効果が反映された可能性がある。Mor et al.（Ann Surg Oncol, 2021）は術前化学療法に対する病理学的奏効率がCRS+HIPEC後の生存と相関することを示しており、腫瘍生物学的反応性を事前に評価することが患者選択の鍵となり得る。Zhou et al.（Int J Colorectal Dis, 2024）は原発切除時のHIPEC施行が腹膜再発抑制に寄与する可能性を示したが、前向きエビデンスとしてはまだ限定的であり、予防的HIPECの位置づけはcontroversialなままである。\n\n現時点のエビデンス統合として、CRS+HIPECはPCI≦15・CC-0達成可能・全身化学療法奏効例という三条件を満たす高度選択集団に限定して検討すべきであり、PRODIGE 7の結果をもってHIPEC全否定とするのは早計である。新規展開としてPIPAC（加圧腹腔内エアロゾル化学療法）は腹膜内薬剤浸透を高める投与技術として注目されるが、大腸癌腹膜転移における有効性の確立には更なるRCTが必要である。免疫療法との併用については、MSI-H腹膜転移例でのペムブロリズマブ応用が理論的根拠を持つが、腹膜微小環境の免疫抑制的特性（TGF-β高発現・M2マクロファージ優位）が奏効の障壁となる可能性があり、現段階では試験的アプローチの域を出ない。",
+  "key_points": [
+    "腹膜転移リンパ節陽性例は全身再発リスクが高く「局所疾患」として扱えない（Nizri 2022）",
+    "PRODIGE 7でHIPEC上乗せ効果は否定されたが、レジメン・患者選択の問題として再解釈が必要",
+    "術前化学療法への病理学的奏効率がCRS+HIPEC後生存と相関し患者選択指標となり得る（Mor 2021）",
+    "PIPACおよびMSI-H例への免疫療法併用は理論的根拠はあるが確立したエビデンスは未だない"
+  ],
+  "references": [
+    {
+      "pmid": "34232423",
+      "title": "Ratio of Pathological Response to Preoperative Chemotherapy in Patients Undergoing Complete Cytoreduction and Hyperthermic Intraperitoneal Chemotherapy for Metastatic Colorectal Cancer Correlates with Survival.",
+      "abstract": "BACKGROUND: Pathological response of colorectal peritoneal metastasis (CRPM) may affect prognosis. We investigated the relationship between oncological outcomes and pathological response to chemotherapy of CRPM following cytoreductive surgery (CRS) and hyperthermic intraperitoneal chemotherapy (HIPEC).\nMETHODS: We conducted a retrospective analysis of a prospectively maintained Peritoneal Surface Malignancies database between 2015 and 2020. Analysis included patients with CRPM who underwent a CRS/HIPEC procedure (n = 178). The cohort was divided into three groups according to the response ratio (ratio of tumor-positive specimens to the total number of specimens resected): Group A, complete response; Group B, high response ratio, and Group C, low response ratio.\nRESULTS: The group demographics were similar, but the overall complication rate was higher in Group C (65.2%) compared with Groups A (55%) and B (42.8%) [p = 0.03]. Survival correlated to response ratio; the estimated median disease-free survival of Group C was 9.1 months (5.97-12.23), 14.9 months (4.72-25.08) for Group B, and was not reached in Group A (p = 0.001). The estimated median overall survival in Group C was 35 months (26.69-43.31), and was not reached in Groups A and B (p = 0.001).\nCONCLUSIONS: The pathological response ratio to systemic therapy correlates with survival in patients undergoing CRS/HIPEC. This study supports the utilization of preoperative therapy for better patient selection, with a potential impact on survival.",
+      "journal": "Ann Surg Oncol",
+      "pub_date": "2021-Dec",
+      "doi": "10.1245/s10434-021-10367-6",
+      "authors": [
+        "Mor E",
+        "Assaf D",
+        "Laks S"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "34622371",
+      "title": "Lymph Node Metastases from Visceral Peritoneal Colorectal Metastases are Associated with Systemic Recurrence.",
+      "abstract": "BACKGROUND: Visceral peritoneal colorectal metastases (VPCMs) may further metastasize to lymph nodes that drain those organs. The rate of lymph node metastases (LNMs) from VPCMs and their clinical and prognostic significance are unknown.\nMETHODS: This study retrospectively analyzed the authors' institutional databases of 160 patients with peritoneal colorectal metastases who underwent cytoreductive surgery and hyperthermic intraperitoneal chemotherapy. Patients with LNM-VPCM (n = 12) were identified by pathologic reports, and both their short- and long-term outcomes were compared with those of patients without LNM-VPCM.\nRESULTS: The clinical presentation and primary tumor pathologic characteristics did not differ between the two groups. The patients with LNM-VPCM had a higher tumor burden (measured by the peritoneal carcinomatosis index [PCI]) and visible remnant disease compared with those who had no LNM-VPI (10 vs 5.5 [p = 0.03] vs 33.3% vs 6.8% [p = 0.007], respectively). The postoperative outcomes also were comparable. The patients with LNM-VPCM had a shorter overall survival (OS) than those without LNM-VPCM (median OS, 22.5 months; 95% confidence interval [CI], 15.1-29.9 months vs 40.1 months; 95% CI, 38.1-42 months; p = 0.02). However, only tumor grade and PCI were predictors of OS in the multivariate analysis (hazard ratio [HR], 2.33 [p = 0.001]; 1.77 [p = 0.03], respectively). The study showed that LNM-VPCM was associated with systemic but not peritoneal recurrence compared with non-LNM-VPCM (81.8% vs 51.6% for systemic recurrence, respectively; p = 0.05).\nCONCLUSION: The small distinct group of patients defined by LNM-VPCM were prone to systemic recurrence. Given its correlation with systemic recurrence, LNM-VPCM may indicate the need for adjuvant treatment.",
+      "journal": "Ann Surg Oncol",
+      "pub_date": "2022-Mar",
+      "doi": "10.1245/s10434-021-10869-3",
+      "authors": [
+        "Nizri E",
+        "Berger Y",
+        "Green E"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "39643725",
+      "title": "Effectiveness of hyperthermic intraperitoneal chemotherapy during primary curative resection for colorectal carcinoma.",
+      "abstract": "PURPOSE: Peritoneal metastasis (PM) is the life-threatening cause of colorectal cancer patients (CRC). Adjuvant hyperthermic intraperitoneal chemotherapy (HIPEC) plus cytoreductive surgery exhibited promising effects in preventing recurrence and increasing the survival of CRC patients. However, the outcomes of HIPEC on treating advanced CRC with risk of PM are still controversial. Here, we retrospectively examined the impact of HIPEC on preventing PM and its overall effects on patients with locally advanced CRC who underwent primary curative resection at our center.\nMETHODS: We retrospectively analyzed 45 patients diagnosed with locally advanced colorectal cancer (CRC) who underwent primary curative laparoscopic surgery with proactive hyperthermic intraperitoneal chemotherapy (HIPEC), in conjunction with adjuvant systemic chemotherapy at our center between 2019 and 2022. An additional 55 patients with locally advanced CRC who underwent similar surgery and received adjuvant systemic chemotherapy but did not undergo HIPEC during the same period were selected as the control group. Disease-free survival (DFS), overall survival (OS), and PM incidence were compared between patients with and without HIPEC.\nRESULTS AND CONCLUSIONS: The cumulative PM incidence was 2.2% in the HIPEC group and 14.5% in the control group(P = 0.0347). No significant adverse effects were observed in the HIPEC group. Furthermore, Kaplan-Meier survival analysis showed that the HIPEC correlated to better DFS [hazard ratio (HR) 0.4670, 95% confidence interval (CI) 0.2305-0.9462; P = 0.0345] and extended the overall survival of CRC patients [hazard ratio (HR) 0.3978, 95% confidence interval (CI) 0.1684-0.9395; P = 0.0355]. Therefore, our data supports that adjuvant HIPEC can prevent peritoneal failure in CRC patients and improve both PFS and OS survival following primary curative resection.",
+      "journal": "Int J Colorectal Dis",
+      "pub_date": "2024-Dec-07",
+      "doi": "10.1007/s00384-024-04774-w",
+      "authors": [
+        "Zhou H",
+        "Wang H",
+        "Yi S"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "35032331",
+      "title": "Revised prognostic indicators for treatment of lymph node positive colorectal peritoneal metastases.",
+      "abstract": "BACKGROUND: Peritoneal metastases from colon and rectal cancer presents a new target for a regional approach to treatment. Proper patient selection requires an understanding of the natural history of the disease progression.\nMETHODS: Data from colorectal cancer patients treated for peritoneal metastases by cytoreductive surgery (CRS) plus hyperthermic intraperitoneal chemotherapy and early postoperative intraperitoneal chemotherapy and the records from the primary colon or rectal cancer surgery were analyzed to assess their impact on survival. Data regarding the anatomic sites of colorectal peritoneal metastases was gathered at the time of a complete CRS.\nRESULTS: A cohort of 73 patients with peritoneal metastases and lymph node metastases but no liver metastases provided the information. All patients had a complete cytoreduction. Left-sided primary cancer and a complete or near complete response to neoadjuvant chemotherapy (NAC) indicated improved survival. Tumor progression within the abdominal incision, carcinoembryonic antigen (CEA) >10, peritoneal cancer index >9 and peritoneal metastases present in the abdominopelvic regions 6 and 11 carried an especially guarded prognosis.\nCONCLUSIONS: Reduced survival occurred with a right-sided or rectal primary cancer, a CEA >10, tumor cell entrapment, and involvement of abdominopelvic regions 6 and 11. Effective NAC showed a favorable outcome.",
+      "journal": "J Surg Oncol",
+      "pub_date": "2022-Apr",
+      "doi": "10.1002/jso.26792",
+      "authors": [
+        "Sugarbaker PH",
+        "Chang D"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "35089117",
+      "title": "Noncoding RNAs and hyperthermic intraperitoneal chemotherapy in advanced gastric cancer.",
+      "abstract": "Gastric cancer (GC) is one of the most common malignant tumors globally. About 20-30% of patients with gastric cancer show peritoneal implantation metastasis at the first diagnosis. Peritoneal metastasis is responsible for 70% of deaths of patients with advanced gastric cancer. Although there are many ways to treat advanced gastric cancer, the prognosis of patients with recurrence is unsatisfactory. An auxiliary treatment with hyperthermic intraperitoneal chemotherapy (HIPEC), is an internationally recognized recommended treatment for advanced gastric cancer. A series of clinical trials have shown that HIPEC significantly improves the overall survival of patients with cancer. Compared with the cytoreductive surgery (CRS) alone, HIPEC combined with CRS markedly reduced the rate of peritoneal metastasis in patients with ovarian cancer and colorectal cancer. It has been demonstrated that HIPEC alters transcription of many genes by affecting non-coding RNAs, which may contribute to the suppressive effect of HIPEC on the synthesis of nucleic acids and proteins in cancer cells. This paper reviews the recent advances in understanding the role of non-coding RNAs in tumor invasion and metastasis of advanced gastric cancer. We also consider changes in noncoding RNA levels and other molecules in advanced gastric cancer cases treated with HIPEC. We hope that our review will provide a reference for future research on molecular epidemiology and etiology of advanced gastric cancer and promote precise treatment of this malignancy using HIPEC.",
+      "journal": "Bioengineered",
+      "pub_date": "2022-Feb",
+      "doi": "10.1080/21655979.2021.2021348",
+      "authors": [
+        "Zeng L",
+        "Liao Q",
+        "Zeng X"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Video-Audio Media"
+      ]
+    }
+  ]
+}
