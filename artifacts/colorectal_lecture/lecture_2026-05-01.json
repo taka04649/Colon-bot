@@ -1,0 +1,91 @@
+{
+  "date": "2026-05-01T21:59:12.365644+00:00",
+  "plan": {
+    "topic_ja": "大腸癌CMS分類の臨床応用：治療反応性予測と予後層別化への実装",
+    "topic_en_query": "colorectal cancer consensus molecular subtypes CMS treatment response prognosis clinical application",
+    "domain": "CRC分子病態(CMS classification, CIMP, WNT/APC, p53)",
+    "outline": [
+      "CMS1〜4の分子的特徴の再整理：遺伝子発現・免疫浸潤・代謝の観点から",
+      "CMS分類と既存バイオマーカー（RAS/BRAF/MSI）の相関と非重複情報の意義",
+      "各CMSサブタイプにおける化学療法・分子標的薬・免疫療法の反応性エビデンス",
+      "臨床試験への組み込み事例（PETACC-8, CALGB/SWOG 80405等）と限界",
+      "実臨床でのCMS判定実装に向けた課題：測定法の標準化・コスト・腫瘍内不均一性"
+    ],
+    "rationale": "RAS/BRAF/MSIを超える治療選択指標としてCMSの臨床実装議論が加速しており、今まさに整理すべきタイミング"
+  },
+  "body": "CMS分類は2015年にConsensus Molecular Subtypes Consortiumが6種の独立した分類系を統合して提唱した4サブタイプ体系であり、CMS1（MSI Immune, 14%）・CMS2（Canonical, 37%）・CMS3（Metabolic, 13%）・CMS4（Mesenchymal, 23%）から構成される。CMS1はMSI-H・BRAFV600E変異・高免疫浸潤（CD8+T細胞・NK細胞）・高TMBを特徴とし、CMS2はWnt/MYC経路の高活性化・CIN優位・左側優位の古典的上皮型である。CMS3はKRAS変異高頻度・脂質代謝・アミノ酸代謝の亢進が際立ち、CMS4はTGF-β経路活性化・間質浸潤・EMT・血管新生亢進を特徴とし、4サブタイプ中最も予後不良である。重要なのはCMS分類が既存マーカーと相関しつつも非重複情報を持つ点で、例えばKRAS変異はCMS3に偏在するが全CMS3がKRAS変異陽性ではなく、MSI-HはCMS1と強く連関するが一部はCMS4に分類される。Kantha et al.（World J Surg Oncol, 2025）はこの非重複性こそがRAS/BRAF/MSI軸を超えた治療層別化の根拠になると論じている。\n\n治療反応性の観点では、CMS1はPD-1/PD-L1阻害薬の主要な恩恵群であり、MSI-HとCMS1の重複が高いことからペムブロリズマブ・ニボルマブの奏効が期待できる一方、化学療法への反応性はCMS2・CMS3と比較して劣る傾向が報告されている。CMS2はオキサリプラチン・フルオロウラシル系への感受性が相対的に高く、抗EGFR抗体（セツキシマブ・パニツムマブ）の恩恵群とも重複する。CALGB/SWOG 80405試験の後付け解析ではCMS2においてベバシズマブよりセツキシマブで良好なOSが示唆されたが、サンプルサイズの制約から確定的結論には至っていない。CMS4はTGF-β経路依存性から抗VEGF療法（ベバシズマブ）との親和性が議論されており、PETACC-8試験の後付け解析でもCMS4における予後不良と化学療法抵抗性が確認されている。Yoo et al.（BMB Rep, 2025）は韓国人コホートのRNA-seq解析でCMS4が免疫抑制的腫瘍微小環境を形成し免疫療法抵抗性に寄与することを示した。\n\n実臨床への実装における最大の障壁は測定法の標準化と腫瘍内不均一性である。de Back et al.（Life Sci Alliance, 2024）はFFPE組織を用いたNanoString・RNA-seq・マイクロアレイ間でのCMS判定一致率を検証し、プラットフォーム依存性が分類精度に有意な影響を与えることを示した。また原発巣と転移巣でCMSが乖離する症例が15〜20%存在するとされ、生検部位の代表性問題は未解決である。Wang et al.（J Cancer Res Clin Oncol, 2024）はCAF（cancer-associated fibroblast）スコアリングをCMS4同定に応用する多オミクスアプローチを提案しており、単一遺伝子マーカーでCMS4を代替する試みとして注目される。現時点でNCCN・ESMOいずれのガイドラインもCMSを標準的治療選択指標として推奨しておらず、前向き試験での検証が不可欠である。CMS分類の臨床実装は「仮説生成ツール」から「治療決定ツール」へ移行する転換点にあるが、その実現には測定標準化・コスト低減・腫瘍内不均一性の克服という三重の課題解決が前提となる。",
+  "key_points": [
+    "CMS4はTGF-β/EMT/間質浸潤を特徴とし4サブタイプ中最も予後不良",
+    "CMS1はMSI-H・高TMBと強く連関し免疫療法の主要恩恵群だが化学療法感受性は低い",
+    "CALGB/80405・PETACC-8後付け解析はCMSの治療反応性予測を示唆するが確定的でない",
+    "FFPE測定のプラットフォーム依存性と腫瘍内不均一性が実臨床実装の最大障壁"
+  ],
+  "references": [
+    {
+      "pmid": "38782602",
+      "title": "A consensus molecular subtypes classification strategy for clinical colorectal cancer tissues.",
+      "abstract": "Consensus Molecular Subtype (CMS) classification of colorectal cancer (CRC) tissues is complicated by RNA degradation upon formalin-fixed paraffin-embedded (FFPE) preservation. Here, we present an FFPE-curated CMS classifier. The CMSFFPE classifier was developed using genes with a high transcript integrity in FFPE-derived RNA. We evaluated the classification accuracy in two FFPE-RNA datasets with matched fresh-frozen (FF) RNA data, and an FF-derived RNA set. An FFPE-RNA application cohort of metastatic CRC patients was established, partly treated with anti-EGFR therapy. Key characteristics per CMS were assessed. Cross-referenced with matched benchmark FF CMS calls, the CMSFFPE classifier strongly improved classification accuracy in two FFPE datasets compared with the original CMSClassifier (63.6% versus 40.9% and 83.3% versus 66.7%, respectively). We recovered CMS-specific recurrence-free survival patterns (CMS4 versus CMS2: hazard ratio 1.75, 95% CI 1.24-2.46). Key molecular and clinical associations of the CMSs were confirmed. In particular, we demonstrated the predictive value of CMS2 and CMS3 for anti-EGFR therapy response (CMS2&3: odds ratio 5.48, 95% CI 1.10-27.27). The CMSFFPE classifier is an optimized FFPE-curated research tool for CMS classification of clinical CRC samples.",
+      "journal": "Life Sci Alliance",
+      "pub_date": "2024-Aug",
+      "doi": "10.26508/lsa.202402730",
+      "authors": [
+        "de Back TR",
+        "Wu T",
+        "Schafrat PJ"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    },
+    {
+      "pmid": "38478111",
+      "title": "A comprehensive multi-omics analysis identifies a robust scoring system for cancer-associated fibroblasts and intervention targets in colorectal cancer.",
+      "abstract": "BACKGROUND: Cancer-associated fibroblasts (CAF) play a critical role in promoting tumor growth, metastasis, and immune evasion. While numerous studies have investigated CAF, there remains a paucity of research on their clinical application in colorectal cancer (CRC).\nMETHODS: In this study, we collected differentially expressed genes between CAF and normal fibroblasts (NF) from previous CRC studies, and utilized machine learning analysis to differentiate two distinct subtypes of CAF in CRC. To enable practical application, a CAF-related genes (CAFGs) scoring system was developed based on multivariate Cox regression. We then conducted functional enrichment analysis, Kaplan-Meier plot, consensus molecular subtypes (CMS) classification, and Tumor Immune Dysfunction and Exclusion (TIDE) algorithm to investigate the relationship between the CAFGs scoring system and various biological mechanisms, prognostic value, tumor microenvironment, and response to immune checkpoint blockade (ICB) therapy. Moreover, single-cell transcriptomics and proteomics analyses have been employed to validate the significance of scoring system-related molecules in the identity and function of CAF.\nRESULTS: We unveiled significant distinctions in tumor immune status and prognosis not only between the CAF clusters, but also across high and low CAFGs groups. Specifically, patients in CAF cluster 2 or with high CAFGs scores exhibited higher CAF markers and were enriched for CAF-related biological pathways such as epithelial-mesenchymal transition (EMT) and angiogenesis. In addition, CAFGs score was identified as a risk index and correlated with poor overall survival (OS), progression-free survival (PFS), disease-free survival (DFS), and recurrence-free survival (RFS). High CAFGs scores were observed in patients with advanced stages, CMS4, as well as lymphatic invasion. Furthermore, elevated CAFG scores in patients signified a suppressive tumor microenvironment characterized by the upregulation of programmed death-ligand 1 (PD-L1), T-cell dysfunction, exclusion, and TIDE score. And high CAFGs scores can differentiate patients with lower response rates and poor prognosis under ICB therapy. Notably, single-cell transcriptomics and proteomics analyses identified several molecules related to CAF identity and function, such as FSTL1, IGFBP7, and FBN1.\nCONCLUSION: We constructed a robust CAFGs score system with clinical significance using multiple CRC cohorts. In addition, we identified several molecules related to CAF identity and function that could be potential intervention targets for CRC patients.",
+      "journal": "J Cancer Res Clin Oncol",
+      "pub_date": "2024-Mar-13",
+      "doi": "10.1007/s00432-023-05548-7",
+      "authors": [
+        "Wang F",
+        "Li Z",
+        "Xu T"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "41261788",
+      "title": "Integrated analysis of RNA-sequencing data and clinical data for the molecular insights and applicability of immunotherapy in the Korean colorectal cancer patients.",
+      "abstract": "Colorectal cancer (CRC) is a major health concern and understanding its molecular characteristics is crucial for improving its diagnosis and treatment. Here, we present a comprehensive analysis utilizing RNA-sequencing (RNA-seq) data and clinical information from Korean patients with CRC. Differential gene expression analysis identified significant changes in gene expression between tumor and normal tissues. Gene Set Enrichment Analysis (GSEA) revealed dysregulated pathways associated with tumor progression. Furthermore, using CMScaller, we successfully stratified CRC tissues into distinct molecular subtypes. Upon reviewing the public consensus molecular subtype (CMS) signature, it was confirmed that it shares similar biological characteristics with the existing CRC. Additionally, biological characteristics of the group that could not be classified using CMScaller were found to resemble those of CMS2. Finally, distinguishing characteristics were observed between the tumor and normal groups when analyzed from an immunological perspective. Patients with CRC were checked for immunotherapy responsiveness, and those who clinically responded to immunotherapy were identified. Survival analysis confirmed that certain microsatellite stable (MSS) samples were responsive to immunotherapy and showed a relatively better prognosis. Furthermore, analysis of various immune cell types to identify genes involved in the response to immunotherapy revealed that RORC, NOS2, and KLRK1 are potential candidate genes. Our findings provide valuable insights into the molecular landscape of CRC in the Korean population and underscore the potential for integrating RNA-seq data with clinical information to improve cancer research and patient care. Immunotherapy was found to be effective in Korean patients with CRC.",
+      "journal": "BMB Rep",
+      "pub_date": "2025-Nov-20",
+      "doi": null,
+      "authors": [
+        "Yoo J",
+        "Lee JL",
+        "Shim H"
+      ],
+      "pub_types": [
+        "News"
+      ]
+    },
+    {
+      "pmid": "41276825",
+      "title": "Consensus Molecular Subtypes (CMS) Classification: a progress towards Subtype-Driven treatments in colorectal cancer.",
+      "abstract": "BACKGROUND: Colorectal cancer (CRC) is heterogeneous with varied molecular profiles, clinical outcomes, and treatment responses. The Consensus Molecular Subtypes (CMS) classification categorizes CRC into four molecular subtypes (CMS1-4) based on gene expression profiles, aiming to improve prognosis prediction and guide personalized therapy.\nOBJECTIVE: This paper reviews the CMS classification, its prognostic and predictive roles, methods of identification, association with polyps, immunotherapy applications, intratumoral heterogeneity (ITH), and barriers to clinical adoption.\nMETHODS: The review synthesizes data from global studies on CMS, searches were conducted in PubMed, Scopus, and Web of Science, till June 2025, focusing on gene expression profiling, immunohistochemistry (IHC), and image-based CMS (imCMS) classifiers based on computational models (such deep learning). It examines CMS-specific treatment responses, immune profiles, and emerging strategies like single-cell RNA sequencing to address ITH.\nRESULTS: CMS classifies CRC into four subtypes: CMS1 (MSI-immune, ~ 15%), CMS2 (canonical, ~ 40%), CMS3 (metabolic, ~ 13%), and CMS4 (mesenchymal, ~ 22%). CMS is prognostic in adjuvant (e.g., PETACC-3, NSABP C-07) and metastatic settings (e.g., CALGB 80405, FIRE-3), with CMS2 linked to the best survival and CMS4 the worst outcomes. CMS1 responds to immunotherapy, CMS2/3 to bevacizumab, and CMS4 to irinotecan. Classification methods include gene expression profiling, immunohistochemistry (IHC), and image-based CMS (imCMS), but intratumoral heterogeneity (ITH) and technical barriers hinder clinical adoption. Solutions like single-cell sequencing and standardized assays are emerging.\nCONCLUSION: CMS classification enhances CRC prognosis and treatment personalization but faces challenges due to ITH and technical limitations. Advances in IHC, imCMS, and targeted gene panels may facilitate broader clinical adoption, improving patient outcomes through tailored therapies.",
+      "journal": "World J Surg Oncol",
+      "pub_date": "2025-Nov-24",
+      "doi": "10.1186/s12957-025-04117-1",
+      "authors": [
+        "Kantha A",
+        "Das D",
+        "Pai E"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ]
+    }
+  ]
+}

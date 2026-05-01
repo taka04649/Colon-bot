@@ -82,5 +82,11 @@
     "topic_ja": "大腸癌腹膜転移の診断・予後層別化とCHIPEC時代の治療戦略",
     "domain": "oligometastatic CRC（肝転移・肺転移）",
     "rationale": "肝転移・肺転移と異なり腹膜転移は治療戦略が混沌としており、PRODIGE 7後の再考が急務"
+  },
+  {
+    "date": "2026-05-01T21:59:12.366416+00:00",
+    "topic_ja": "大腸癌CMS分類の臨床応用：治療反応性予測と予後層別化への実装",
+    "domain": "CRC分子病態(CMS classification, CIMP, WNT/APC, p53)",
+    "rationale": "RAS/BRAF/MSIを超える治療選択指標としてCMSの臨床実装議論が加速しており、今まさに整理すべきタイミング"
   }
 ]
