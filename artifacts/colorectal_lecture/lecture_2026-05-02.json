@@ -1,0 +1,57 @@
+{
+  "date": "2026-05-02T21:52:46.291726+00:00",
+  "plan": {
+    "topic_ja": "転移性CRC二次治療以降の最適戦略：TAS-102・レゴラフェニブ・抗体薬の配列",
+    "topic_en_query": "metastatic colorectal cancer second-line third-line trifluridine tipiracil regorafenib fruquintinib sequencing",
+    "domain": "転移性CRCの1st/2nd line戦略",
+    "outline": [
+      "二次治療以降の治療目標とPS・RAS/BRAF・既治療歴による患者層別化フレームワーク",
+      "TAS-102（トリフルリジン・チピラシル）の作用機序とRECOURSE試験以降のエビデンス：ベバシズマブ併用（SUNLIGHT試験）の意義",
+      "レゴラフェニブの用量最適化戦略：ReDOS試験に基づくdose-escalation approachと毒性管理",
+      "フルキンチニブ（FRESCO-2試験）の位置付けと既存薬との比較・日本での実装課題",
+      "後方ライン治療の配列決定：臨床因子・バイオマーカー・患者希望を統合した実践的アルゴリズム"
+    ],
+    "rationale": "SUNLIGHT・FRESCO-2試験で後方ライン治療の選択肢が急拡大し、配列戦略の整理が急務"
+  },
+  "body": "後方ライン治療の目標は「OS延長とQOL維持の両立」であり、PS・既治療歴・分子プロファイルによる層別化が配列決定の出発点となる。RAS/BRAF野生型でHER2増幅やMSI-Hが除外された標準的な後方ライン症例において、TAS-102単剤・TAS-102＋ベバシズマブ・レゴラフェニブ・フルキンチニブの4選択肢をいかに配列するかが現在の核心的問いである。\n\nTAS-102はトリフルリジンがDNAに取り込まれてDNA鎖伸長を阻害し、チピラシルがチミジンホスホリラーゼを阻害することでトリフルリジンの分解を抑制する二重機序を持つ。RECOURSE試験（n=800）でプラセボ比OS中央値7.1ヶ月 vs 5.3ヶ月（HR 0.68, p<0.001）を示した後、SUNLIGHT試験（n=492）においてベバシズマブ併用によりOS中央値10.8ヶ月 vs 7.5ヶ月（HR 0.61, p<0.001）と単剤を大幅に上回る成績が示された。ベバシズマブの抗腫瘍血管新生作用がTAS-102の腫瘍内薬物濃度を高める可能性が機序的に推定されているが、確証的なバイオマーカーデータはまだ限定的である。この点に関し、Hirakawa et al.（Int J Clin Oncol, 2026）は抗VEGF製剤への前治療応答がTAS-102＋ベバシズマブの有効性予測因子となりうることを示しており、prior anti-VEGF responderにおいて本併用の恩恵がより大きい可能性を示唆している。ただし後方視的解析であり、前向き検証が待たれる。\n\nレゴラフェニブはVEGFR1-3・TIE2・PDGFR・FGFRおよびRAF/MEKを含む多標的チロシンキナーゼ阻害薬であり、標準用量160mg/日での手足症候群・疲労・高血圧が忍容性の障壁となる。ReDOS試験（n=123）ではweek 1に80mg/日から開始し週単位で160mgまで漸増するdose-escalation approachが標準用量先行群と比較してcycle 3到達率を改善し（43% vs 24%）、OS中央値も数値的に良好であった（9.8ヶ月 vs 6.0ヶ月）。この用量最適化戦略はNCCNガイドラインでも言及されており、実臨床での採用が推奨される。\n\nフルキンチニブはVEGFR1-3を高選択的に阻害するTKIであり、FRESCO-2試験（n=461、TAS-102・レゴラフェニブ既治療を含む）でプラセボ比OS中央値7.4ヶ月 vs 4.8ヶ月（HR 0.66, p<0.001）を示した。既存薬既治療後の真の後方ラインにおけるエビデンスという点で独自の位置を占めるが、日本での薬事承認・保険適用は現時点で未整備であり、実装には課題が残る。Cann et al.（Oncologist, 2026）の米国市中病院医師への調査では、三次治療選択において患者PS・前治療毒性歴・患者希望が処方決定に大きく影響することが示されており、エビデンスと個別化判断の統合が不可欠である。配列の実践的原則として、抗VEGF未使用または有効歴があればTAS-102＋ベバシズマブを優先し、忍容性懸念例にはReDOS法でレゴラフェニブを導入、両剤既治療後にはフルキンチニブ（承認後）を検討するフレームワークが現時点での合理的アプローチといえる。",
+  "key_points": [
+    "SUNLIGHT試験でTAS-102＋ベバシズマブはOS中央値10.8ヶ月と単剤比で有意改善",
+    "抗VEGF前治療応答がTAS-102＋Bev有効性の予測因子となりうる（Hirakawa et al., 2026）",
+    "ReDOS法（80mg漸増）でレゴラフェニブのcycle 3到達率と忍容性を改善",
+    "フルキンチニブはFRESCO-2で後方ライン有効性を示すが日本での実装は未整備"
+  ],
+  "references": [
+    {
+      "pmid": "42062697",
+      "title": "Prior response to anti-VEGF agents predicts the efficacy of trifluridine/tipiracil plus bevacizumab in patients with metastatic colorectal cancer.",
+      "abstract": "BACKGROUND: Trifluridine/Tipiracil (FTD/TPI) combined with bevacizumab (Bev) is a standard treatment for patients with unresectable metastatic colorectal cancer (mCRC) in later-line therapy. Despite the availability of other drugs like regorafenib and fruquintinib, there is no consensus on the optimal treatment choice or sequence for later-line therapies due to a lack of clearly defined prognostic indicators. This multicenter real-world analysis aimed to identify predictive factors related to the effectiveness of FTD/TPI + Bev.\nPATIENTS AND METHODS: We retrospectively analyzed the medical records from our institution and collaborating centers of 71 mCRC patients given FTD/TPI + Bev as third-line or later treatment. Survival data were calculated using the Kaplan-Meier method, and group comparisons were made using the log-rank test. Multivariate analyses of progression-free survival (PFS) and overall survival (OS) were performed using a Cox proportional-hazards model.\nRESULTS: A performance status (PS) of 0-1, absence of liver metastases, and fewer metastatic sites were significantly associated with improved PFS. For OS, significant differences were observed according to PS, presence of liver metastases, number of metastatic sites, and RAS/BRAF mutational status. Among patients who received anti-VEGF agents in second-line therapy, those with a second-line PFS of more than 9 months had significantly better median PFS and OS with FTD/TPI + Bev compared to those with a median PFS of 9 months or less. In multivariate analysis, PS and duration of second-line PFS were the only significant predictors of PFS and OS.\nCONCLUSION: The response to anti-VEGF agents in second-line therapy may predict the efficacy of FTD/TPI + Bev in subsequent treatments.",
+      "journal": "Int J Clin Oncol",
+      "pub_date": "2026-Apr-30",
+      "doi": "10.1007/s10147-026-03035-w",
+      "authors": [
+        "Hirakawa M",
+        "Sagawa T",
+        "Okagawa Y"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "41649463",
+      "title": "Third-line treatment decision-making for metastatic colorectal cancer: a cross-sectional survey of US community physicians.",
+      "abstract": "BACKGROUND: Colorectal cancer (CRC) is the second leading cause of cancer-related death worldwide, with increasing incidence in the US. Improvements in disease management and the increasing incidence of patients with metastatic CRC (mCRC) at younger ages has resulted in more patients being treated in the third-line setting. Treatment has evolved beyond chemotherapy with the approval of newer agents, but there is no consensus on the optimized choice or sequencing post second-line treatment. Identification of the drivers of treatment decisions may provide evidence to guide decision-making, ensuring that patients receive optimal care. The objective of this study was to evaluate treatment preferences and prescribing patterns for third-line mCRC among community-based physicians.\nMETHODS: This study surveyed community-based physicians in the US who were actively treating patients with mCRC.\nRESULTS: Overall survival (OS) and impacts to patient quality of life (QoL) were primary considerations for any third-line treatment for mCRC. Physicians considered OS and progression-free survival (PFS) as extremely important factors when making third-line treatment decisions. Most physicians selected trifluridine-tipiracil (FTD-TPI) combined with bevacizumab as their first treatment choice for third-line mCRC (60%), compared to regorafenib (12%), FTD-TPI monotherapy (8%), capecitabine (8%), and fruquintinib (6%). Physicians identified fatigue, neutropenia, and hand-foot syndrome as the most challenging adverse events (AEs) to manage, while hand-foot syndrome and allergic reactions were AEs that would most likely lead physicians to discontinue treatment.\nCONCLUSION: These findings highlight the third-line treatment preferences and prescribing patterns of community-based physicians who are actively treating patients with mCRC.",
+      "journal": "Oncologist",
+      "pub_date": "2026-Feb-05",
+      "doi": "10.1093/oncolo/oyag018",
+      "authors": [
+        "Cann C",
+        "Zhao S",
+        "Khan N"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ]
+    }
+  ]
+}

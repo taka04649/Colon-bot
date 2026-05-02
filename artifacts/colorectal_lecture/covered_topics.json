@@ -88,5 +88,11 @@
     "topic_ja": "大腸癌CMS分類の臨床応用：治療反応性予測と予後層別化への実装",
     "domain": "CRC分子病態(CMS classification, CIMP, WNT/APC, p53)",
     "rationale": "RAS/BRAF/MSIを超える治療選択指標としてCMSの臨床実装議論が加速しており、今まさに整理すべきタイミング"
+  },
+  {
+    "date": "2026-05-02T21:52:46.292280+00:00",
+    "topic_ja": "転移性CRC二次治療以降の最適戦略：TAS-102・レゴラフェニブ・抗体薬の配列",
+    "domain": "転移性CRCの1st/2nd line戦略",
+    "rationale": "SUNLIGHT・FRESCO-2試験で後方ライン治療の選択肢が急拡大し、配列戦略の整理が急務"
   }
 ]
