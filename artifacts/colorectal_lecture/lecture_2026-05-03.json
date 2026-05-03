@@ -1,0 +1,41 @@
+{
+  "date": "2026-05-03T21:54:03.956208+00:00",
+  "plan": {
+    "topic_ja": "大腸癌肺転移の外科切除・局所療法適応と予後因子：エビデンスの現在地",
+    "topic_en_query": "colorectal cancer pulmonary metastasectomy outcomes prognostic factors stereotactic ablative radiotherapy",
+    "domain": "oligometastatic CRC（肝転移・肺転移）",
+    "outline": [
+      "肺転移切除の適応基準：古典的Fongスコアから現代的多因子評価への転換",
+      "肺転移切除後の長期成績：5年生存率30〜60%の乖離を生む予後因子の精査",
+      "SBRT/SARTと外科切除の比較：ランダム化試験不在下での意思決定フレームワーク",
+      "RAS/BRAF変異・原発巣側性が肺転移切除後アウトカムに与える分子的影響",
+      "同時性肝肺転移・繰り返し肺切除・術後補助療法の現実的マネジメント戦略"
+    ],
+    "rationale": "肝転移は直近で複数回扱ったが、肺転移の局所療法選択と予後因子は未カバーで臨床ニーズが高い"
+  },
+  "body": "大腸癌肺転移切除の適応評価において、かつてFongらが肝転移に提唱したような単純なスコアリングは肺転移には確立されていない。現在の多施設レジストリデータが示す5年生存率は30〜60%と幅広く、この乖離を生む主要因子として、転移個数（単発 vs 多発）、無病期間（DFI）12ヶ月未満、術前CEA高値、縦隔リンパ節転移陽性、そして原発巣のRAS/BRAF変異ステータスが繰り返し抽出されている。特に縦隔リンパ節転移はHR 2.0前後の独立した予後不良因子として複数のコホートで再現されており、術前PET-CTあるいは縦隔鏡による評価を省略すべきではない。\n\n分子マーカーの観点では、KRAS変異陽性例は野生型と比較して肺切除後の再発率が有意に高く、一部のデータではOS中央値が10ヶ月以上短縮することが示されている。BRAF V600E変異例は肺転移単独の表現型をとることは少なく、多臓器転移・腹膜播種を伴うことが多いため、切除適応自体を慎重に検討する必要がある。原発巣側性については、右側原発は左側と比較してRAS/BRAF変異・MSS・CMS4サブタイプを高頻度に伴い、肺転移切除後の予後も劣る傾向があるが、側性単独を切除禁忌とするエビデンスは現時点では存在しない。\n\nSBRT（体幹部定位放射線治療）と外科切除の直接比較RCTは現時点で存在しない。Macbeth et al.（Clin Oncol, 2022）はオリゴメタスタシス全般に対するSBRTのエビデンスを批判的に検討し、既存の試験の多くが非ランダム化・小規模・追跡期間不十分であり、局所制御率の改善が必ずしもOSに直結しないと指摘している。実臨床での意思決定フレームワークとしては、切除可能かつ全身状態良好例では外科切除を第一選択とし、手術リスクが高い・病変が中枢気道近傍・患者希望によりSBRTを代替とする、という段階的アプローチが妥当と考えられる。ただしこの判断はcontroversialであり、腫瘍内科・胸部外科・放射線腫瘍科によるMDTでの合議が不可欠である。\n\n同時性肝肺転移に対する同時切除と分割切除の優劣は確立されておらず、肝切除後の肺切除を原則とする施設が多い。繰り返し肺切除については、初回切除後再発例でも再切除によって5年生存率20〜30%が報告されており、切除可能性・DFI・全身状態を総合して積極的に検討する価値がある。術後補助化学療法については、肺転移切除後に限定した前向き試験は乏しく、JSCCR・ESMOガイドラインともに明確な推奨を出せていない現状であり、個々の再発リスクプロファイルに基づいた個別判断が求められる。",
+  "key_points": [
+    "縦隔リンパ節転移はHR 2.0前後の独立した予後不良因子であり術前評価必須",
+    "KRAS変異陽性は肺切除後再発率が高くOS短縮が複数コホートで示されている",
+    "SBRTと外科切除の直接比較RCTは存在せずMDTによる個別判断が不可欠",
+    "繰り返し肺切除でも5年生存率20〜30%が報告され積極的適応検討の余地がある"
+  ],
+  "references": [
+    {
+      "pmid": "35232625",
+      "title": "Stereotactic Ablative Radiotherapy for Oligometastatic Disease: Great Enthusiasm but Scant Evidence.",
+      "abstract": "The prospective study Pulmonary Metastasectomy in Colorectal Cancer (N = 391) showed that expert selection was made on known prognostic features - number of metastases, tumour markers, liver involvement, interval - and patient performance and outcomes replicated follow-up studies. In the nested controlled trial all factors were well balanced and no survival difference remained.",
+      "journal": "Clin Oncol (R Coll Radiol)",
+      "pub_date": "2022-May",
+      "doi": "10.1016/j.clon.2022.02.008",
+      "authors": [
+        "Macbeth F",
+        "Treasure T"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    }
+  ]
+}
