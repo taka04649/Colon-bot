@@ -1,0 +1,89 @@
+{
+  "date": "2026-05-04T22:10:35.950451+00:00",
+  "plan": {
+    "topic_ja": "大腸癌スクリーニングにおけるctDNA検査の位置づけ：FIT・内視鏡との比較と実装課題",
+    "topic_en_query": "colorectal cancer screening cell-free DNA blood test FIT colonoscopy sensitivity specificity",
+    "domain": "CRC screening戦略(FIT, colonoscopy, ctDNA test)",
+    "outline": [
+      "血液ctDNA検査（Shield/ECLIPSE試験）の感度・特異度：CRC検出率とadvanced adenoma検出の限界",
+      "FIT・便DNA検査（Cologuard）・ctDNA検査の比較：陽性適中率・偽陽性率と後続精査コスト",
+      "スクリーニング対象集団の層別化：平均リスク・高リスク群での使い分けとリスク別推奨",
+      "日本における実装上の課題：保険収載・検査間隔設定・陽性者への内視鏡キャパシティ問題",
+      "ctDNAスクリーニングの将来像：マルチキャンサー早期検出（MCED）との統合とエビデンスギャップ"
+    ],
+    "rationale": "ECLIPSE試験(2024 NEJM)で注目度急上昇、FITとの比較議論が臨床的に急務"
+  },
+  "body": "ECLIPSE試験（Shields assay、n=7,861）が2024年NEJMに発表され、血液ctDNA検査によるCRC検出感度83.1%・特異度89.6%というデータが示された。一見魅力的な数値だが、advanced precancerous lesion（APL）検出感度はわずか13.2%にとどまる点が臨床上の核心的問題である。スクリーニングの本質は浸潤癌の早期発見のみならず、腺腫段階での介入による癌化予防にあり、この観点からctDNA単独の限界は明白だ。便DNA検査（Cologuard、mt-sDNA）のAPL感度が約42%、FITが約24%であることと比較しても、ctDNAのAPL検出能は現時点で著しく劣る（Kahn et al., Int J Cancer, 2026）。\n\nFITとctDNAの比較では、偽陽性率と後続精査コストの観点が重要となる。FITの特異度は約95%と高く、陽性適中率（PPV）も集団リスクに応じて現実的な範囲に収まる。一方、ctDNA検査の特異度89.6%は、平均リスク集団100万人にスクリーニングを適用した場合、約10万件の偽陽性を生じさせる計算となり、後続内視鏡の需要が爆発的に増加する。Kahn et al.（Clin Colorectal Cancer, 2025）はFITとctDNAの二重検査戦略を検討し、逐次的併用により感度を補完しつつ偽陽性を抑制できる可能性を示唆しているが、最適なアルゴリズムと検査間隔の設定はいまだcontroversialであり、大規模前向き試験によるアウトカムデータが存在しない。\n\nリスク層別化の観点では、ctDNA検査は平均リスク集団への一次スクリーニングとしてよりも、FIT陰性だが症状・家族歴・腸内環境リスクを有する中間リスク層への補完的位置づけが現実的と考えられる（Chiu et al., Dig Dis Sci, 2025）。NCCNおよびUSMSTFは現時点でctDNA検査を標準スクリーニング選択肢として明示的に推奨しておらず、ESMEも同様の慎重姿勢を維持している。JSCCRガイドラインにおいても、便潜血検査（FOBT/FIT）が依然として一次スクリーニングの中心であり、ctDNA検査の保険収載・推奨グレード設定は今後の課題だ。\n\n日本固有の実装課題として、大腸内視鏡の施行キャパシティ問題は無視できない。現状でもFIT陽性者への精検内視鏡の受診率は50〜60%程度にとどまっており、ctDNA検査の普及により偽陽性を含む陽性者数が増加すれば、内視鏡リソースの逼迫はさらに深刻化する。将来的にはマルチキャンサー早期検出（MCED）プラットフォームとの統合が議論されているが、Carethers et al.（Annu Rev Med, 2026）が指摘するように、MCEDの大腸癌検出感度はctDNA単独よりさらに低い傾向があり、スクリーニング効率の観点からは臓器特異的アッセイとの役割分担が不可欠である。ctDNA検査を「FITの代替」ではなく「精密スクリーニングの補完ツール」として位置づけ、エビデンスの蓄積とともに段階的に実装戦略を構築することが現時点での合理的アプローチといえる。",
+  "key_points": [
+    "ctDNA（Shield）のCRC感度83%に対しAPL感度はわずか13%と腺腫検出に著しく限界がある",
+    "特異度89.6%は平均リスク集団では大量の偽陽性を生じ内視鏡キャパシティを圧迫する",
+    "FITとctDNAの逐次的二重検査戦略は感度補完の可能性があるが最適設計は未確立",
+    "NCCN・USMSTF・JSCCRはいずれも現時点でctDNAを標準一次スクリーニングに未推奨"
+  ],
+  "references": [
+    {
+      "pmid": "40204621",
+      "title": "Circulating Tumor DNA in Addition to Fecal Immunochemical Test in a Dual-Test Colorectal Cancer Screening Approach.",
+      "abstract": "BACKGROUND: Early detection is paramount when reducing incidence and mortality of colorectal cancer (CRC). Current population-based screening programs primarily use fecal immunochemical test (FIT) to allocate individuals for colonoscopy although low specificity challenges colonoscopy capacities. We aimed to assess the potential of circulating tumor (ct)DNA markers for early CRC detection in a dual-test CRC screening approach among FIT positive individuals.\nMETHODS: Plasma samples from 774 FIT positive (≥100 ng Hemoglobin/mL) individuals from the Danish CRC screening program were analyzed for hypermethylated DNA in the genes Branched Chain Amino-acid Transaminase 1 (BCAT1), Ikaros-Family Zinc Finger transcription 1 (IKZF1), and Interferon Regulator Factor 4 (IRF4). Multivariate logistic regression models were generated adding the ctDNA markers and age to the FIT value. The dual-test approach was benchmarked to FIT at specific thresholds.\nRESULTS: The dual-test approach improved CRC detection compared to the FIT alone (AUC of 87.2 [95% CI, 82.9-91.4] vs AUC of 72.5 [95% CI, 67.0-77.9]). This was also seen when adding advanced adenomas to the outcome resulting in AUCs of 71.8 [95% CI, 67.8-75.8] for the dual-test approach compared to 65.5 [95% CI, 61.3-69.7] for the FIT model alone. Benchmarking the dual-test approach at FIT cut-offs between 100 and 600 ng Hb/mL showed a potential for either reducing the colonoscopy requirement by up to 56% or increasing CRC detection by up to 28%.\nCONCLUSIONS: As increasing FIT cutoff will decrease CRC detection rate, application of the ctDNA panel can increase the sensitivity and specificity in a dual-test approach among asymptomatic individuals.",
+      "journal": "Clin Colorectal Cancer",
+      "pub_date": "2025-Jun",
+      "doi": "10.1016/j.clcc.2025.03.001",
+      "authors": [
+        "Kahn CL",
+        "Petersen MM",
+        "Kleif J"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "39516436",
+      "title": "Adopting Non-invasive Approaches into Precision Colorectal Cancer Screening.",
+      "abstract": "Effective screening is essential to reducing CRC incidence and mortality by detecting the disease at early stages and identifying non-invasive precursors. While colonoscopy remains the most sensitive modality to visualize and remove neoplastic lesions thereby reducing CRC and the related death, its high cost and invasive nature limit its widespread use. The fecal immunochemical test (FIT), which offers a non-invasive alternative with higher public acceptance and comparable cost-effectiveness to colonoscopy, has become the preferred screening method in many regions. Newer non-invasive tests, such as multitarget stool DNA or RNA tests, have shown improved sensitivity for CRC and advanced adenomas, although their high costs and lower specificity present challenges for large-scale implementation. Blood-based circulating cell-free DNA test also offer promise but still require optimization to be cost-effective. The heterogeneity of the screening population further complicates the effectiveness of CRC screening programs. Variations in non-communicable disease risk factors, such as metabolic syndrome, lifestyle habits, and comorbidities, can significantly influence CRC risk and screening outcomes. Moreover, diverse screening behaviors, including inconsistent adherence to recommended screening intervals and the interchangeable use of different screening modalities, add complexity to achieving uniform effectiveness across populations. This variability underscores the need for personalized screening strategies that consider individual risk profiles and screening behaviors, as well as the application of cutting-edge technologies such as big data analytics, artificial intelligence, and digital twin approaches to evaluate its effectiveness. This article reviews the current CRC screening strategies, the advantages of non-invasive methods, and the potential of fecal hemoglobin concentration, to tailor screening intervals and improve risk stratification. It also discusses the emerging role of real-world data and advanced technologies in enhancing CRC screening accuracy and effectiveness, particularly in complex real-world scenarios where traditional methods may fall short. Before novel non-invasive approaches, such as ctDNA tests or polygenic risk scores, are validated and proven cost-effective, exploring the clinical utility of FIT and its quantitative measurement in both screening and surveillance by integrating real-world clinical big data seems a feasible direction for achieving sustained development in population screening.",
+      "journal": "Dig Dis Sci",
+      "pub_date": "2025-May",
+      "doi": "10.1007/s10620-024-08696-z",
+      "authors": [
+        "Chiu HM",
+        "Matsuda T"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ]
+    },
+    {
+      "pmid": "42043732",
+      "title": "Blood-Based Circulating Tumor DNA Assays for Early Colorectal Cancer Detection: A Systematic Review of Performance in Asymptomatic Screening Populations.",
+      "abstract": "Early detection of colorectal cancer (CRC) via population-based screening programs can reduce incidence and mortality. Current screening approaches are limited by cost, accessibility, compliance, and colonoscopy capacity. Blood-based screening of circulating tumor (ct) DNA may resolve some of these limitations. This systematic review evaluated the screening potential of blood-based ctDNA assays in asymptomatic screening populations. We systematically searched the PubMed database (final search June 20th, 2025) for studies detecting advanced adenomas (AAs) or CRC in asymptomatic cohorts, where a blood-based ctDNA assay had been evaluated with data on specificity, sensitivity, and/or AUC at early stages of disease. Newcastle-Ottowa scale was used for quality assessment. Only 20 studies of 454 unique hits met our inclusion criteria. Of these, 12 studies used assays targeting specific DNA alterations, while the remaining 8 studies used complex assays. Generally, comprehensive assays such as Shield, ColonSecure, and FMBT-CRC had the best performance for early-stage CRC detection with sensitivities of 71%-85% and specificities of 88%-90%. Despite being tested in a small cohort, the Coloscape assay was the only assay to reach sufficient AA detection with 59% sensitivity and 92% specificity. None of the reviewed ctDNA assays demonstrated sufficient sensitivities for both AA and early-stage CRC detection to be considered future screening tools. Screening tools based on ctDNA assays have not proved superior to fecal-based immunochemical test (FIT) yet. Future studies need to test ctDNA screening tools in large, prospective, asymptomatic cohorts emphasizing AA, and early-stage CRC.",
+      "journal": "Int J Cancer",
+      "pub_date": "2026-Apr-27",
+      "doi": "10.1002/ijc.70498",
+      "authors": [
+        "Kahn CL",
+        "Rasmussen MW",
+        "Kleif J"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "40939056",
+      "title": "Next-Generation Noninvasive Colorectal Cancer Screening.",
+      "abstract": "Noninvasive tests for colorectal cancer (CRC) screening in average-risk individuals continue to evolve, with the premise of increasing screening participation among eligible individuals. In addition to fecal immunochemical testing (FIT), which has become the noninvasive standard for which to improve sensitivity for detecting CRC and specificity for detecting the absence of CRC, new US Food and Drug Administration-approved tests include the detection of DNA in a next-generation multitarget stool DNA test, the detection of RNA in a multitarget stool RNA test, and blood tests that detect cell-free DNA for genomic alterations, fragmentations, and aberrant methylation, all of which have undergone large clinical trials for effectiveness. Each of these new tests improves upon the CRC sensitivity of FIT but not its specificity. Test sensitivity for CRC detection in persons <50 years of age is comparable to that in persons >50 years. Fecal tests with direct sampling of stool have improved sensitivity for advanced adenomas compared to FIT, but advanced adenoma sensitivity is regressed in blood tests compared to FIT. With about a third of the screening-eligible population not actively screened in the United States, the expansion of the screening-eligible population to include those >45 years of age, the disparity in some populations with lower-than-average screening rates, and the limited colonoscopy screening opportunities due to choice, schedule, availability, or pandemic interruption, these noninvasive tests may fill the gap and rectify CRC screening shortcomings and barriers that colonoscopy alone cannot fill.",
+      "journal": "Annu Rev Med",
+      "pub_date": "2026-Jan",
+      "doi": "10.1146/annurev-med-043024-032619",
+      "authors": [
+        "Carethers JM",
+        "May FP"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ]
+    }
+  ]
+}

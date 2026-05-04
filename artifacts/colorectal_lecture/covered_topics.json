@@ -100,5 +100,11 @@
     "topic_ja": "大腸癌肺転移の外科切除・局所療法適応と予後因子：エビデンスの現在地",
     "domain": "oligometastatic CRC（肝転移・肺転移）",
     "rationale": "肝転移は直近で複数回扱ったが、肺転移の局所療法選択と予後因子は未カバーで臨床ニーズが高い"
+  },
+  {
+    "date": "2026-05-04T22:10:35.951180+00:00",
+    "topic_ja": "大腸癌スクリーニングにおけるctDNA検査の位置づけ：FIT・内視鏡との比較と実装課題",
+    "domain": "CRC screening戦略(FIT, colonoscopy, ctDNA test)",
+    "rationale": "ECLIPSE試験(2024 NEJM)で注目度急上昇、FITとの比較議論が臨床的に急務"
   }
 ]
