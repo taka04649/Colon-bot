@@ -1,0 +1,1146 @@
+{
+  "generated_at": "2026-05-04T23:01:49.093074+00:00",
+  "period": "2026/04/27 – 2026/05/04",
+  "overview": "# 今週の大腸分野トレンド総括\n\n## MSS直腸癌への免疫療法突破口と臓器温存戦略の加速\n\n今週最大の注目は、免疫療法が効かないとされてきたMSS/pMMR局所進行直腸癌に対し、TNT＋シンチリマブ＋IL-2でpCR率42%超を達成した第II相試験である(Eur J Cancer, PMID 42071008)。一方、dMMR/MSI-H CRCでは術前ICI後のcCR例でW&W戦略が手術と同等の予後を示し(PMID 42069618)、「臓器温存」潮流はいよいよ実臨床へ浸透しつつある。患者選好を定量化したDCE研究(PMID 41795535)も、shared decision makingの必要性を裏付ける。\n\n## AI内視鏡の実力と限界\n\n48 RCT・3.4万例のネットワークメタ解析でEndoAngelが最高ADR改善効果(OR 1.84)を示したが、進行腺腫・鋸歯状病変への効果は不明確であり、システム間差も小さい(PMID 42066011)。ESD後電気凝固症候群の予測スコア(AUC 0.921)も実臨床に直結する(PMID 42069995)。\n\n## 腸内細菌・真菌叢と発癌機序の新展開\n\n*Parvimonas micra*→フェニル乳酸→AHR軸によるDNA損傷という新規発癌経路が動物実験で実証され(PMID 42071227)、腸内真菌叢レビュー(PMID 42069629)とともに微生物叢研究の裾野が広がる。\n\n## 化学療法・外科\n\nFOLFIRI＋ラムシルマブがFOLFOXIRI＋RAMに対し有効性・安全性で非劣性以上の結果を示し(PMID 41880871)、直腸切除後早期退院の安全性も全国データで確認された(PMID 42081497)。\n\n(Eur J Cancer, PMID 42071008 / PMID 41880871 / PMID 41795535; Eur J Gastroenterol Hepatol, PMID 42066011; Clin Transl Med, PMID 42071227; Int J Colorectal Dis, PMID 42069995; World J Surg Oncol, PMID 42069618)",
+  "papers": [
+    {
+      "pmid": "42069995",
+      "title": "Development and validation of a predictive scoring model for post-ESD coagulation syndrome in elderly with colorectal LSTs.",
+      "abstract": "BACKGROUND: Post-endoscopic submucosal dissection (ESD) electrocoagulation syndrome (PEECS) is a known complication in colorectal laterally spreading tumors (LSTs), but its risk factors in elderly patients remain unclear. This study aimed to develop and validate a risk-stratification scoring system for PEECS in elderly ESD patients.\nMETHODS: A multicenter retrospective study (2020-2025) enrolled 506 elderly patients with colorectal LSTs undergoing ESD, randomly allocated to training (TC, n = 354) and validation (VC, n = 152) cohorts (7:3). Synthetic minority over-sampling technique (SMOTE) was used in the TC to identify risk factors and construct a predictive model, which was validated in the VC.\nRESULTS: The incidence of post-ESD PEECS was 8.1% (41 cases). After applying the SMOTE, multivariate analysis identified sex, lesion with fibrosis, and intraoperative bleeding as independent risk factors. The scoring system assigned: 1 point for female sex, 3 points for lesion with fibrosis, and 2 points for intraoperative bleeding. In the VC, the model demonstrated an area under the curve (AUC) of 0.921, with a specificity of 0.949 and an accuracy of 0.908. Following risk stratification, the low-risk group (0-4 points) showed a PEECS incidence of 10.1% in the TC and 5.1% in the VC, while the high-risk group (5-6 points) exhibited 94.5% in the TC and 53.3% in the VC.\nCONCLUSION: In elderly patients with colorectal LSTs undergoing ESD, female sex, fibrotic lesions, and intraoperative bleeding were identified as independent predictors of PEECS. The proposed scoring system demonstrated good discriminatory ability in both cohorts and may be useful for risk stratification in this population.",
+      "journal": "Int J Colorectal Dis",
+      "pub_date": "2026-May-02",
+      "doi": "10.1007/s00384-026-05141-7",
+      "authors": [
+        "Zhang Q",
+        "Zang F",
+        "He B"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【後ろ向き多施設RCT】高齢者大腸LST ESD後電気凝固症候群(PEECS)の予測スコアモデル開発・検証(506例)\nPEECS発生率8.1%。女性(1点)・線維化(3点)・術中出血(2点)が独立予測因子。検証コホートAUC=0.921、特異度0.949、高リスク群(5-6点)でPEECS発生率53.3%\n高齢者ESD後PEECSの初の定量的リスク層別化ツールとして術後管理強化の根拠となりうる",
+      "importance": 3,
+      "category": "endoscopy_ESD_EMR"
+    },
+    {
+      "pmid": "42069945",
+      "title": "Development and external validation of an interpretable multimodal deep learning model for 5-year mortality in high-risk stage ii colorectal cancer.",
+      "abstract": "PURPOSE: High-risk stage II colorectal cancer (CRC) shows heterogeneous outcomes despite adjuvant chemotherapy. We developed and validated an interpretable multimodal deep learning model integrating clinical data, serum biomarkers, and venous-phase CT to predict 5-year CRC-specific mortality in high-risk stage II CRC.\nMETHODS: This retrospective, multicenter cohort included 778 high-risk stage II CRC patients from three centers, all treated with adjuvant chemotherapy and with complete preoperative clinical, biomarker, and venous-phase CT data. Patients were split into a development cohort (Centers A + B, n = 720) and an external testing cohort (Center C, n = 58). A multimodal model combining numerical (clinical + biomarker) and imaging (CT) inputs was developed and internally validated using tenfold cross-validation in the development cohort and evaluated in the external cohort. Interpretability was assessed using SHAP and Grad-CAM.\nRESULTS: In the development cohort, the multimodal model showed superior discrimination (AUC 0.89; 95% CI, 0.87-0.91) versus numerical-only (AUC 0.76) and imaging-only (AUC 0.69). In the external testing cohort (9/58 CRC-specific deaths), the multimodal model achieved an AUC of 0.88 (95% CI, 0.76-0.96). SHAP and Grad-CAM consistently highlighted age, CA125, and tumor regions on CT as key contributors.\nCONCLUSION: This interpretable multimodal approach, using routine clinical, biomarker, and CT data, improves 5-year mortality risk stratification in high-risk stage II CRC and may inform risk-adapted surveillance and clinical decision support; prospective validation is warranted before treatment modification.",
+      "journal": "Int J Colorectal Dis",
+      "pub_date": "2026-May-02",
+      "doi": "10.1007/s00384-026-05132-8",
+      "authors": [
+        "Li X",
+        "Liang L",
+        "Liu ZH"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【後ろ向き多施設コホート】高リスクStage II大腸癌778例で5年CRC特異的死亡を予測するマルチモーダル深層学習モデルを開発・外部検証\n開発コホートAUC 0.89(95%CI 0.87-0.91)、外部検証コホートAUC 0.88(95%CI 0.76-0.96)。数値単独AUC 0.76・画像単独AUC 0.69を上回る。SHAP/Grad-CAMで年齢・CA125・CT腫瘍領域が主要寄与因子\n術前ルーチンデータのみで高精度な予後層別化が可能となり、リスク適応型サーベイランス支援に応用できる可能性",
+      "importance": 3,
+      "category": "CRC_treatment"
+    },
+    {
+      "pmid": "42069629",
+      "title": "Fungi and colorectal cancer: from dysregulation to clinical translation.",
+      "abstract": "Research on the gut microbiota has primarily focused on bacterial communities. However, the role of fungi-the second-largest eukaryotic component of the gut microbiome-in the development and progression of colorectal cancer (CRC) has been less extensively studied compared to bacteria. Recent studies have revealed significant fungal dysbiosis in the intestines of CRC patients, where the enrichment of specific pathogenic fungi (e.g., Aspergillus spp.) is closely associated with tumor progression, while the reduction of certain commensal fungi may weaken their protective effects. This fungal imbalance not only directly promotes tumorigenesis through carcinogenic mechanisms but also indirectly accelerates CRC progression by reshaping the bacteria-fungi interaction network and the host immune microenvironment. This article reviews the structural alterations of fungal communities in CRC, the changing patterns of specific fungal species, the relationship between fungal dysbiosis and clinicopathological features, the potential molecular mechanisms of fungi in CRC pathogenesis, the significance of cross-kingdom microbial interactions, as well as the potential diagnostic and therapeutic applications of fungi in CRC and the challenges and prospects of novel fungal-modulating therapeutic strategies.",
+      "journal": "Gut Pathog",
+      "pub_date": "2026-May-02",
+      "doi": "10.1186/s13099-026-00835-3",
+      "authors": [
+        "Yinhang W",
+        "Shuwen H",
+        "Jing Z"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "summary_ja": "【レビュー】CRC患者の腸内真菌叢異常と発癌・免疫・診断・治療への関与を包括的に概説\nAspergillus属等の病原性真菌の増加と共生真菌の減少がCRC進行と関連；細菌-真菌相互作用網および免疫微小環境の再編が発癌を促進\n腸内真菌叢をCRCバイオマーカーおよび治療標的とする新たな視点を提示",
+      "importance": 3,
+      "category": "pathology_molecular"
+    },
+    {
+      "pmid": "42071007",
+      "title": "Ubiquitination of DDX21 by HERC2 induces a dormancy-like phenotype via the NUCKS1-p21/p27 axis to promote radio-resistance in colorectal cancer cells.",
+      "abstract": "Cellular dormancy in colorectal cancer (CRC) significantly contributes to therapeutic resistance, tumor recurrence, and metastasis, resulting in poor prognosis. However, the underlying molecular mechanisms remain poorly understood. Here, we used spheroid culture combined with serum deprivation to enrich and identify dormancy-like CRC cells in vitro and characterized their dormancy-like phenotype by G0/G1 phase arrest, suppressed proliferation and radio-resistance. Compared to proliferative cells, dormancy-like CRC cells maintained similar tumor formation capacity but displayed higher PD-L1 expression level and enhanced migratory ability, indicating greater aggressiveness. Proteomics analysis revealed DDX21 was significantly downregulated in dormancy-like CRC cells, and analysis of clinical data showed an inverse correlation between DDX21 and PD-L1 in CRC patients. This is consistent with the findings that knocking down DDX21 markedly increased PD-L1 levels, suggesting a role for DDX21 in immune evasion. Importantly, overexpressing DDX21 reversed the radio-resistance of dormancy-like CRC cells. Mechanistically, DDX21 downregulation induced a dormancy-like phenotype via p38MAPK activation and AKT suppression to inhibit cellular growth. Furthermore, DDX21 bound to the NUCKS1 promoter, and its downregulation reduced NUCKS1 transcription, leading to elevated p27/p21 levels, which reinforced G0/G1 arrest. We also identified HERC2 as the E3 ligase mediating DDX21 degradation via K48/K63-linked polyubiquitination, dependent on the DDX21 helicase core domain. In conclusion, our findings establish DDX21 as a crucial regulator of dormancy-like phenotype in colorectal cancer cells and highlight its potential as a biomarker for dormancy-like tumor populations, radioresistance and poor clinical outcomes in CRC.",
+      "journal": "Cell Death Dis",
+      "pub_date": "2026-May-03",
+      "doi": "10.1038/s41419-026-08811-0",
+      "authors": [
+        "Xiao Y",
+        "He M",
+        "Yao H"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【基礎研究】大腸癌細胞の休眠様表現型におけるDDX21-HERC2軸の役割を解析\nHERC2によるK48/K63ユビキチン化でDDX21が分解→NUCKS1転写抑制→p21/p27上昇→G0/G1停止・放射線抵抗性・PD-L1高発現を誘導\nDDX21が大腸癌休眠・放射線抵抗性の新規バイオマーカー候補となり得る",
+      "importance": 3,
+      "category": "basic_science"
+    },
+    {
+      "pmid": "42071001",
+      "title": "SEL1L3 suppresses colorectal cancer cell growth and metastasis by preventing endoplasmic reticulum-associated degradation of STING.",
+      "abstract": "Endoplasmic reticulum associated degradation (ERAD) plays pivotal role in protein homeostasis and quality control in normal and cancer cells, yet the regulatory mechanism of ERAD remains elusive, especially regarding its ubiquitination function mediated by hydroxymethylglutaryl reductase degradation protein 1 (HRD1). Here, we report that Sel-1 Suppressor of Lin-12-Like 3 (SEL1L3) protein resided on the ER membrane can effectively prevent HRD1-mediated ERAD process via dual mechanisms: SEL1L3 disrupts SEL1L-HRD1 complex by mutually exclusively interacting with SEL1L and HRD1 respectively, resulting in concomitant prevention of substrate degradation; on the other hand, SEL1L3 can accelerate HRD1 protein degradation. Biologically, SEL1L3 inhibits colorectal cancer (CRC) cell growth and migration, which counteracts the oncogenic activity of HRD1; moreover, we identify STING as a HRD1 substrate and a critical downstream effector mediating tumor suppression activity of SEL1L3. Collectively, these data demonstrate that SEL1L3 is a critical regulator of ERAD and exerts a potent tumor-suppressing function, and that the SEL1L3/HRD1/STING axis plays a crucial role in CRC growth and migration.",
+      "journal": "Cell Death Dis",
+      "pub_date": "2026-May-03",
+      "doi": "10.1038/s41419-026-08770-6",
+      "authors": [
+        "Zhang H",
+        "Qian W",
+        "Li M"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【基礎研究】大腸癌細胞株を用いSEL1L3によるERAD制御とCRC増殖・転移抑制機序を解析\nSEL1L3はSEL1L-HRD1複合体を解離しHRD1分解を促進することでSTINGのERAD分解を防ぎ、CRC細胞増殖・遊走を抑制するSEL1L3/HRD1/STING軸を同定\nHRD1基質としてSTINGを新規同定し、ERAD経路がCRC免疫回避に関与する新機序を提示",
+      "importance": 3,
+      "category": "basic_science"
+    },
+    {
+      "pmid": "42081497",
+      "title": "Association of early discharge and clinical outcomes following proctectomy for patients with rectal cancer: A NRD analysis.",
+      "abstract": "BACKGROUND: Adoption of enhanced recovery pathways in proctectomy has gained attention due to its potential to reduce resource utilization and optimize recovery. Using a nationally representative cohort, we examined the association between early discharge (within 3 days) and 30-day readmissions, perioperative complications, and hospitalization costs.\nMETHODS: Adult (≥18 years) patients with rectal cancer undergoing proctectomy were identified using the 2016-2021 Nationwide Readmissions Database. Patients were classified as Early if they were discharged within 3 days of proctectomy and otherwise were classified as Routine. Multivariable regression models were developed to assess associations between early discharge and 30-day outcomes, as well as associated readmission, costs, and mortality. Entropy balancing was employed to obtain a weighted comparison to adjust for intergroup differences.\nRESULTS: Of an estimated 39,505 patients, 25.8% were discharged early. Early was younger (59 [51-68] vs 62 years [53-71], p < 0.001), had lower comorbidity burden (2 [1 -3] vs. 3 [2 -4] unit, p < 0.001), and more frequently received laparoscopic proctectomy (60.9 vs. 39.0%, p < 0.001). Following entropy balancing, early discharge was associated with lower readmission rates (adjusted odds ratio [AOR], 0.77; 95% confidence interval [CI], 0.69-0.86) and decreased cumulative hospitalization costs (β: - $6.2K; 95% CI, - 8.6k to -3.7k). Mortality at readmission was similar between the two groups (AOR, 0.69; 95% CI, 0.33-1.45).\nCONCLUSIONS: Early discharge after proctectomy is feasible for rectal cancer patients when clinically appropriate and is associated with reduced readmissions and hospitalization costs without compromising patient safety compared to routine. Broader implementation of early discharge protocols may optimize outcomes for rectal cancer patients undergoing proctectomy.",
+      "journal": "PLoS One",
+      "pub_date": "2026",
+      "doi": "10.1371/journal.pone.0348125",
+      "authors": [
+        "Cherif A",
+        "Coaston TN",
+        "Justo M"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【後ろ向きコホート】直腸癌切除術患者39,505例で早期退院(3日以内)と30日アウトカムの関連を検討\n早期退院群(25.8%)は再入院率低下(AOR 0.77, 95%CI 0.69-0.86)・入院費用削減(−$6,200)、再入院時死亡率は同等(AOR 0.69, 95%CI 0.33-1.45)\n直腸切除後の早期退院プロトコルが安全性を損なわず医療資源を最適化できる全国規模の根拠",
+      "importance": 3,
+      "category": "surgery"
+    },
+    {
+      "pmid": "42078321",
+      "title": "Value of Carcinoembryonic Antigen Levels After Chemoradiotherapy for Advanced Low Rectal Cancer.",
+      "abstract": "BACKGROUND/AIM: Preoperative chemoradiotherapy (CRT) followed by total mesorectal excision is the standard treatment for advanced low rectal cancer; however, long-term oncological outcomes vary widely, and reliable prognostic biomarkers remain limited. Carcinoembryonic antigen (CEA) is commonly used in colorectal cancer management, but the prognostic value of post-CRT CEA levels has not been fully clarified. This study aimed to identify clinically relevant prognostic factors for recurrence and survival, with particular focus on pre- and post-CRT CEA levels.\nPATIENTS AND METHODS: A retrospective review was conducted of 41 consecutive patients with advanced low rectal cancer (Rb, cT3/4 or N1/2 and no lateral lymph node metastasis) who underwent long-course preoperative CRT followed by radical surgery. CRT consisted of 45 Gy in 25 fractions with concurrent tegafur/uracil, followed by total mesorectal excision 8-10 weeks after CRT completion. Clinicopathological factors were analyzed in relation to recurrence, disease-free survival (DFS), and overall survival (OS).\nRESULTS: With a median follow-up of 69.3 months, recurrence occurred in 16 patients. Five-year DFS and OS rates were 59.4% and 73.2%, respectively. Univariate analysis identified postoperative complications, pathological complete response, and pre- and post-CRT CEA levels as significant factors associated with recurrence. Multivariate analysis demonstrated that post-CRT CEA was the only independent prognostic factor. Receiver operating characteristic analysis identified a post-CRT CEA cut-off value of 3.9 ng/ml. Patients with lower post-CRT CEA showed significantly better DFS and OS.\nCONCLUSION: Post-CRT CEA is a valuable prognostic biomarker for recurrence and survival in advanced low rectal cancer, and patients with elevated post-CRT CEA may benefit from additional consolidation chemotherapy.",
+      "journal": "Cancer Diagn Progn",
+      "pub_date": "2026",
+      "doi": "10.21873/cdp.10551",
+      "authors": [
+        "Tsuruta A",
+        "Yoshimatsu K",
+        "Ueno T"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【後ろ向き研究】進行下部直腸癌41例でCRT後CEAの予後因子としての価値を検討\n多変量解析でCRT後CEAのみが独立予後因子(カットオフ3.9 ng/ml)。低値群で5年DFS・OSが有意に良好(DFS 59.4%、OS 73.2%)\nCRT後CEA高値例への追加consolidation化学療法の適応選択に応用可能",
+      "importance": 2,
+      "category": "CRC_treatment"
+    },
+    {
+      "pmid": "42078307",
+      "title": "The Relationship Between Vascular Endothelial Growth Factor Expression in T Cell Subsets and Survival of Patients With Colorectal Cancer.",
+      "abstract": "BACKGROUND/AIM: Angiogenesis and immune modulation are integral to colorectal cancer (CRC) progression. Vascular endothelial growth factor receptor (VEGFR) is expressed not only on endothelial cells but also on lymphocytes, where it may modulates immune activity. However, its distribution on peripheral T-cell subsets and prognostic relevance in CRC remain poorly understood.\nMATERIALS AND METHODS: We prospectively analyzed 52 histologically confirmed patients with CRC and 30 healthy controls. VEGFR2 expression on T-cell subsets [Th1, Th2, Th17, and cytotoxic T lymphocytes (CTLs)] was quantified using flow cytometry. Associations between VEGFR expression and overall survival (OS) were examined using median fluorescence intensity (MFI) and percentage values.\nRESULTS: VEGFR expression was significantly elevated in lymphocytes and Th1 cells of patients with CRC compared with controls. Th1 levels were increased, particularly in advanced-stage disease (p=0.01). VEGFR expression in Th1, Th2, and CD8⁺ CTLs was higher than that in controls (p=0.04, p=0.03, and p<0.001, respectively). Early-stage patients exhibited greater VEGFR expression in Th1 and Th17 subsets than both advanced-stage and control groups (p=0.01 and p=0.04). Patients with Th1 ≤14.7% had longer median OS (43.4 vs. 21.7 months, p=0.002), whereas higher Th9 (>10.7%) and Th17 (>11.2%) levels predicted better survival (p=0.001 and p=0.027). Lower VEGFR expression in Th1 (≤212 MFI), Th2 (≤268 MFI) and Th17 (≤285 MFI) subsets correlated with shorter OS (p=0.018, p=0.031, and p=0.031, respectively), indicating that VEGFR over-expression within these subsets may be associated with favorable prognosis.\nCONCLUSION: VEGFR expression on peripheral T-cell subsets correlates with survival in CRC, suggesting its potential role as a prognostic and immunoregulatory biomarker.",
+      "journal": "Cancer Diagn Progn",
+      "pub_date": "2026",
+      "doi": "10.21873/cdp.10548",
+      "authors": [
+        "Artaç M",
+        "Ceylan A",
+        "Yildiz O"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【前向き観察研究】CRC患者52例と健常対照30例でT細胞サブセットのVEGFR2発現とOSを検討\nTh1≤14.7%でOS延長(43.4 vs 21.7ヶ月, p=0.002)；Th1/Th2/Th17のVEGFR高発現(MFI高値)が良好OS予測(各p<0.05)\n末梢T細胞サブセットのVEGFR発現が予後バイオマーカーとなり得る新視点だが小規模で検証要",
+      "importance": 2,
+      "category": "pathology_molecular"
+    },
+    {
+      "pmid": "42078306",
+      "title": "The Combination of Methionine Adenosyltransferase 2A (MAT2A) Inhibitor AG-270 and Recombinant Methioninase Is Not Cancer-selective in a Co-culture Model of Colon Cancer Cells and Normal Fibroblasts.",
+      "abstract": "BACKGROUND/AIM: Methionine addiction is a fundamental and general hallmark of cancer cells. Recombinant methioninase (rMETase) degrades extracellular methionine. rMETase, or other means of restricting methionine, in combination with numerous types of chemotherapy have shown synergistic cancer-selective efficacy. AG-270, a methionine adenosyltransferase 2A (MAT2A) inhibitor, blocks intracellular conversion of methionine to S-adenosylmethionine (SAM), the central reaction of the methionine cycle. The present study aimed to evaluate the synergistic and cancer-selective efficacy of the combination of AG-270 and rMETase in a co-culture model of cancer and normal cells.\nMATERIALS AND METHODS: HCT116 human colon-cancer cells expressing green fluorescent protein (GFP) and human Hs-27 normal fibroblasts were co-cultured in Dulbecco's Modified Eagle's Medium (DMEM) with 10% fetal bovine serum in 12-well plates. Co-cultures were treated with AG-270 (6 μM and 10 µM) and rMETase (0.3 U/ml and 0.5 U/ml) alone or in combination. Cell growth and viability were assessed by phase-contrast microscopy and fluorescence  imaging over 6 days.\nRESULTS: Treatment with AG-270 or rMETase alone inhibited HCT116 colon-cancer cell viability in a dose-dependent manner, whereas Hs-27 normal fibroblasts remained viable on day 6 in co-culture. In contrast, the combination of AG-270 and rMETase produced a strong, synergistic reduction of the viability of both HCT116 and Hs-27 cells, accompanied by extensive morphological damage, in co-culture. GFP-expressing HCT116 colon-cancer cells were nearly eradicated by the combination treatment, as visualized by fluorescence imaging on day 6 in co-culture with Hs-27 fibroblasts.\nCONCLUSION: Dual inhibition of methionine metabolism by AG-270 and rMETase was toxic to both cancer cells and normal fibroblasts in a co-culture model which is internally controlled. In contrast, rMETase combined with numerous first-line chemotherapeutic drugs acted selectively and synergistically against cancer cells while sparing normal cells, including co-culture models. The present results suggest that AG-270 may have limited potential as an anticancer agent.",
+      "journal": "Cancer Diagn Progn",
+      "pub_date": "2026",
+      "doi": "10.21873/cdp.10559",
+      "authors": [
+        "Kim J",
+        "Han Q",
+        "Li S"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【基礎研究】HCT116大腸癌細胞とHs-27正常線維芽細胞の共培養モデルでAG-270+rMETase併用の癌選択性を評価\nAG-270単独・rMETase単独は癌細胞選択的に抑制したが、併用では正常線維芽細胞も著明に障害され癌選択性は消失。HCT116はday6でほぼ消滅\nMAT2A阻害薬AG-270はrMETaseとの併用で正常細胞毒性を示し、抗癌剤としての有用性に疑問",
+      "importance": 2,
+      "category": "basic_science"
+    },
+    {
+      "pmid": "42048609",
+      "title": "NOS1 hypermethylation may participate in the colorectal cancer development and be associated with its prognosis.",
+      "abstract": "Colorectal cancer (CRC) is a leading cause of cancer-related deaths worldwide. Although epigenetic alterations are common in CRC, the epigenetic changes that occur during colorectal carcinogenesis remain unclear. Thus, we sought to elucidate the role of NOS1 methylation in colorectal carcinogenesis, which is essential for understanding disease pathology. We used the UCSC Xena database to comparatively analyze NOS1 expression and methylation status between tumour and adjacent normal tissues across 33 cancer types. Low expression and hypermethylation of NOS1 have been identified in 12 cancer types, with CRC demonstrating this characteristic epigenetic regulation. NOS1 promoter methylation status was examined using genomic DNA extraction and MassARRAY EpiTYPER methylation analysis. NOS1 hypermethylation was confirmed among CRCs in in-house dataset 1 (p < 0.001), and among CRCs and advanced adenomas in in-house dataset 2 (p < 0.001). An upward trend in methylation changes was identified from non-advanced adenoma to advanced adenoma to CRC (p for trend < 0.001). Quantitative real-time PCR was used to analyze NOS1 expression in in-house Dataset 3, and significantly low NOS1 expression was also identified in CRCs (p < 0.001). Kaplan-Meier estimator and Cox proportional hazard models were used to assess the prognostic and predictive roles of NOS1. NOS1 hypermethylation was significantly associated with better disease-specific survival (DSS) in CRC patients. NOS1 hypermethylation is an epigenetic driver of colorectal tumorigenesis and is associated with better survival.",
+      "journal": "Epigenetics",
+      "pub_date": "2026-Dec",
+      "doi": "10.1080/15592294.2026.2660022",
+      "authors": [
+        "Zhang Z",
+        "Yeerken A",
+        "Shao X"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【後ろ向き観察研究】CRC・腺腫患者でNOS1プロモーターメチル化と発現・予後を解析\n非進行腺腫→進行腺腫→CRCの順にNOS1過メチル化が段階的増加(trend p<0.001)、CRCでNOS1過メチル化は良好な疾患特異的生存と有意に関連\nNOS1過メチル化が大腸発癌の早期エピジェネティックドライバーかつ予後マーカーとなりうる新知見",
+      "importance": 3,
+      "category": "pathology_molecular"
+    },
+    {
+      "pmid": "42037577",
+      "title": "Comparison of Functional Outcomes Between Robotic and Laparoscopic Surgery in Rectal Cancer Patients: Systematic Review and Meta-Analysis.",
+      "abstract": "BACKGROUND: Robotic and laparoscopic approaches are widely used for rectal cancer surgery. Although robotic systems provide enhanced visualization and dexterity, it remains unclear whether these advantages improve postoperative urinary and sexual function.\nMETHODS: MEDLINE, Embase, Web of Science, and CENTRAL (2000-2025) were searched for studies comparing robotic and laparoscopic rectal cancer surgery. Outcomes included postoperative ileus, urinary retention, and urinary and sexual function. Random-effects meta-analysis was performed using RevMan. Study quality was assessed with MINORS, and certainty of evidence with GRADE. Publication bias was evaluated using funnel plots and Egger's test.\nRESULTS: Forty-four observational studies (6,121 patients) were included. Robotic surgery was associated with lower urinary retention, though this may reflect publication bias. No significant difference was found in postoperative ileus. Subgroup analyses at 3, 6, and 12 months showed no significant differences in urinary or sexual function. Although pooled results slightly favored robotic surgery, these effects were inconsistent, not sustained, and clinically modest.\nCONCLUSION: Robotic surgery may reduce urinary retention but shows no consistent functional superiority over laparoscopy. Outcomes at key follow-up points are comparable. As all studies were observational, evidence certainty is low, and findings should be interpreted cautiously.",
+      "journal": "J Invest Surg",
+      "pub_date": "2026-Dec",
+      "doi": "10.1080/08941939.2026.2652787",
+      "authors": [
+        "Wang Y",
+        "Wang W",
+        "Du Y"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Systematic Review",
+        "Meta-Analysis",
+        "Comparative Study"
+      ],
+      "summary_ja": "【SR/MA】直腸癌手術におけるロボット vs 腹腔鏡の術後機能的アウトカム比較（44観察研究・6,121例）\nロボット群で尿閉リスク低下の傾向あり（出版バイアスの可能性）。術後腸閉塞・排尿機能・性機能（3/6/12ヶ月）に有意差なし。GRADEエビデンス確実性は低\nロボット手術の機能的優位性は現時点で確立されず、観察研究のみで解釈に限界",
+      "importance": 3,
+      "category": "surgery"
+    },
+    {
+      "pmid": "42079394",
+      "title": "Metformin for preventing esophageal stricture after circumferential endoscopic submucosal dissection in a canine model.",
+      "abstract": "BACKGROUND: Esophageal stricture frequently occur after extensive endoscopic submucosal dissection (ESD). Effective, safe, and straightforward prevention and treatment methods are lacking. This preclinical animal study evaluated the efficacy of metformin in preventing esophageal stricture following ESD using a dog model.\nMETHODS: Ten Beagle dogs were randomly divided into the metformin and control groups. Circumferential esophageal ESD was performed 30-33 cm from the incisors. The metformin group received 100 mg/kg/day metformin from the second postoperative day, while the control group received physiological saline by gavage. After 4 weeks, the Beagles were euthanized, and esophageal tissues were collected for macroscopic and pathological evaluations.\nRESULTS: Four weeks post-ESD, the modified dysphagia scores in the metformin group were lower than the control [1 (1, 2) vs 3 (3, 4), P = 0.041, Cliff's D = -0.80 (-0.97 to -0.14)]. Macroscopic examination showed that the stricture rate in the metformin group was lower than the control [38.60% (32.50%, 44.30%) vs 53.90% (52.30%, 62.00%), P = 0.056, Cliff's D = -0.76 (-0.97 to 0.09)]. Hematoxylin and eosin staining revealed that the re-epithelialization rate in the metformin group was higher than the control [88.30% (85.60%, 90.10%) vs 20.60% (11.20%, 27.40%), P = 0.008, Cliff's D = 1.00 (0.82-1.00)]. Masson's trichrome staining indicated that the submucosal fibrosis in the metformin group was thin and orderly, with a maximum thickness of 863.00 (786.00, 932.00) μm, whereas the control group exhibited disordered fibrosis with a maximum thickness of 1,275.00 (1,266.00, 1,340.00) μm [P = 0.008, Cliff's D = -1.00 (-1.00 to -0.82)].\nCONCLUSION: Metformin effectively promoted esophageal wound re-epithelialization after ESD, reduced submucosal fibrosis, and showed a trend toward alleviating esophageal stricture.",
+      "journal": "Gastroenterol Rep (Oxf)",
+      "pub_date": "2026-Feb",
+      "doi": "10.1093/gastro/goag040",
+      "authors": [
+        "Yang L",
+        "Xu B",
+        "Fan C"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【前臨床動物実験】イヌ全周ESD後狭窄予防におけるメトホルミン経口投与の有効性評価\nメトホルミン群で再上皮化率88.3% vs 対照20.6%(p=0.008)、粘膜下線維化厚863μm vs 1275μm(p=0.008)、狭窄率38.6% vs 53.9%(p=0.056)\n既存の局注・ステロイドに代わる経口薬による狭窄予防の可能性を示すが、臨床応用には更なる検証が必要",
+      "importance": 2,
+      "category": "endoscopy_ESD_EMR"
+    },
+    {
+      "pmid": "42066237",
+      "title": "Immunotherapy in Localized Colorectal Cancer: Current Practice and Future Directions.",
+      "abstract": "Immune checkpoint inhibitors (ICIs) have fundamentally transformed the treatment landscape for localized colorectal cancer (CRC), particularly for the mismatch repair-deficient (dMMR) or microsatellite instability-high (MSI-H) subgroups. This review evaluates the current clinical evidence and evolving paradigms of immunotherapy in early-stage CRC. In localized MSI-H colon and rectal cancers, neoadjuvant immunotherapy has demonstrated unprecedented efficacy, yielding near-universal major pathologic responses and high rates of pathologic complete responses. For MSI-H rectal cancer, these deep and sustained clinical complete responses have established nonoperative management as a viable, organ-preserving standard of care for highly selected patients undergoing rigorous multidisciplinary surveillance. Despite these rapid advancements, critical questions remain regarding optimal regimen selection, treatment duration, and the integration of circulating tumor DNA (ctDNA) for molecular residual disease monitoring. Although ctDNA is a promising dynamic biomarker, it currently cannot replace definitive pathologic assessment outside of clinical trials. Furthermore, extending the benefits of immunotherapy to the majority of patients with microsatellite-stable (MSS) CRC represents a significant unmet clinical need. Current evidence for ICIs in localized MSS disease remains limited, although investigational combination strategies incorporating radiation, chemotherapy, and novel immune modulators are yielding hypothesis-generating signals. Future progress hinges on precision de-escalation protocols and biomarker-driven, response-adapted trial designs to validate surrogate end points and optimize patient outcomes across all localized CRC subtypes.",
+      "journal": "Am Soc Clin Oncol Educ Book",
+      "pub_date": "2026-Jun",
+      "doi": "10.1200/EDBK-26-520600",
+      "authors": [
+        "Wong EYT",
+        "Damle SR",
+        "Shiu KK"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "summary_ja": "【レビュー】局所CRCにおける免疫チェックポイント阻害薬(ICI)の現状と展望を評価\ndMMR/MSI-H局所CRCへの術前ICI療法でほぼ全例に主要病理学的奏効・高率の病理学的完全奏効を達成；直腸癌では非手術管理が選択肢に。MSS CRCへの拡張は未解決課題\nMSI-H直腸癌での臓器温存戦略確立とctDNAによる残存病変モニタリングの可能性・限界を整理",
+      "importance": 3,
+      "category": "CRC_treatment"
+    },
+    {
+      "pmid": "42066011",
+      "title": "Performance of artificial intelligence software: EndoAngel, EndoAID, CAD-EYE, GI Genius, and EndoScreener in adenoma detection: an extended network meta-analysis.",
+      "abstract": "BACKGROUND: Colorectal cancer is a major global health burden, with most cases arising from adenomatous polyps. Although colonoscopy is the gold standard for detection, its effectiveness is operator-dependent. Artificial intelligence-assisted systems have been developed to improve adenoma detection, but their comparative performance remains unclear.\nMETHODS: We performed a systematic review and Bayesian network meta-analysis of randomized controlled trials comparing artificial intelligence-assisted with standard colonoscopy. PubMed, Scopus, and Google Scholar were searched up to 4 November 2025. Eligible studies included adults undergoing colonoscopy and reporting adenoma detection rate (ADR) and adenomas per colonoscopy (APC). Secondary outcomes included withdrawal time and detection of advanced and sessile serrated lesions. Risk of bias was assessed using Cochrane RoB 2.0, and certainty of evidence was evaluated with CINeMA.\nRESULTS: A total of 48 randomized controlled trials (34 106 participants) were included. Artificial intelligence-assisted colonoscopy significantly improved ADR compared with standard colonoscopy. EndoAngel showed the greatest effect [odds ratio (OR): 1.84, surface under the cumulative ranking curve (SUCRA): 0.9], followed by EndoAID (OR: 1.64, SUCRA: 0.7), CAD-EYE (OR: 1.46, SUCRA: 0.5), and GI Genius (OR: 1.45, SUCRA: 0.5). For APC, EndoAID demonstrated the largest benefit (mean difference: 0.62). EndoAngel modestly increased withdrawal time (mean difference: 1.14 minutes). No system significantly improved detection of advanced or sessile serrated lesions. Heterogeneity was low, and certainty of evidence was moderate.\nCONCLUSION: Artificial intelligence-assisted colonoscopy improves adenoma detection; however, differences between systems are small, and benefits for high-risk lesions remain uncertain. Further head-to-head trials and cost-effectiveness studies are needed.",
+      "journal": "Eur J Gastroenterol Hepatol",
+      "pub_date": "2026-Jun-01",
+      "doi": "10.1097/MEG.0000000000003179",
+      "authors": [
+        "Rafi R",
+        "Yasmin N",
+        "Ghani M"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Systematic Review",
+        "Meta-Analysis"
+      ],
+      "summary_ja": "【ネットワークメタ解析】RCT48件(34,106例)でAI補助大腸内視鏡5システムのADR・APCを比較\n全AI系がADR改善。EndoAngelが最大効果(OR:1.84, SUCRA:0.9)、EndoAID(OR:1.64)、CAD-EYE(OR:1.46)、GI Genius(OR:1.45)。APC改善はEndoAIDが最大(MD:0.62)。進行腺腫・鋸歯状病変への有意な改善なし\nシステム間差は小さく、高リスク病変への効果は不明。直接比較試験と費用対効果研究が必要",
+      "importance": 4,
+      "category": "CRC_screening"
+    },
+    {
+      "pmid": "41604553",
+      "title": "Comparison of precut endoscopic mucosal resection and endoscopic submucosal dissection in the management of colorectal polyps: a systematic review and meta-analysis.",
+      "abstract": "BACKGROUND: Studies comparing precut endoscopic mucosal resection (EMR-P) and endoscopic submucosal dissection (ESD) for the management of colorectal polyps have reported conflicting results. In this meta-analysis, we have compared outcomes of EMR-P and ESD.\nMETHODS: Several databases were reviewed from inception to 15 December 2024 to identify studies comparing EMR-P and ESD for colorectal polyps. Our outcomes of interest were en bloc and complete histologic resection, procedure time, perforation, and bleeding. For the outcomes of en bloc and complete histologic resection, we performed subgroup analyses including greater than or equal to 20 mm polyps and 20-30 mm polyps. We calculated the pooled odds ratio (OR) with 95% confidence intervals (CIs) for categorical variables and mean difference with 95% CI for continuous variables.\nRESULTS: We included nine studies comprising 1460 patients. The rate of en bloc resection was significantly lower in the EMR-P group (OR: 0.15, 95% CI: 0.09-0.23). The rate of complete histologic resection was significantly lower in the EMR-P group (OR: 0.50, 95% CI: 0.26-0.94). There was no significant difference in rates of en bloc and complete histologic resection between groups for 20-30 mm polyps. Procedure time was significantly shorter in the EMR-P group (Mean difference [MD]: -29.05, 95% CI: -37.04 to -21.06). There was no significant difference in adverse events such as bleeding and perforation between groups.\nCONCLUSION: Our meta-analysis demonstrates the superiority of ESD over EMR-P in achieving higher rates of en bloc and complete resection for colorectal polyps without increasing the risk of adverse events except for 20-30 mm polyps, where the outcomes were comparable between groups.",
+      "journal": "Eur J Gastroenterol Hepatol",
+      "pub_date": "2026-Jun-01",
+      "doi": "10.1097/MEG.0000000000003143",
+      "authors": [
+        "Saeed A",
+        "Yousuf S",
+        "Zain A"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Systematic Review",
+        "Meta-Analysis",
+        "Comparative Study"
+      ],
+      "summary_ja": "【メタ解析】大腸ポリープに対するEMR-P vs ESD（9研究1460例）のen bloc切除率等を比較\nen bloc切除率はEMR-P群で有意に低く（OR 0.15, 95%CI 0.09-0.23）、完全組織学的切除率も低い（OR 0.50, 95%CI 0.26-0.94）。手技時間はEMR-P群で約29分短縮。20-30mm病変では両群間に有意差なし。穿孔・出血率は同等\n20mm以上の大腸ポリープではESDが優位だが、20-30mmではEMR-Pも選択肢となりうる",
+      "importance": 3,
+      "category": "endoscopy_ESD_EMR"
+    },
+    {
+      "pmid": "41524604",
+      "title": "Utility of colon capsule endoscopy in colorectal cancer and post-polypectomy surveillance.",
+      "abstract": "OBJECTIVES: Surveillance colonoscopy is recommended for follow up of colorectal cancer and polyps. It has, however, a low yield in this setting and presents a significant strain on endoscopy capacity. Colon capsule endoscopy (CCE) is an alternative diagnostic. We aimed to determine the utility of this test in surveillance patients.\nMETHODS: A retrospective analysis of a prospectively collated service evaluation data was conducted looking at all surveillance CCE patients in NHS Highland. The primary outcomes were the need for follow up endoscopy and capacity saved. Secondary outcomes included the CCE completion rate, and patient specific factors that contribute to an unsuccessful CCE or the need for a follow up endoscopy.\nRESULTS: One hundred forty-six patients underwent surveillance CCE between May 2023 and January 2025. Ninety-three (63.7%) required follow up endoscopy. Capacity saved was up to 35.2% of the time slots that would have otherwise been used if all had undergone colonoscopy. Opiate use was associated with CCE failure. Polyp, as opposed to cancer, surveillance and a history of multiple polyps on previous endoscopy were associated with increased follow up rate.\nCONCLUSION: CCE resulted in endoscopy capacity savings in this surveillance cohort, but it should be used selectively in view of the high follow up investigation rate. The benefit may be improved with careful patient selection and the exclusion of patients on opiates, tricyclic antidepresants, or who have a history of polyposis.",
+      "journal": "Eur J Gastroenterol Hepatol",
+      "pub_date": "2026-Jun-01",
+      "doi": "10.1097/MEG.0000000000003125",
+      "authors": [
+        "Ibrahim H",
+        "Dequaire J",
+        "Abdelwahed A"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【後ろ向き観察研究】サーベイランス目的でCCEを施行した146例、追加内視鏡不要率と内視鏡キャパシティ節減を評価\n追加内視鏡が不要だったのは36.3%、キャパシティ節減率は最大35.2%。オピオイド使用がCCE失敗と関連、ポリープ監視・多発ポリープ既往が追加内視鏡施行と関連\nCCEは選択的使用で有用だが、オピオイド・三環系抗うつ薬使用者やポリポーシス例は除外すべき",
+      "importance": 3,
+      "category": "CRC_screening"
+    },
+    {
+      "pmid": "42079406",
+      "title": "Fusobacterium nucleatum as a two-hit amplifier in colorectal cancer pathogenesis: intersection of local and systemic mechanisms via the gut-kidney axis.",
+      "abstract": "Colorectal cancer (CRC) is a complex malignancy driven by genetic, environmental, and lifestyle factors. A critical contributor to CRC tumor initiation and progression is gut microbial dysbiosis. Fusobacterium nucleatum, an oral commensal bacterium, is a potent promoter of malignancy rather than a passive colonizer. This review examines the molecular mechanisms by which F. nucleatum promotes CRC progression, focusing on one indirect systemic and three direct local mechanisms. First, the lipopolysaccharide-Toll-like receptor 4 axis sustains a chronic inflammatory loop that remodels the tumor microenvironment. Second, the fibroblast activation protein 2-T cell immunoglobulin and immunoreceptor tyrosine-based inhibitory motif domain interaction facilitates immune evasion by suppressing T cell and natural killer cell cytotoxic activity. Third, the Fusobacterium adhesin A-E-cadherin/Wnt pathway acts as a potent \"second hit,\" amplifying β-catenin signaling and driving proliferation in cells with pre-existing mutations in adenomatous polyposis coli. Beyond these local effects, this review highlights a novel indirect mechanism involving the gut-kidney axis. Specifically, F. nucleatum is hypothesized to contribute to systemic levels of indoxyl sulfate, a uremic toxin that reinforces a systemic feedback loop via pro-proliferative signaling. These synergistic mechanisms collectively remodel the tumor microenvironment by promoting immune suppression, chronic inflammation, and metabolic reprogramming. Within this framework, F. nucleatum collaborates with genetic lesions to accelerate disease progression. This framework provides a crucial foundation for developing innovative diagnostics and microbe-targeted therapies-such as phage therapy and vaccines-to substantially improve the prognosis of patients with CRC.",
+      "journal": "Fujita Med J",
+      "pub_date": "2026-May",
+      "doi": "10.20407/fmj.2025-042",
+      "authors": [
+        "Shimizu H"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【レビュー】F. nucleatumによるCRC促進の局所3機構＋腸腎軸を介した全身機構を統合的に考察\nLPS-TLR4炎症ループ・Fap2-TIGIT免疫回避・FadA-E-cadherin/Wnt「second hit」増幅・indoxyl sulfate産生による全身フィードバックの4機構を提示\n腸腎軸を介した尿毒素indoxyl sulfateとF. nucleatumの関連は新規仮説であり、ファージ療法・ワクチン開発の標的として提案",
+      "importance": 2,
+      "category": "basic_science"
+    },
+    {
+      "pmid": "42076788",
+      "title": "Burden and Forecast of Early-Onset Colorectal Cancer (1990-2038) in Five East Asian Populations: A Systematic Analysis Based on the GBD 2023 Study.",
+      "abstract": "BACKGROUND: Early-onset colorectal cancer (EO-CRC) is increasing globally with substantial regional variation. We assessed epidemiological changes in EO-CRC in five East Asian populations.\nMETHODS: Using GBD 2023 data, we calculated age-standardized incidence, prevalence, mortality, and DALY rates (ASIR, ASPR, ASMR, ASDR), counts, and average annual percent changes (AAPC). Decomposition, age-period-cohort (APC), and forecast analyses assessed trends and risk factor contributions to mortality.\nRESULTS: In 2023, these populations accounted for 25%-31% of global EO-CRC cases. China had the highest absolute burden, and Taiwan (Province of China) had the highest ASR. From 1990 to 2023, North Korea had the highest ASIR increase (AAPC = 1.34%), while South Korea's ASMR declined most (AAPC = -2.58%). Males had a higher burden than females. Decomposition analysis showed epidemiological changes increased incidence outside China but generally reduced mortality except in North Korea, with effects stronger for deaths than incidence. APC analysis revealed accelerated risk with age; period effects varied: North Korea showed the largest relative risk increase (RR 0.93 → 1.32), and China showed a post-2014 rebound. Projections to 2038 suggest continued rises in incidence and DALYs. Risk analysis identified low calcium intake as the main mortality driver in North Korea, and low milk, low whole grains, and high red meat intake in the other populations; high BMI and processed meat-related deaths also increased markedly.\nCONCLUSIONS: EO-CRC incidence is rising in East Asia, with China highest in absolute numbers and Taiwan in ASR; men are disproportionately affected. Burden and risk analyses reveal population-specific effects. Interventions should target diet, screening, and sex- and population-specific risk factors.",
+      "journal": "Cancer Med",
+      "pub_date": "2026-May",
+      "doi": "10.1002/cam4.71905",
+      "authors": [
+        "Jin L",
+        "Tang J",
+        "Meng C"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【GBD2023データ】東アジア5集団（中国・台湾・韓国・北朝鮮・日本）における若年発症大腸癌（EO-CRC）の疫学動向と2038年予測\n2023年に世界EO-CRC症例の25〜31%を占め、台湾がASR最高、北朝鮮でASIR最大増加（AAPC+1.34%）、韓国でASMR最大低下（AAPC−2.58%）。2038年まで罹患・DALYは増加継続と予測\n集団別リスク因子（低カルシウム・低乳製品・高赤肉・高BMI）の特定により、人口特異的スクリーニング・食事介入の必要性を示す",
+      "importance": 3,
+      "category": "CRC_screening"
+    },
+    {
+      "pmid": "42071332",
+      "title": "Low SFXN1 Expression Predicts Poor Clinical Outcomes and Promotes Tumor Aggressiveness in Colon Adenocarcinoma.",
+      "abstract": "Sideroflexin 1 (SFXN1), predominantly localized in the inner mitochondrial membrane, exhibits differential expression across various tumor types. However, its specific role in colon adenocarcinoma (COAD) remains unclear. This study aimed to investigate the diagnostic and prognostic significance of SFXN1 in COAD. The expression and prognostic value of SFXN1 in COAD were evaluated using the Cancer Genome Atlas (TCGA) database. Bioinformatics analyses were conducted to assess the relationships between SFXN1 expression and clinical stage, prognosis, and immune infiltration in COAD. The biological role of SFXN1 in COAD was further validated through in vivo and in vitro experiments. SFXN1 was found to be expressed at low levels in COAD. Reduced SFXN1 expression was significantly associated with poor clinical outcomes in COAD patients. Furthermore, SFXN1 expression correlated with immune infiltration and immune checkpoint regulation in COAD. Functional experiments demonstrated that SFXN1 inhibition enhanced the proliferation, migration, and invasion of COAD cells, whereas SFXN1 overexpression suppressed tumor growth in vivo. Low SFXN1 expression is associated with an unfavorable clinical prognosis in COAD. Targeting SFXN1 may offer a promising avenue for developing personalized and more effective therapeutic strategies for patients with COAD.",
+      "journal": "IUBMB Life",
+      "pub_date": "2026-May",
+      "doi": "10.1002/iub.70107",
+      "authors": [
+        "Zhu J",
+        "Huang Y",
+        "Wu X"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【後ろ向きコホート+実験研究】TCGA-COADデータベース+in vitro/vivo実験でSFXN1の診断・予後意義を検討\nSFXN1低発現はCOAD患者の不良予後と有意に相関し、SFXN1抑制により細胞増殖・遊走・浸潤が亢進、過剰発現でin vivo腫瘍増殖が抑制された\nミトコンドリア内膜タンパクSFXN1を新規予後バイオマーカー・治療標的として提唱するが、臨床検証は未実施",
+      "importance": 2,
+      "category": "pathology_molecular"
+    },
+    {
+      "pmid": "42071310",
+      "title": "Macro Habitat-Based T2-Weighted MRI Radiomics and Deep Learning Fusion for Predicting Treatment Response and Prognosis After Neoadjuvant Chemoradiotherapy in Locally Advanced Rectal Cancer.",
+      "abstract": "BACKGROUND: Response to neoadjuvant chemoradiotherapy (NACRT) in locally advanced rectal cancer (LARC) is highly heterogeneous. Reliable pretreatment prediction of tumor regression and prognosis remains an unmet clinical need to optimize personalized management.\nMETHODS: A multicenter retrospective study of 434 Stage II-III LARC patients was conducted across three tertiary hospitals. Pretreatment T2-weighted MRI was used to build intratumoral and peritumoral macrohabitats. Local radiomic features within the tumor were clustered using K-means to generate intratumoral habitats, with the optimal cluster number determined by the Calinski-Harabasz score. Radiomic and 3D deep-learning features from each habitat and the peritumoral region were fused after LASSO-based selection. Machine-learning classifiers (support vector machine, logistic regression, multilayer perceptron) were trained to predict tumor regression grade (TRG). Performance was assessed by ROC and decision-curve analyses, and prognostic value for progression-free survival (PFS) was evaluated using Kaplan-Meier analysis.\nRESULTS: The macro habitat-based fusion model demonstrated superior performance compared with intratumoral, peritumoral, or single-habitat models, achieving AUCs of 0.807-0.830 in the external validation cohort. The derived risk score showed a significant association with progression-free survival (PFS) (p = 0.011 in the training and p = 0.030 in the validation cohorts).\nCONCLUSIONS: The macro habitat-based MRI radiomics and deep learning fusion model provides a noninvasive, interpretable, and robust biomarker for predicting treatment response and prognosis in LARC. It holds potential to guide personalized therapeutic strategies, including organ-preserving approaches and tailored surveillance after NACRT.",
+      "journal": "Cancer Med",
+      "pub_date": "2026-May",
+      "doi": "10.1002/cam4.71773",
+      "authors": [
+        "Jin X",
+        "Xu J",
+        "Hu Y"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Multicenter Study"
+      ],
+      "summary_ja": "【後ろ向き多施設RCT】局所進行直腸癌434例でNACRT前T2強調MRIによる腫瘍退縮グレード予測モデルを構築\nマクロハビタット融合モデル（ラジオミクス＋3D深層学習）の外部検証AUC 0.807–0.830、PFS有意差（p=0.030）\n非侵襲的バイオマーカーとして臓器温存適応選別や個別化監視戦略への応用可能性を示す",
+      "importance": 3,
+      "category": "CRC_treatment"
+    },
+    {
+      "pmid": "42071227",
+      "title": "Parvimonas micra promotes carcinogenesis of colorectal cancer through phenyllactic acid-induced DNA damage.",
+      "abstract": "Recent studies have demonstrated the significance of gut microbiota in the colorectal cancer (CRC) pathogenesis. But their role in carcinogenesis remains to be established. Thus, we established a clinical cohort and the faecal samples from CRC and healthy control were collected. Our metagenomic analysis found that the presence of Parvimonas micra exhibited the most significant relationship with the occurrence of CRC. Increased colonisation of P. micra in CRC was validated with analysis of 1379 faecal metagenomes from eight public cohorts. Untargeted metabolomics subsequently identified an accumulation of phenyllactic acid (PLA) in faecal samples from CRC patients. Higher concentration of PLA was detected in the supernatant from our isolated P. micra. Whole-genome sequencing confirmed that a series of genes associated with PLA biosynthesis such as pdhD were observed in the P. micra genome. Importantly, both P. micra and PLA-induced carcinogenesis in ApcMin/+ and azoxymethane/dextran sulphate sodium salt mice model. The roles of P. micra and PLA in CRC development were associated with DNA damage. Engineered Escherichia coli BL21 that encoded the heterologous pdhD from P. micra could also induce DNA damage. Mechanically, PLA-induced DNA damage and CRC carcinogenesis were significantly alleviated in Ahr-/- mice. Aryl hydrocarbon receptor (AHR) inhibitor exhibited a therapeutic potential to reduce mice carcinogenesis. These findings established the role of P. micra and its metabolite, therefore providing diagnostic and therapeutic targets for treating CRC.",
+      "journal": "Clin Transl Med",
+      "pub_date": "2026-May",
+      "doi": "10.1002/ctm2.70667",
+      "authors": [
+        "Guo S",
+        "Cao M",
+        "Wu J"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【前向きコホート+動物実験】CRC患者糞便メタゲノム解析(公開コホート1379例含む)でP. micraとCRC発症の関連を検証\nP. micraがCRC糞便で最も有意に増加し、産生代謝物フェニル乳酸(PLA)がApcMin/+・AOM/DSSマウスで発癌を促進；AHR阻害でDNA損傷・発癌が有意に軽減\nP. micra→PLA→AHR軸によるDNA損傷という新規発癌機序を提示し、AHR阻害が治療標的となりうる",
+      "importance": 4,
+      "category": "basic_science"
+    },
+    {
+      "pmid": "42070645",
+      "title": "Overcoming Conditional Immune Resistance in MSS and pMMR Colorectal Cancer: A Sequential Gating Framework for Immunotherapy.",
+      "abstract": "Microsatellite stable and mismatch repair proficient colorectal cancer (CRC) represents the largest population of patients exposed to immune checkpoint inhibitors, yet remains largely refractory to these therapies. Resistance is commonly attributed to low tumor mutational burden or limited neoantigenicity. However, this explanation is insufficient in light of accumulating clinical, transcriptional, and spatial profiling data demonstrating the presence of immune cells, antigen expression, and inducible immune signaling in a substantial fraction of MSS tumors. In this Review, we propose that immunotherapy failure in MSS and pMMR CRC reflects a hierarchical immune gating problem rather than intrinsic immune indifference. We outline a sequential model in which immune priming, physical access of effector cells to tumor epithelial compartments, and suppression by stromal, myeloid, and metabolic programs constitute ordered and rate-limiting steps that must be relieved before immune checkpoint blockade can exert clinical activity. This framework reconciles decades of negative clinical trials with emerging conditional successes observed using epigenetic priming, stromal and vascular remodeling, myeloid reprogramming, and microbiome-modulating strategies. By reframing resistance as a dynamically enforced and therapeutically tractable immune state, this Review provides a decision shaping framework for rational combination therapy, treatment sequencing, and biomarker guided immunotherapy development in MSS and pMMR CRC.",
+      "journal": "Crit Rev Oncol Hematol",
+      "pub_date": "2026-May-01",
+      "doi": "10.1016/j.critrevonc.2026.105353",
+      "authors": [
+        "Farah H",
+        "Polatova D",
+        "Rizaev J"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "summary_ja": "【レビュー】MSS/pMMR大腸癌における免疫チェックポイント阻害薬耐性の機序と克服戦略を包括的に考察\nMSS/pMMR CRCの免疫療法失敗を「階層的免疫ゲーティング問題」として再定義；免疫プライミング→エフェクター細胞の腫瘍上皮へのアクセス→間質・骨髄系・代謝による抑制という順序的律速ステップを提唱\nエピジェネティックプライミング・間質リモデリング・骨髄系再プログラミング等の併用戦略に理論的枠組みを提供",
+      "importance": 3,
+      "category": "CRC_treatment"
+    },
+    {
+      "pmid": "42070936",
+      "title": "Pattern-based histologic approach in colitis without chronic architectural damage: GIPAD recommendations.",
+      "abstract": "In patients presenting with intestinal symptoms who undergo colonoscopy with mucosal sampling, the pathologist plays a central role in identifying the underlying etiology in order to guide appropriate clinical management. However, common intestinal symptoms such as diarrhea are shared by a broad spectrum of conditions, including infectious diseases, functional disorders (e.g., irritable bowel syndrome), inflammatory bowel disease (IBD), drug-induced injury, and metabolic disorders (e.g., diabetes mellitus). Although serological biomarkers may support the diagnostic workup, they are frequently insufficient to establish a definitive diagnosis. Moreover, endoscopic examination may fail to detect significant mucosal abnormalities even when histology reveals disease-specific patterns, as occurs in lymphocytic and collagenous colitis (i.e., microscopic colitis). In this complex diagnostic landscape, histomorphological evaluation represents a crucial element, allowing integration of microscopic findings with clinical and endoscopic data to reach an accurate interpretation. In recent years, accumulating evidence has demonstrated that similar histological patterns of intestinal injury-such as IBD-like architectural and inflammatory changes or eosinophil-rich infiltrates-may be associated with different underlying etiologies. This overlap is particularly relevant in patients treated with novel oncologic therapies, including tyrosine kinase inhibitors (TKIs), immune checkpoint inhibitors (ICIs), and emerging treatments such as chimeric antigen receptor T-cell (CAR-T) therapy. In addition, in daily practice, pathology request forms often lack essential clinical, endoscopic, and laboratory information, further increasing the risk of diagnostic misinterpretation and inappropriate disease attribution. To address these challenges, the Italian Group of Digestive Disease Pathology (GIPAD) proposes a pattern-based histological approach for reporting mucosal damage in patients with colitis. In this first paper, we focus on non-chronic patterns of mucosal injury and discuss their principal differential diagnoses, with the aim of supporting standardized reporting and improving clinicopathological correlation.",
+      "journal": "Dig Liver Dis",
+      "pub_date": "2026-May-02",
+      "doi": "10.1016/j.dld.2026.04.008",
+      "authors": [
+        "Panarese I",
+        "Spaggiari P",
+        "Albarello L"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "summary_ja": "【レビュー】慢性構築異常を伴わない大腸炎の組織学的パターン分類に関するGIPADガイダンス\nIBD様変化・好酸球浸潤等の組織パターンがTKI/ICI/CAR-T療法を含む多様な病因と重複することを整理し、パターンベース報告の標準化を提唱\n新規腫瘍薬剤性腸炎の増加を背景に、病理報告の標準化と臨床病理相関改善に寄与する実践的枠組みを提供",
+      "importance": 3,
+      "category": "pathology_molecular"
+    },
+    {
+      "pmid": "42070489",
+      "title": "A multidisciplinary care pathway for colorectal carcinoma: Impact on treatment decisions.",
+      "abstract": "INTRODUCTION: Colorectal carcinoma predominantly affects older adults (defined as ≥75 years). A proportion of these patients are frail and have multimorbidity, reflecting multidimensional vulnerability related to comorbidities and functional status. These factors complicate treatment decisions, especially regarding surgical interventions and systemic therapies. In response, a multidisciplinary clinical care pathway was established at Catharina Hospital in 2021 to facilitate individualized treatment management for older and frail patients with colorectal cancer. This pathway was led by physicians from multiple medical specialties, including surgery, medical oncology, radiation oncology, and geriatrics, and incorporated a comprehensive geriatric assessment. This study aimed to assess how the multidisciplinary care pathway influences treatment decisions in older and frail patients with colorectal cancer.\nMATERIALS AND METHODS: In this retrospective cohort study, patients evaluated through the multidisciplinary care pathway between October 2021 and March 2025 were compared with a propensity score-matched control group treated prior to its implementation, between December 2018 and September 2021. The primary outcome was the deviation between the standard treatment protocol and the actual treatment received by the patient. Secondary outcomes were treatment-related complications, hospitalizations, overall survival, and local disease control.\nRESULTS: Treatment deviation occurred more frequently in the care pathway group (51.4%) compared to the pre-care pathway group (31.1%; p = 0.01). Reasons for deviation from standard treatment included patient vulnerability and patient treatment preferences. Patients managed through the care pathway experienced fewer treatment related surgical complications (25.7% vs. 46.2%; p = 0.002) and lower hospital admission rates (49.1% vs. 72.4%; p = 0.002). In both cohorts, an American Society of Anesthesiologists Physical Status Classification ≥3 (p = 0.02 in the pre-care and p < 0.001 in the care pathway cohort) and dependent mobility (p = 0.004 and p < 0.001, respectively) predicted deviation from standard treatment. Additionally, within the care pathway cohort, Clinical Frailty Scale score ≥ 5 (p = 0.03), impaired instrumental activities of daily living (p = 0.02), Katz Index of Independence in Activities of Daily Living >1 (p = 0.01), and competing mortality risk (pl ≤0.001) were also significantly associated with treatment deviations.\nDISCUSSION: Implementation of a multidisciplinary care pathway for older and frail patients with colorectal cancer led to more individualized treatment decisions, reduced treatment-related complications, and reduced hospital stays. Future research is needed to optimize patient selection for this multidisciplinary care pathway.",
+      "journal": "J Geriatr Oncol",
+      "pub_date": "2026-May-02",
+      "doi": "10.1016/j.jgo.2026.102981",
+      "authors": [
+        "Lagarde J",
+        "Banken E",
+        "van Hellemond IEG"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【後ろ向きコホート】75歳以上・虚弱大腸癌患者に対する多職種連携ケアパスウェイの治療決定への影響\n標準治療からの逸脱率：ケアパス群51.4% vs 対照群31.1%(p=0.01)、術後合併症25.7% vs 46.2%(p=0.002)、入院率49.1% vs 72.4%(p=0.002)と有意改善\n包括的老年評価を組み込んだ多職種パスが高齢虚弱大腸癌の個別化治療と合併症減少に寄与",
+      "importance": 3,
+      "category": "CRC_treatment"
+    },
+    {
+      "pmid": "42069955",
+      "title": "Translational feasibility of a plasmonic microarray-based liquid biopsy for KRAS codon mutation detection across tissue, plasma, and urine in early colorectal cancer.",
+      "abstract": "Accurate detection of KRAS codon mutations is essential for precision oncology in colorectal cancer (CRC), yet conventional liquid biopsy methods often lack sufficient sensitivity for rare ctDNA variants, particularly in early diseases. We developed a three-dimensional (3D) plasmonic KRAS microarray integrating blocked recombinase polymerase amplification with plasmon-enhanced fluorescence. Quencher-modified blocking probes suppress wild-type DNA while selectively enabling mutant signal amplification. A single primer-probe set per codon allows comprehensive detection of all substitutions within KRAS codons 12/13, 61, and 146. The platform achieved detection down to 1 fM by direct hybridization and 100 zM after blocked amplification, exceeding conventional PCR and next-generation sequencing sensitivity. Codon-level specificity was validated in CRC cell lines, with distinct signals for each mutation. Clinical analysis of 58 patients showed 100% concordance between tissue, plasma, and urine in mutation-positive malignant cases when sufficient input was available, indicating accurate reflection of tumor profiles. In benign tumors, detection was rare despite tissue mutations, likely due to limited ctDNA release.This plasmonic microarray enables ultra-sensitive, specific, and non-invasive detection, supporting early diagnosis, minimal residual disease monitoring, and longitudinal CRC management.",
+      "journal": "NPJ Precis Oncol",
+      "pub_date": "2026-May-02",
+      "doi": "10.1038/s41698-026-01452-8",
+      "authors": [
+        "Lee JY",
+        "Mun CW",
+        "Kim ER"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【前向き検証研究】早期CRC患者58例でKRASコドン変異をプラズモニックマイクロアレイにより組織・血漿・尿で検出\n悪性例での組織・血漿・尿の変異一致率100%；検出感度1 fM（直接ハイブリダイゼーション）、100 zM（増幅後）でNGS・PCRを超える\n尿・血漿による非侵襲的超高感度KRAS変異検出が早期CRC診断とMRD監視に応用可能",
+      "importance": 3,
+      "category": "pathology_molecular"
+    },
+    {
+      "pmid": "42069875",
+      "title": "Lactate-associated transcriptomic alterations and malignant phenotypes in colorectal cancer.",
+      "abstract": "Lactate, an energy source and metabolic by-product, has been implicated in cancer progression, but its role in colorectal cancer (CRC) remains incompletely understood. This study investigated the clinical significance, biological effects, and transcriptomic responses of CRC cells to lactate. In human CRC specimens, lactate levels were positively associated with advanced clinical stage and poorer disease-free survival. Functional assays showed that lactate promoted malignant cellular behaviors in both SW480 and HCT116 cells, while pH-control experiments suggested that these effects were not merely due to extracellular acidification alone. RNA sequencing in SW480 cells identified 1,418 differentially expressed genes after lactate treatment. GO and KEGG analyses revealed alterations in multiple metabolic and signaling pathways. qRT-PCR validated the alterations of representative genes, including HK2, VEGFA, JUNB, CCNB1, MAPK4, and COX2. In addition, flow cytometry showed activation of NF-κB and HIF-1α signaling following lactate treatment, and pharmacological inhibition of either pathway significantly attenuated the lactate-induced malignant phenotypes. Together, these findings provide transcriptomic and functional evidence that lactate promotes malignant phenotypes in CRC cells and offer exploratory mechanistic insights into the involvement of NF-κB and HIF-1α signaling.",
+      "journal": "Discov Oncol",
+      "pub_date": "2026-May-02",
+      "doi": "10.1007/s12672-026-05147-1",
+      "authors": [
+        "Li S",
+        "Feng S",
+        "Li X"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【基礎研究】CRC臨床検体およびSW480/HCT116細胞株でラクテートの腫瘍促進作用と転写応答を解析\nラクテート高値は進行病期・不良DFSと正相関；RNA-seqで1,418遺伝子が発現変動、NF-κB/HIF-1α阻害でラクテート誘導悪性表現型が有意に減弱\nラクテートがNF-κB・HIF-1αを介してCRC悪性化を促進する機序を転写レベルで示した探索的知見",
+      "importance": 2,
+      "category": "basic_science"
+    },
+    {
+      "pmid": "42069859",
+      "title": "Fifteen-year trends in cancer incidence and mortality among older adults aged 65 years and older in Martinique, a Caribbean population-based registry study, 2008-2022.",
+      "abstract": "Prostate, breast, stomach, colon-rectum, lung, and hematologic cancers represent a regional public health burden among older adults in the Caribbean. We described 15-year trends in cancer incidence and mortality among older adults in Martinique. We conducted a population-based cohort study (2008-2022) from the population-based cancer registry of Martinique. Age-Standardized Incidence and Mortality Rates (ASIR and ASMR) were estimated using the Segi/Doll world standard population and Annual Average Percent Change (AAPC) with 95% confidence interval in patients ≥ 65 years, by tumor site and sex. We recorded 15,400 cancer cases over the entire study period (2008-2022), with 64.4% diagnosed in males. Overall ASIR remained broadly stable: in men, 2,257.8 per 100,000 (95% CI: 2,172.6-2,342.9) in 2008-2012 and 2,053.1 (95% CI: 1,982.8-2,230.4) in 2018-2022; in women, 847.8 (95% CI: 801.8-893.8) in 2008-2012 and 862.1 (95% CI: 821.2-902.9) in 2018-2022. Prostate cancer ASIR decreased from 1,355.5 per 100,000 (95% CI: 1,288.6-1,422.4) in 2008-2012 to 1,303.7 (95% CI: 1,242.0-1,365.5) in 2013-2017, and then significantly to 1,102.2 (95% CI: 1,049.6-1,154.9) in 2018-2022.Prostate cancer ASMR also declined from 293.50 per 100,000 (95% CI: 263.30-323.70) in 2008-2012 to 225.80 (95% CI: 205.00-246.50) in 2018-2022. Women breast cancer ASIR increased significantly from 177.3 per 100,000 (95% CI: 155.4-199.2) in 2008-2012 to 198.0 (95% CI: 176.5-219.6) in 2013-2017 and to 230.7 (95% CI: 208.9-252.5) in 2018-2022. Male lung and bronchial cancer incidence showed a significant AAPC decrease of -12.5% (95% CI: -23.3 to -0.13) in 2018-2022. Colorectal cancer ASMR in women remained stable: 68.2 per 100,000 (95% CI: 55.1-81.3) in 2008-2012, 63.8 (95% CI: 53.0-74.6) in 2013-2017, and 71.4 (95% CI: 60.3-82.5) in 2018-2022, and male stomach cancer AAPC decreased significantly during 2018-2022: -11.5% (95% CI: -20.1 to -1.94). Between 2008 and 2022, cancer incidence among older adults in Martinique showed decreasing prostate and lung cancer but increasing breast cancer, consistent with Caribbean and global trends. These patterns reflect screening practices, treatment advances, and COVID-19 disruptions. Future research should prioritize age-tailored cancer management and uninterrupted treatment access.",
+      "journal": "Sci Rep",
+      "pub_date": "2026-May-02",
+      "doi": "10.1038/s41598-026-50361-0",
+      "authors": [
+        "Puello A",
+        "Beaubrun-Renard M",
+        "Macni J"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【住民コホート研究】マルティニーク65歳以上の15年間(2008-2022)がん罹患・死亡動向\n前立腺癌ASIR減少(1,355.5→1,102.2/10万)、女性乳癌ASIR増加(177.3→230.7/10万)、大腸癌女性ASMRは安定(68.2→71.4/10万)\nカリブ海地域高齢者のがん疫学データを提供するが、大腸癌死亡率は改善なく地域特有の課題を示す",
+      "importance": 2,
+      "category": "CRC_screening"
+    },
+    {
+      "pmid": "42069779",
+      "title": "Molecular docking of polyphenols and screening of antioxidant and anticancer activity of Artemisia monosperma leaf extracts in human cancer cells.",
+      "abstract": "This study evaluated the polyphenol content of leaf extracts from Artemisia monosperma (AM) and investigated their antioxidant properties, cytotoxic effects, and potential to induce DNA damage in human cancer cell lines. High-performance liquid chromatography (HPLC) quantified polyphenols in methanolic (AMM), ethanolic (AME), and aqueous (AMA) extracts, identifying 13 compounds in AME and 12 in AMA. AMM exhibited the strongest antioxidant activity (IC50 = 24 µg/ml). Both AME and AMM demonstrated potent anticancer activity against HCT-116 (IC₅₀ = 0.38 µg/mL for AMM) and HUH-7 (IC₅₀ = 21.95 µg/mL for AMM) cells, while exhibiting minimal cytotoxicity toward normal skin fibroblast cells (BJ-1; IC₅₀ = 13.05 µg/mL for AMM), with AMM demonstrating particular selectivity for HCT-116 cells. AMM induced DNA fragmentation and modulated apoptosis-related gene expression (Bax, Bcl-2, p53) in HUH-7 cells and caused cell cycle arrest at G0/G1 phase in HCT-116 cells. Molecular docking further supported AMM's apoptosis activity. These results position A. monosperma as a rich source of bioactive polyphenols and antioxidants, with AMM showing promise as a therapeutic agent, especially for colorectal cancer.",
+      "journal": "Sci Rep",
+      "pub_date": "2026-May-02",
+      "doi": "10.1038/s41598-026-49276-7",
+      "authors": [
+        "Abdel-Wahhab MA",
+        "El-Shahid ZA",
+        "Hamza ZK"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【基礎研究】Artemisia monospermaメタノール抽出物(AMM)のHCT-116等ヒト癌細胞株に対する抗腫瘍活性評価\nAMMはHCT-116に対しIC₅₀=0.38 µg/mLと強力な細胞毒性を示し、正常線維芽細胞(BJ-1)への毒性は低く(IC₅₀=13.05 µg/mL)、G0/G1期細胞周期停止・Bax/Bcl-2/p53発現調節・DNA断片化を誘導\nin vitro基礎研究であり臨床応用には程遠いが、大腸癌細胞への選択的毒性は注目に値する",
+      "importance": 2,
+      "category": "basic_science"
+    },
+    {
+      "pmid": "42069618",
+      "title": "Is surgery necessary for mismatch repair-deficient/microsatellite instability-high colorectal cancer patients with a clinical complete response after neoadjuvant immunotherapy? A retrospective cohort study with literature context.",
+      "abstract": "BACKGROUND: The purpose of this study was to retrospectively compare the prognostic outcomes of patients with colorectal cancer (CRC) who achieved a clinical complete response (CCR) after neoadjuvant immunotherapy (NI) and those who achieved a CCR after surgery. A literature review of publications was conducted in the PubMed database.\nMATERIALS AND METHODS: This study included 70 patients who were diagnosed with mismatch repair deficiency/microsatellite instability high (dMMR/MSI-H) colorectal cancer and who were treated with NI between 2018 and 2024. CCR patients were grouped into the \"watch and wait\" (W&W) method group or the radical surgery group. Afterwards, the oncological and clinical outcomes of patients who achieved a clinical complete response (CCR) were compared to those of patients who were classified as tumour free. We also conducted a literature review of publications in the PubMed database of clinical studies that compared clinical outcomes between W&W and surgery for CCR dMMR/MSI-H patients.\nRESULTS: Among the 70 NI-treated dMMR/MSI-H CRC patients, 44 (62.86%) achieved a CCR. Of these, 25 patients were managed with a watch-and-wait (W&W) strategy, while 19 underwent curative-intent surgery. In the surgery group, 16 patients (84.21%) achieved a pathological complete response (pCR). During follow-up, 2 patients (10.53%) in the surgery group developed recurrence, and both subsequently died, while the remaining 17 patients were alive at the last follow-up. No statistically significant differences were observed between the W&W and surgery groups in terms of recurrence or survival outcomes. A literature review including nine studies further demonstrated comparable oncological outcomes between W&W and surgical management in patients who achieved a CCR.\nCONCLUSION: Patients in the W&W group presented similar oncological outcomes to those who underwent surgery. Surgery may not be necessary for patients with dMMR/MSI-H colorectal cancer who achieve a clinical complete response after neoadjuvant immunotherapy. However, large sample sizes and multicentre investigations are needed to validate these findings.",
+      "journal": "World J Surg Oncol",
+      "pub_date": "2026-May-02",
+      "doi": "10.1186/s12957-026-04382-8",
+      "authors": [
+        "Zuo H",
+        "Huang J",
+        "Peng S"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【後ろ向きコホート】dMMR/MSI-H CRC 70例に対する術前免疫療法後CCR達成例のW&W vs手術の予後比較\nCCR達成44例(62.86%)中W&W 25例vs手術19例。手術群pCR率84.21%、再発率10.53%(2例死亡)。両群間で再発・生存に有意差なし\ndMMR/MSI-H CRCの術前免疫療法後CCR例ではW&W戦略が手術回避の選択肢となり得ることを示唆",
+      "importance": 3,
+      "category": "CRC_treatment"
+    },
+    {
+      "pmid": "42069523",
+      "title": "EUS-guided drainage for pelvic abscesses: a Chinese single-center two-year follow-up study highlighting clinical outcomes.",
+      "abstract": "BACKGROUND: Endoscopic ultrasound (EUS)- guided drainage has emerged as a novel technique for managing pelvic abscesses. This single-center retrospective case series aims to assess the safety and efficacy of EUS-guided drainage in treating pelvic abscesses of varying etiologies from 2021 to the present.\nMETHODS: Consecutive patients with pelvic abscesses who underwent EUS-guided drainage were retrospectively reviewed. Etiologies included appendiceal abscess secondary to acute appendicitis (n = 1), pelvic abscesses resulting from anastomotic leaks following rectal cancer surgery (n = 2), and perianal abscesses associated with Crohn's disease (n = 7). The primary outcome was technical success and reduction in abscess cavity size, assessed via follow-up imaging. Clinical success was defined as significant reduction or complete resolution of the abscess cavity size on follow-up imaging at one-month post-procedure, accompanied by clinical symptom resolution and without the need for additional interventions. Secondary outcomes included post-procedural complications and resolution of the abscess without additional interventions.\nRESULTS: EUS-guided drainage was technically successful in all cases. The median reduction in abscess size was statistically significant (Mean SD: 24.1 ± 11.11, p < 0.05). During follow-up, imaging results confirmed significant reduction in the size of pelvic abscesses in 9 patients, except for one case at the 1-month post-procedure. None of the patients required further surgical intervention, and 2 cases recurrences were observed in the sixth- and tenth-months post-procedure. Additionally, no procedure-related complications were reported.\nCONCLUSION: EUS-guided drainage is a safe and effective therapeutic option for managing pelvic abscesses of various etiologies. Its efficacy, particularly in Crohn's disease-related cases, and the absence of complications in this cohort, suggest significant potential for broader clinical application.",
+      "journal": "BMC Gastroenterol",
+      "pub_date": "2026-May-02",
+      "doi": "10.1186/s12876-026-04741-5",
+      "authors": [
+        "Yang T",
+        "Lu Y",
+        "Li W"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【後ろ向き症例集積】骨盤膿瘍10例（クローン病7例含む）にEUSガイド下ドレナージを施行し技術的成功率・臨床転帰を評価\n全例で技術的成功。膿瘍径の中央値減少は有意（平均24.1±11.11mm, p<0.05）、9/10例で1か月後に臨床的成功、追加外科手術なし、合併症なし、再発2例（6・10か月後）\n単施設・少数例（n=10）の限界はあるが、直腸癌術後吻合不全やクローン病関連骨盤膿瘍へのEUSドレナージの安全性・有効性を示す",
+      "importance": 2,
+      "category": "endoscopy_ESD_EMR"
+    },
+    {
+      "pmid": "42067922",
+      "title": "ETV4 promotes colorectal cancer progression through SLC7A11-mediated ferroptosis inhibition.",
+      "abstract": "BACKGROUND: Colorectal cancer (CRC) remains a leading cause of cancer-related mortality globally. Ferroptosis, a regulated form of cell death, has emerged as a promising frontier in CRC treatment. The transcriptional regulator ETV4 (ETS variant transcription factor 4) is implicated in CRC pathogenesis. However, its functional role has not been fully elucidated, and its potential to modulate ferroptosis in CRC is entirely unknown. This study aimed to investigate whether ETV4 modulates ferroptosis in CRC by regulating SLC7A11 and to explore the underlying mechanism involved.\nMETHODS: Bioinformatic analysis was conducted to detect ETV4 expression and to identify pathways regulated by ETV4. Real‑time quantitative PCR (RT‑qPCR) and Western blot assays were used to measure gene expression at the mRNA and protein levels. The biological functions of ETV4 were assessed via CCK‑8, colony formation, wound‑healing, apoptosis analysis, transmission electron microscopy (TEM) and Transwell assays. Key ferroptosis markers-reactive oxygen species (ROS), malondialdehyde (MDA), mitochondrial membrane potential (JC‑1), and ferrous iron (FerroOrange) were examined to determine whether ETV4 knockdown promotes ferroptosis.\nRESULTS: ETV4 is highly expressed in CRC tissues and cell lines, and its expression level is positively correlated with advanced TNM stages. Silencing ETV4 suppressed CRC cell proliferation, clonogenicity, and migration. Bioinformatic analysis confirmed that ETV4 may suppress the ferroptosis pathway. Functional assays revealed that ETV4 knockdown enhanced ferroptosis in CRC cells. Mechanistically, ETV4 depletion downregulated SLC7A11, whereas SLC7A11 overexpression reversed the ferroptosis phenotype induced by ETV4 knockdown.\nCONCLUSION: ETV4 promotes CRC progression by inhibiting ferroptosis through the upregulation of SLC7A11. Therefore, the ETV4/SLC7A11 axis represents a potential therapeutic target for CRC treatment.",
+      "journal": "Biol Direct",
+      "pub_date": "2026-May-02",
+      "doi": "10.1186/s13062-026-00816-1",
+      "authors": [
+        "Chao Z",
+        "Yin J",
+        "Huang F"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【基礎研究】大腸癌細胞・組織におけるETV4のフェロトーシス制御機構を解析\nETV4高発現は進行TNM病期と正相関し、ETV4ノックダウンでROS・MDA増加・ミトコンドリア膜電位低下によるフェロトーシス促進、SLC7A11過剰発現で表現型が逆転\nETV4/SLC7A11軸という新規フェロトーシス制御経路を同定し治療標的候補を提示",
+      "importance": 3,
+      "category": "basic_science"
+    },
+    {
+      "pmid": "42067703",
+      "title": "An interpretable survival benefit analytics framework for optimizing cancer treatment decision-making.",
+      "abstract": "Optimal treatment decision-making is critical to the long-term survival rate of patients in clinical management of cancer. Traditional treatment decision-making models typically reach treatment decisions indirectly by estimating the various risks to the beneficial outcome of patients, which limits the interpretability of treatment effects and the performance of the models. We propose SurvS(survival supervision), a novel interpretable survival benefit analytics framework based on the real-coded genetic algorithm, to integrate individual treatment effects that directly impact long-term survival benefits. SurvS can not only construct binary (beneficial and nonbeneficial), but also construct ternary (beneficial, insensitive, and detrimental) decision-making models, allowing the identification of all three possible outcomes in a single model. The framework generates personalized model scores by integrating weighted clinical features and real-valued cutoff thresholds, optimized to reflect survival outcome differences. The robust performances of SurvS were demonstrated in decision-making tasks of two clinical cancer treatment scenarios: induction chemotherapy for nasopharyngeal carcinoma and adjuvant chemotherapy for rectal cancer. SurvS outperformed traditional methods and maintained robust performance in the independent validation cohort. By enabling survival benefit-supervised optimization and interpretable model construction, reported SurvS offers a powerful tool for personalized cancer treatment planning with the potential to improve treatment efficacy and reduce overtreatment. The code is open source and available at: https://github.com/odindis/SurvS .",
+      "journal": "Med Biol Eng Comput",
+      "pub_date": "2026-May-02",
+      "doi": "10.1007/s11517-026-03586-0",
+      "authors": [
+        "Chen S",
+        "Li H",
+        "Mao H"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【後ろ向きコホート研究】上咽頭癌・直腸癌患者を対象に治療生存便益予測フレームワーク(SurvS)の性能を検証\nSurvSは従来モデルを上回る性能を示し、直腸癌補助化学療法・上咽頭癌導入化学療法の両シナリオで独立検証コホートでも頑健性を維持（具体的AUC等数値は本文未記載）\n三値分類（有益・無効・有害）による個別化治療選択と過剰治療回避への応用可能性を提示",
+      "importance": 2,
+      "category": "basic_science"
+    },
+    {
+      "pmid": "41903302",
+      "title": "Sex differences in efficacy and toxicity of first-line treatment of metastatic colorectal cancer: An analysis of 18,041 patients in the ARCAD CRC database.",
+      "abstract": "BACKGROUND: Greater toxicity of adjuvant chemotherapy in females has been reported previously, but the impact of patients' sex on chemotherapy (CT)+/-targeted therapies for non-resectable, metastatic colorectal cancer (mCRC) has remained unclear. We compared efficacy and toxicity of first-line chemotherapy, with or without targeted therapies, between male and female mCRC patients.\nMETHODS: Twenty-seven randomized trials from the ARCAD CRC database were included. Primary endpoint was overall survival (OS); secondary endpoints were progression-free survival (PFS), overall response rate, toxicity (according to NCI-CTCAE). Analyses were performed within three treatment groups: A) CT alone, B) CT+bevacizumab, and C) CT+epidermal growth factor receptor inhibitor. OS and PFS were estimated using Kaplan-Meier method. Associations with sex were assessed using study-stratified Cox models adjusted for age, performance status, body mass index, and CT backbone.\nRESULTS: Baseline data from 18,041 patients were analysed; among 15,271 included in outcome analyses, no sex differences in OS or PFS were observed. Adjusted OS hazard ratios (95% confidence interval) for females versus (vs.) males were: A: 1.01 (0.95-1.08, P = .69), B: 0.96 (0.89-1.04, P = .36), C: 0.97 (0.87-1.10, P = .67). Females experienced higher toxicity, including grade 1-4 and 3-4 nausea (71.8% vs. 60.5% and 7.5% vs. 4.8%), vomiting (47.7% vs. 35.5% and 6.6% vs. 4.4%), and neutropenia (52.4% vs. 44.4% and 29.2% vs. 18.8%) (P < .001). Conversely, rash (grade 1-4 and 3-4) was more frequent in males (29.6% vs. 24.3% and 5.1% vs. 3.7%, P < .001).\nCONCLUSIONS: Despite higher chemotherapy-related toxicity in females, treatment efficacy was similar between sexes. Rash was more common in males, highlighting that patients' sex modulates toxicity profiles in both directions. Strategies to reduce adverse events in female patients are warranted.",
+      "journal": "Eur J Cancer",
+      "pub_date": "2026-May-02",
+      "doi": "10.1016/j.ejca.2026.116694",
+      "authors": [
+        "Wagner AD",
+        "Raeisi M",
+        "Rakez M"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【RCT統合解析】ARCAD CRCデータベース27試験・18,041例のmCRC一次治療における性差を検討\nOS・PFSに性差なし(女性vs男性HR: CT単独1.01、Bev併用0.96、EGFRI併用0.97)。女性で悪心(71.8% vs 60.5%)・嘔吐・好中球減少が有意に多く、男性で皮疹が多い(29.6% vs 24.3%、p<0.001)\n有効性は同等だが毒性プロファイルは性別で双方向に異なり、女性への副作用軽減戦略の必要性を示す",
+      "importance": 4,
+      "category": "CRC_treatment"
+    },
+    {
+      "pmid": "41880871",
+      "title": "Randomized phase II study of FOLFIRI plus ramucirumab versus FOLFOXIRI plus ramucirumab as first-line treatment for metastatic colorectal cancer: WJOG9216G (RECAST).",
+      "abstract": "BACKGROUND: FOLFOXIRI plus bevacizumab improved efficacies and increased some adverse events in untreated metastatic colorectal cancer (mCRC), compared with the doublet plus bevacizumab. The clinical outcomes of ramucirumab (RAM) in combination with FOLFIRI or FOLFOXIRI as a first-line treatment are unknown. In this randomized phase II study (WJOG9216G), we compared the efficacy and safety of these regimens to determine which is more promising.\nMETHODS: Patients with untreated mCRC were randomly assigned to the FOLFIRI-RAM or FOLFOXIRI-RAM arms. The primary endpoint was a confirmed objective response rate (ORR), and secondary endpoints included early tumor shrinkage (ETS), progression-free survival (PFS), overall survival (OS), and safety.\nRESULTS: In total, 122 patients were randomized. The confirmed ORR was 59.3% and 60.3% in the FOLFIRI-RAM and FOLFOXIRI-RAM arms, respectively (odds ratio 1.04; P = 0.91). With a median follow-up period of 42.1 and 40.4 months, PFS was comparable between the FOLFIRI-RAM and FOLFOXIRI-RAM arms (median, 11.5 and 10.5 months). ETS rate (71.2% and 52.4%) and OS (median, 32.6 and 28.2 months) were significantly better in the FOLFIRI-RAM arm than in the FOLFOXIRI-RAM arm. The major grade ≥ 3 adverse events in the FOLFIRI-RAM and FOLFOXIRI-RAM arms were neutropenia (44.1% and 72.6%), anorexia (3.4% and 14.5%), and febrile neutropenia (3.4% and 11.3%).\nCONCLUSIONS: FOLFOXIRI plus RAM was not superior to FOLFIRI plus RAM in terms of efficacy, including ORR, in patients with untreated mCRC. Instead, first-line FOLFIRI plus RAM showed clinical efficacy and safety profiles comparable to those of doublet chemotherapy plus bevacizumab.",
+      "journal": "Eur J Cancer",
+      "pub_date": "2026-May-02",
+      "doi": "10.1016/j.ejca.2026.116688",
+      "authors": [
+        "Kito Y",
+        "Yamazaki K",
+        "Shoji H"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Clinical Trial, Phase II",
+        "Randomized Controlled Trial",
+        "Multicenter Study",
+        "Comparative Study"
+      ],
+      "summary_ja": "【無作為化第II相】未治療転移性大腸癌122例でFOLFIRI+RAM vs FOLFOXIRI+RAM、主要評価項目は確認ORR\nORR 59.3% vs 60.3%(OR 1.04, p=0.91)で差なし。ETS率(71.2% vs 52.4%)・OS中央値(32.6 vs 28.2ヶ月)はFOLFIRI+RAM群で有意に良好。Grade≥3好中球減少44.1% vs 72.6%\nFOLFOXIRI+RAMは優越性示せず。FOLFIRI+RAMが有効性・安全性ともに有望な一次治療候補となりうる",
+      "importance": 3,
+      "category": "CRC_treatment"
+    },
+    {
+      "pmid": "41819026",
+      "title": "Tumor burden in metastatic colorectal cancer quantified using deep learning models: Prognostic value and maintenance treatment benefit in the CAIRO3 trial.",
+      "abstract": "INTRODUCTION: Total tumor number (TTN) and total tumor volume (TTV) reflect tumor burden and have been linked to outcomes in metastatic colorectal cancer (mCRC). We hypothesize that these measures can identify patients who benefit most from maintenance therapy. This exploratory analysis assessed the prognostic and predictive value of TTN and TTV in mCRC.\nMETHODS: Patients with liver and/or lung metastases from the CAIRO3 trial, which randomized between maintenance therapy and observation, were included. All lesions were counted, and their volumes were quantified using automated deep-learning segmentation models. Cox regression models were used to assess the prognostic value of TTN and TTV for progression-free (PFS) and overall survival (OS), as well as potential interactions with treatment arm (maintenance vs observation).\nRESULTS: A total of 3989 metastatic lesions were segmented in 104 patients (median age, 64 years; 65% male). At randomization, median TTN was 10 and median TTV was 37 mL. Higher TTN and TTV were associated with shorter PFS (TTN p = 0.006; TTV p = 0.2) and OS (TTN p = 0.005; TTV p = 0.001). In multivariable analyses, both TTN and TTV were independently prognostic for PFS/OS. The 1-year PFS benefit of maintenance therapy was more pronounced in patients with lower TTV (Pinteraction=0.0002).\nDISCUSSION: This exploratory analysis showed that a higher tumor burden, quantified by number or volume, was independently associated with poor outcomes. Patients with lower tumor burden, especially lower TTV, appeared to derive the greatest benefit from maintenance therapy, supporting their potential as predictive biomarkers.",
+      "journal": "Eur J Cancer",
+      "pub_date": "2026-May-02",
+      "doi": "10.1016/j.ejca.2026.116668",
+      "authors": [
+        "Al-Toma D",
+        "Kemna R",
+        "Ali M"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "summary_ja": "【RCT探索的解析】肝/肺転移を有するmCRC患者104例でDLモデルによる腫瘍個数(TTN)・体積(TTV)の予後・予測価値を評価\n高TTN/TTVは短いPFS・OSと独立して関連(OS: TTN p=0.005, TTV p=0.001)。低TTV群で維持療法の1年PFS益が顕著(Pinteraction=0.0002)\n深層学習による腫瘍負荷定量がmCRC維持療法の恩恵予測バイオマーカーとなり得る新知見",
+      "importance": 3,
+      "category": "CRC_treatment"
+    },
+    {
+      "pmid": "41795535",
+      "title": "Quantifying preferences for watch-and-wait compared with surgery after a clinical complete response in locally advanced rectal cancer: A discrete choice experiment (PrefCoRe).",
+      "abstract": "BACKGROUND: Watch-and-wait (W&W) has emerged as an alternative to major surgery for locally advanced rectal cancer in patients with a clinical complete response (cCR) after neoadjuvant chemoradiotherapy. Evidence on preferences for W&W versus surgery after cCR is limited.\nMETHODS: We used a discrete choice experiment to quantify preferences. We chose two adult online survey sub-populations: (i) those with experience of any cancer, as there is evidence of biases when respondents are or related to cancer survivors, and (ii) those without experience of cancer, as surrogates of 'what if' future cancer patients. Respondents chose between the options of W&W versus major surgery based on seven attributes: chance of local regrowth; chance of distant metastases; chance of faecal urgency; time to stoma formation; frequency of hospital follow-up visits; survival; and quality of life. We modelled preferences using uncorrelated random parameters logit models. Additionally, we predicted the probabilities of W&W uptake in models using most plausible real-world data ('realistic scenario').\nFINDINGS: There were 346 participants with experience of any cancer; 834 participants without experience of cancer. There was no intrinsic preference for W&W versus surgery; respondents made their choices based on the attributes. Respondents indicated strongest preference for quality of life and survival attributes but there was evidence of preference heterogeneity for most attributes. In the realistic scenario, the predicted uptake probability of choosing W&W was 52.9 % in participants with any cancer experience and 57.2 % in participants without cancer experience.\nINTERPRETATION: These findings indicate that individuals do not have an inherent preference for either W&W or surgery and make their decision based on other attributes. The decision process is complex involving consideration of several attributes and the preferences are heterogeneous.",
+      "journal": "Eur J Cancer",
+      "pub_date": "2026-May-02",
+      "doi": "10.1016/j.ejca.2026.116589",
+      "authors": [
+        "Dalal G",
+        "Wright SJ",
+        "Malcomson L"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Comparative Study"
+      ],
+      "summary_ja": "【DCE】直腸癌cCR後のW&W vs手術の選好を癌経験者346名・非経験者834名で定量化\nW&W固有の選好はなく、QOLと生存率属性を最重視。現実的シナリオでのW&W選択確率は癌経験者52.9%・非経験者57.2%\nW&W vs手術の意思決定は属性依存かつ選好異質性が高く、個別化shared decision makingが必須",
+      "importance": 3,
+      "category": "CRC_treatment"
+    },
+    {
+      "pmid": "42076877",
+      "title": "Colonoscopy in elderly patients: diagnostic yield, pre-referral assessment and quality indicators in two Swedish cohorts.",
+      "abstract": "OBJECTIVES: Colonoscopy in elderly, frail patients requires weighing diagnostic yield against procedure-related risk, but real-world data are limited. We describe outcomes from two Swedish cohorts undergoing non-screening colonoscopy in two regions.\nMETHODS: We combined aggregated results from two retrospective cohort studies. The Ersta cohort included all patients aged ≥75 years undergoing colonoscopy in 2022 and compared inpatient versus outpatient examinations. The Örebro cohort included all colonoscopies in patients aged ≥80 years during 2016-2018. We extracted data on indications, pre-referral investigations, findings, quality indicators, and short-term mortality. For Örebro, we used previously calculated odds ratios and positive predictive values for significant findings.\nRESULTS: At Ersta, 1,066 patients aged ≥75 years underwent 1,144 colonoscopies; 40% were performed in inpatients admitted for bowel preparation. Colorectal cancer was diagnosed in 5%, inflammatory bowel disease in 6%, microscopic colitis in 3%, and other colitis in 4%, with similar proportions in inpatients and outpatients. One-year mortality was 6% after inpatient and 1% after outpatient colonoscopy. In Örebro, 565 colonoscopies in patients aged ≥80 years were analyzed. Significant findings occurred in 26.2% (colorectal cancer 18.8%, high-grade dysplasia 4.6%, any colitis 5.0%, with some overlap). Abnormal rectal examination, abnormal abdominal imaging, low ferritin, and positive f-Hb predicted significant disease. Altered bowel habits was the most common indication but had an odds ratio below 1 for significant disease.\nCONCLUSIONS: In elderly Swedish patients, colonoscopy detects colorectal cancer or colitis, but many examinations show benign or no findings. Selection using simple pre-referral tests and life expectancy may reduce low-yield examinations.",
+      "journal": "Scand J Gastroenterol",
+      "pub_date": "2026-May-03",
+      "doi": "10.1080/00365521.2026.2664650",
+      "authors": [
+        "van Nieuwenhoven M",
+        "Ghaderi S",
+        "Backman AS"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【後ろ向きコホート】75歳以上(Ersta)・80歳以上(Örebro)の非スクリーニング大腸内視鏡1,144/565件の診断率と質指標\nCRC診断率：Ersta 5%、Örebro 18.8%。有意所見予測因子：直腸診異常・腹部画像異常・低フェリチン・便潜血陽性(OR>1)。排便習慣変化はOR<1\n便潜血・画像・直腸診等の簡易前検査で低診断率例を絞り込み、高齢者への不要な内視鏡を削減できる可能性",
+      "importance": 3,
+      "category": "CRC_screening"
+    },
+    {
+      "pmid": "42071337",
+      "title": "Associations of Outdoor Air Pollution With Incidence of Cancers Other Than Lung Cancer in a Large US Prospective Cohort.",
+      "abstract": "Outdoor air pollution, including particulate matter (PM), is a Group 1 carcinogen based on evidence for lung cancer; however, evidence for other cancers is limited. Further research on cancer incidence rather than mortality endpoints is needed as well as examinations in non-smokers. In the Cancer Prevention Study-II Nutrition Cohort, annual predictions of particulate and gaseous pollutant concentrations were assigned to residential addresses. Extended Cox regression estimated hazard ratios (HR) and 95% confidence intervals (CI) for associations of pre-diagnosis pollutants with risk of all incident non-lung cancers and 20 cancer sites with detailed adjustment for confounding variables. There were 28,008 incident cancers identified among the 108,002 participants followed from 1992 to 2017. There were no statistically significant associations with fine particulates (PM2.5) overall or among never smokers. There were elevated HRs with coarse particulates (PM10-2.5) for uterine and cervical cancer incidence, though CIs were wide, and an association with ER- breast cancers (HR = 1.16; 95% CI 1.03-1.30). There were also weak positive associations of gaseous pollutants in never smokers with colorectal cancer (sulfur dioxide HR = 1.08; 95% CI 1.01-1.16), kidney cancer (carbon monoxide HR = 1.17; 95% CI 1.00-1.37), and melanoma of the skin (ozone HR = 1.11; 95% CI 0.99-1.25). Overall, these findings indicate few positive associations of ambient air pollutants with cancer incidence beyond lung cancer. The observed associations were low magnitude and stronger in never smokers. Larger pooled studies are needed to validate these associations with rare subtypes and non-smokers, and cancer survival research is needed to clarify differences in mortality and incidence studies.",
+      "journal": "Int J Cancer",
+      "pub_date": "2026-May-03",
+      "doi": "10.1002/ijc.70530",
+      "authors": [
+        "Diver WR",
+        "Teras LR",
+        "Deubler EL"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【前向きコホート】米国108,002人を1992-2017年追跡、大気汚染と非肺癌28,008例の発症リスクをCox回帰で検討\nPM2.5と非肺癌全体に有意な関連なし。非喫煙者でSO2と大腸癌(HR=1.08, 95%CI 1.01-1.16)、COと腎癌(HR=1.17)の弱い正の関連\n大気汚染の大腸癌リスクへの寄与は小さく、非喫煙者限定の弱い関連に留まる",
+      "importance": 3,
+      "category": "CRC_screening"
+    },
+    {
+      "pmid": "42081750",
+      "title": "Efficacy of Renin-Angiotensin System Inhibitors in Long-Term Oncologic Outcomes of Patients With Stage II/III Colon Cancer and Hypertension: A Target Trial Emulation.",
+      "abstract": "PURPOSE: Renin-angiotensin system inhibitors (RASIs) have been reported to exert anticancer effects. However, there is still a lack of persuasive evidence for their role in improving postoperative long-term oncologic outcomes of colorectal cancer. This retrospective cohort study emulated a hypothetical randomized controlled trial to evaluate the efficacy of RASIs in improving postoperative long-term oncologic outcomes of patients with stage II/III colon cancer and hypertension.\nMETHODS: Patients were consecutively enrolled from multicenter databases, which contained data from medical centers in Shanghai, China. Eligible criteria were adults with radical resected stage II or III colon adenocarcinoma and hypertension. Eligible patients were classified into the RASI group or the no-RASI group, and propensity score was matched at a 1:1 ratio. The primary outcome was the 3-year disease-free survival (DFS) rate.\nRESULTS: From 2,640 eligible patients, 2,292 were included in the primary analysis after matching: 1,146 in the RASI group and 1,146 in the no-RASI group. The median follow-up time was 46.3 months. The RASI group had a higher 3-year DFS rate (83.4% v 78.3%; P = .001; hazard ratio [HR], 0.736 [95% CI, 0.617 to 0.878]). The RASI group also had a lower 3-year distant metastasis rate (15.6% v 20.5%; P < .001; HR, 0.717 [95% CI, 0.596 to 0.863]) and a higher 3-year overall survival rate (92.4% v 89.6%; P = .001; HR, 0.682 [95% CI, 0.539 to 0.864]).\nCONCLUSION: RASIs may improve the postoperative long-term oncologic outcomes for patients with stage II/III colon cancer and hypertension.",
+      "journal": "JCO Oncol Pract",
+      "pub_date": "2026-May-04",
+      "doi": "10.1200/OP-25-01296",
+      "authors": [
+        "Chen K",
+        "Xu D",
+        "Zhang Z"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【後ろ向きコホート・標的試験エミュレーション】StageII/III結腸癌+高血圧患者におけるRASI使用と術後長期腫瘍学的アウトカムの関連\nRASI群vs非RASI群：3年DFS 83.4% vs 78.3%(HR 0.736, 95%CI 0.617-0.878, p=.001)、遠隔転移率 15.6% vs 20.5%(HR 0.717, p<.001)、3年OS 92.4% vs 89.6%(HR 0.682, p=.001)\nRASIの抗腫瘍効果を大規模PSマッチングで示したが後ろ向き観察研究であり前向き検証が必要",
+      "importance": 3,
+      "category": "CRC_treatment"
+    },
+    {
+      "pmid": "42081317",
+      "title": "Meloxicam-1-d-MT Dual-Drug Hydrogel Serves as an Immunomodulator to Reverse Tumor Postoperative Recurrence and Metastasis.",
+      "abstract": "Surgery is the mainstay of treatment for patients with solid tumors. However, the intricate inflammatory and immunosuppressive tumor microenvironment after surgery is recognized as a primary cause of tumor recurrence and metastasis. Here, we design and construct an in situ injectable therapeutic hydrogel encapsulating 1-methyl-d-tryptophan (1-d-MT), a small-molecule competitive inhibitor of indoleamine 2,3-dioxygenase, and meloxicam, a selective inhibitor of cyclooxygenase-2 (Ge1MT/Mel hydrogel) to prevent postoperative tumor metastasis and relapse. In this hydrogel system, 1-d-MT increases cytotoxic T lymphocytes and decreases regulatory T cells, thereby reversing the tumor immune tolerance microenvironment, while released meloxicam reduces inflammation caused by postoperative trauma via the COX-2/PGE2 pathway. When delivered into the resected tumor cavity, the hydrogel system mimics a \"hot\" tumor-immunity niche to attack residual tumor cells and significantly suppresses the postoperative recurrence of colorectal cancer. In the model of postoperative breast cancer and colorectal cancer recurrence and metastasis, the Ge1MT/Mel hydrogel substantially reduces the volume of recurrent tumors and demonstrates 85.1% and 66.7% inhibition rates of metastases, respectively. Importantly, the Ge1MT/Mel hydrogel markedly stimulates a potent antitumor immune response in the cancer lesion microenvironment, increasing antitumor immune cells including CD8+ T cells, as well as elevating antitumor cytokines such as interferon-γ. Overall, combination immunotherapy via the Ge1MT/Mel hydrogel after surgery represents a promising strategy to minimize residual tumor burden and reduce recurrence risk following tumor resection.",
+      "journal": "ACS Appl Mater Interfaces",
+      "pub_date": "2026-May-04",
+      "doi": "10.1021/acsami.6c06670",
+      "authors": [
+        "Li X",
+        "Xu Y",
+        "Xu L"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【前臨床研究】術後大腸癌・乳癌マウスモデルにおけるGe1MT/Melハイドロゲルの腫瘍再発・転移抑制効果\n術後局所投与により大腸癌転移抑制率66.7%・乳癌85.1%、CD8+T細胞増加・制御性T細胞減少・IFN-γ上昇を確認\nIDO阻害+COX-2阻害の局所併用免疫療法による術後免疫抑制微小環境の逆転という新戦略",
+      "importance": 2,
+      "category": "basic_science"
+    },
+    {
+      "pmid": "42081185",
+      "title": "The intersection of colorectal cancer and cardiovascular disease: shared mechanisms and clinical implications.",
+      "abstract": "Colorectal cancer (CRC) and cardiovascular disease (CVD) are major contributors to the global disease burden, with CRC as the third most common malignancy and second leading cause of cancer-related death, and CVD as the top killer among non-communicable diseases. The growing ageing population has driven a continuous rise in CRC-CVD comorbidity. Treatment-related cardiovascular toxicity, shared pathophysiological links, and the prognostic impact of comorbidity have made this interdisciplinary field a critical focus in cardio-oncology. This review addresses core scientific questions at the CRC-CVD intersection, including their shared risk factors and pathological mechanisms (metabolic syndrome, chronic inflammation, oxidative stress, gut microbiota dysbiosis, etc.), epidemiological and molecular associations between CRC and major CVD subtypes, as well as cardiovascular toxicity mechanisms, monitoring, and intervention strategies for CRC therapies (chemotherapy, targeted therapy, immunotherapy). Beneficial lifestyle modifications and cross-effective medications, together with multidisciplinary team (MDT) collaboration, hold great value for comorbidity management. Current studies have confirmed their epidemiological and partial mechanistic links, but key gaps remain: unclear core molecular regulatory networks, insufficient gut microbiota-cardiovascular-tumor axis research, lack of personalized risk prediction models, limited long-term cardiovascular data for novel anticancer drugs, and absent standardized precision prevention protocols. Future multi-omics studies, large-scale clinical trials, and real-world data research will help clarify shared targets, build risk models, and formulate interdisciplinary management guidelines to improve outcomes of CRC-CVD comorbidity patients.",
+      "journal": "Clin Transl Oncol",
+      "pub_date": "2026-May-04",
+      "doi": "10.1007/s12094-026-04367-9",
+      "authors": [
+        "Wu S",
+        "Yu L",
+        "Liu M"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "summary_ja": "【レビュー】大腸癌(CRC)と心血管疾患(CVD)の共存病態における共通機序と臨床的意義を包括的に概説\n代謝症候群・慢性炎症・酸化ストレス・腸内細菌叢異常が共通病態基盤。化学療法・分子標的薬・免疫療法の心毒性機序と管理戦略、MDT連携の有用性を整理\n腸内細菌-心血管-腫瘍軸の解明や個別化リスク予測モデル構築が今後の課題として明示",
+      "importance": 2,
+      "category": "other"
+    },
+    {
+      "pmid": "42081076",
+      "title": "Takotsubo syndrome following delayed bleeding after gastric endoscopic submucosal dissection: a case report.",
+      "abstract": "Endoscopic submucosal dissection (ESD) is a minimally invasive treatment for early gastric cancer that enables the en bloc resection of large lesions. However, it is associated with a significant risk of delayed bleeding, particularly in patients receiving antithrombotic therapy. Delayed bleeding after ESD causes anemia and serious systemic complications, including cardiovascular events. Here, we report a rare case of Takotsubo syndrome triggered by delayed bleeding after gastric ESD that culminated in cardiac arrest. A man in his 70s who underwent gastric ESD experienced delayed bleeding six days after the treatment, requiring emergency endoscopic hemostasis. The following day, the patient developed sudden ventricular fibrillation without prior chest symptoms. After resuscitation with electrical defibrillation, left ventriculography revealed apical ballooning consistent with Takotsubo syndrome. With intensive care, cardiac function recovered, and the patient was discharged ambulatory. Takotsubo syndrome is typically induced by stress, and often triggers psychological and physical stimuli. Although most patients present with chest pain or discomfort, our patient showed no preceding symptoms and developed sudden arrhythmia and cardiac arrest. This case highlights the need for aggressive bleeding prevention and enhanced post-ESD cardiac surveillance to mitigate rare but potentially fatal complications.",
+      "journal": "Clin J Gastroenterol",
+      "pub_date": "2026-May-04",
+      "doi": "10.1007/s12328-026-02347-8",
+      "authors": [
+        "Saito Y",
+        "Nakashima M",
+        "Saito H"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【症例報告】胃ESD後遅発性出血を契機にたこつぼ症候群・心停止をきたした70代男性1例\nESD6日後に遅発性出血→翌日に前駆症状なく心室細動・心停止発症、電気的除細動後に左室造影でapical ballooningを確認、集中治療で回復・退院\nESD後遅発性出血がたこつぼ症候群の身体的誘因となり得ることを示す稀な報告",
+      "importance": 1,
+      "category": "endoscopy_ESD_EMR"
+    },
+    {
+      "pmid": "42081073",
+      "title": "Probiotic potential and antioxidant, antidiabetic, and anticancer activities of goat milk-derived lactic acid bacteria.",
+      "abstract": "Raw goat milk was explored as a source of lactic acid bacteria (LAB) with potential probiotic properties. Following 16S rRNA gene sequencing, Lactiplantibacillus plantarum PP101-STR and Lactococcus lactis PP104-STR were selected for further probiotic assessment. L. plantarum PP101-STR exhibited broad antagonistic activity against both Gram-positive and Gram-negative pathogens, especially Salmonella enterica ATCC 13312 and maintained high viability (> 83%) under simulated gastric conditions (pH 2.0-3.0) and bile salt exposure. This strain also demonstrated high cell surface hydrophobicity, along with strong auto-aggregation and co-aggregation capacities, which were associated with significantly enhanced adhesion to Caco-2 and HT-29 cell lines and effective competitive exclusion of pathogenic bacteria (p≤0.05). In addition, L. plantarum PP101-STR displayed strong antioxidant activity, as determined by total phenolic content, FRAP, DPPH, and ABTS assays, exceeding that of L. lactis PP104-STR. Its cell-free supernatant (CFS) exhibited notable α-glucosidase and α-amylase inhibitory activities, indicating potential for glucose regulation. Antiproliferative evaluation revealed that L. plantarum PP101-STR markedly suppressed colorectal cancer cell growth in a dose-dependent manner. Importantly, low lactate dehydrogenase release (8.11-8.86%) and maintained viability in MRC-5 cells indicated minimal membrane damage and low cytotoxicity toward normal cells, supporting a non-lytic mechanism potentially involving apoptosis-related pathways. On the basis of the present finding, L. plantarum PP101-STR demonstrates strong probiotic potential and multiple biologically relevant activities in vitro, supporting its further investigation in applications related to intestinal health.",
+      "journal": "Folia Microbiol (Praha)",
+      "pub_date": "2026-May-04",
+      "doi": "10.1007/s12223-026-01494-2",
+      "authors": [
+        "Tinrat S",
+        "Jiraprasertwong O"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【in vitro研究】ヤギ乳由来L. plantarum PP101-STRのプロバイオティクス特性・大腸癌細胞増殖抑制効果を評価\n胃酸条件下生存率>83%、Caco-2/HT-29への高接着性、大腸癌細胞に用量依存的増殖抑制、正常細胞LDH放出8.11-8.86%と低毒性\nin vitroのみで臨床エビデンス皆無。プロバイオティクスの抗腫瘍機序解明への基礎的知見",
+      "importance": 2,
+      "category": "basic_science"
+    },
+    {
+      "pmid": "42080918",
+      "title": "Preoperative D-dimer as a predictor of venous thromboembolism after laparoscopic gastric and colorectal cancer surgery: findings from the EnoLap trial.",
+      "abstract": "PURPOSE: Venous thromboembolism (VTE) is a potentially serious complication after surgery for gastrointestinal cancer; however, its risk factors following laparoscopic surgery remain unclear. This study aimed to identify the risk factors for postoperative VTE in patients undergoing laparoscopic gastrectomy or colectomy.\nMETHODS: We analyzed data, retrospectively, from patients enrolled in the multicenter randomized EnoLap-CG trial, who underwent laparoscopic gastrectomy or colectomy. All patients underwent protocol-mandated contrast-enhanced computed tomography (CT) on postoperative day (POD) 7 to screen for VTE.\nRESULTS: Postoperative VTE was identified in 19 (4.6%) of 410 patients. The preoperative D-dimer level was significantly higher in the VTE group than in the no- VTE group (1.40 µg/mL vs. 0.76 µg/mL; p < 0.01). The incidence of VTE was higher in women than in men (7.2% vs. 2.9%; p = 0.05). Multivariate logistic regression analysis demonstrated that an elevated preoperative D-dimer level (OR, 1.89; 95% CI, 1.28-2.80; p < 0.01) and female sex (OR, 2.64; 95% CI, 1.02-6.85; p < 0.01) were independent risk factors for VTE.\nCONCLUSIONS: An elevated preoperative D-dimer level and female sex are independent risk factors for postoperative VTE after laparoscopic gastric and colorectal cancer surgery.",
+      "journal": "Surg Today",
+      "pub_date": "2026-May-04",
+      "doi": "10.1007/s00595-026-03308-x",
+      "authors": [
+        "Ohno Y",
+        "Ichikawa N",
+        "Yoshida T"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【後ろ向き多施設RCT二次解析】腹腔鏡下胃・大腸癌手術410例、術後VTE発症の予測因子を検討\nVTE発症率4.6%（19/410例）。術前高D-dimer（OR 1.89, 95%CI 1.28-2.80）と女性（OR 2.64, 95%CI 1.02-6.85）が独立リスク因子（いずれもp<0.01）\n腹腔鏡手術後VTEの術前層別化に術前D-dimer測定が有用な可能性を示す",
+      "importance": 3,
+      "category": "surgery"
+    },
+    {
+      "pmid": "42080454",
+      "title": "Procedure-related PD-peritonitis following gastroscopy and colonoscopy: A 15-year binational data-linkage study from Australia and New Zealand.",
+      "abstract": "AimTo describe the risk of post-procedural peritoneal dialysis (PD) peritonitis episodes following gastroscopy and colonoscopy over a 15-year period in Australia and New Zealand.BackgroundThe risk of post-procedural PD peritonitis is well recognised following colonoscopy and current ISPD guidelines recommend prophylactic antibiotics. Current guidelines do not recommend this prior to gastroscopy alone due to low level evidence.MethodsData linkage between hospital admission datasets and ANZDATA was performed in all jurisdictions in Australia and New Zealand, to identify all incident and prevalent patients on PD who underwent either gastroscopy or colonoscopy. ANZDATA reporting of peritonitis was interrogated to describe the risk of peritonitis occurring within seven days of either type of endoscopic procedure. The risk of permanent dialysis modality change at 30 days was estimated using competing risk analysis, as well as a description of the microbiology of these episodes.ResultsIn total, 4433 admissions for gastroscopy (2447) colonoscopy (1191) or both (795) were identified amongst 3674 unique patients. In total there were 106 episodes of peritonitis, 51 of which occurred after gastroscopy alone. The event rate of post-procedure peritonitis was similar following gastroscopy (2.1%) and colonoscopy (2.4%) alone. Risk of peritonitis was similar when considering gastroscopy with and without intervention: 1.7% (95% CI 1.1-2.3) and 2.2% (95% CI 1.3-3.1), respectively. A similar trend was also present for colonoscopy with and without intervention: 2.8% (95%CI 1.0-4.7) and 2.7% (95%CI 1.5-4.0), respectively. The most important predictor of dialysis modality change after either procedure was having a polymicrobial infection (sHR 78.98, 95%CI 35.3-176.7). Regardless of procedure type, organisms of enteric origin along with coagulase negative staphylococcus were the most commonly identified.ConclusionsThere was a similar risk of peritonitis following either gastroscopy or colonoscopy over the time period. Further studies evaluating the effect and role of prophylactic antibiotics prior to gastroscopy alone are required.",
+      "journal": "Perit Dial Int",
+      "pub_date": "2026-May-04",
+      "doi": "10.1177/08968608261444886",
+      "authors": [
+        "Chandler S",
+        "Palamuthusingam D",
+        "Hawley CM"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【後ろ向きデータリンケージ研究】PD患者3674名における胃内視鏡・大腸内視鏡後腹膜炎リスクを15年間評価\n腹膜炎発生率：胃内視鏡2.1% vs 大腸内視鏡2.4%（同等）。透析モダリティ変更の最大予測因子は多菌感染（sHR 78.98, 95%CI 35.3-176.7）\n胃内視鏡後腹膜炎リスクが大腸内視鏡と同等であり、予防的抗菌薬投与指針の見直しを示唆",
+      "importance": 3,
+      "category": "endoscopy_ESD_EMR"
+    },
+    {
+      "pmid": "42080434",
+      "title": "Survival of patients with complete metabolic response on [18F]FDG PET/CT after chemotherapy prior to transplantation for colorectal liver metastases.",
+      "abstract": "BACKGROUND AND AIMS: The primary aim was to compare disease-free survival (DFS), overall survival (OS), and post relapse survival (PRS) in patients undergoing transplantation for colorectal liver metastases (CRLM) who achieved complete metabolic response (CMR) on pre-transplant [18F]FDG PET/CT after chemotherapy, with patients presenting with low or high metabolic tumor volume (MTV).\nMETHODS: Pre-operative [18F]FDG PET/CT and diagnostic CT scans from 45 patients included in the Secondary Cancer (SECA) 1 and 2 studies were evaluated. MTV was derived from the [18F]FDG PET/CT, and patients with CMR (MTV = 0) were identified. Patients were stratified into three subgroups: MTV 0, MTV low, and MTV high. DFS, OS, and PRS were compared using the Kaplan-Meier method and the log-rank test. Baseline characteristics and CT reassessment data were analyzed using the Mann-Whitney U test for continuous variables and Fisher's exact test for categorical variables.\nRESULTS: Thirteen patients with CMR had significantly longer DFS and OS than patients in the MTV high group (p = 0.033 and 0.030), but significantly shorter DFS and OS than those in the MTV low group (p = 0.042 and 0.018). PRS did not differ significantly between patients with CMR and those with low or high MTV (p = 0.121 and 0.130). Imaging findings of extensive growth along the liver capsule and/or possible tumor extension beyond the liver capsule on CT had significantly shorter OS (p = 0.010 and <0.001), including after exclusion of the MTV high group (0.034 and <0.001).\nCONCLUSION: Patients with CMR on [18F]FDG PET/CT after chemotherapy prior to liver transplantation for CRLM had intermediate DFS, OS, and PRS compared with patients with low and high MTV.",
+      "journal": "Scand J Surg",
+      "pub_date": "2026-May-04",
+      "doi": "10.1177/14574969261438696",
+      "authors": [
+        "Stern NM",
+        "Dueland S",
+        "Line PD"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【後ろ向き観察研究】CRLM肝移植45例でPET/CT完全代謝奏効(CMR)群のDFS・OS・PRSを検討\nCMR群(n=13)のDFS・OSはMTV高群より良好(p=0.033/0.030)だがMTV低群より不良(p=0.042/0.018)で中間的成績。肝被膜浸潤疑いはOS短縮(p<0.001)\nCMRは最良予後を示さず、MTV低値群が最も良好。PET/CTのみでの移植適応判断に限界を示唆",
+      "importance": 3,
+      "category": "surgery"
+    },
+    {
+      "pmid": "42071022",
+      "title": "CAD-SEL: A dual-modal colonoscopy dataset of subepithelial lesion.",
+      "abstract": "Subepithelial lesions (SELs) of the gastrointestinal tract encompass a heterogeneous spectrum of histology, ranging from benign to malignant. Their detection during colonoscopy is critical yet challenging, as endoscopic interpretation is highly operator-dependent with variable diagnostic performance. Artificial intelligence (AI) offers great promise for assisting endoscopists in SEL detection and assessing, yet progress has been limited by the lack of large, diverse, and well-annotated datasets. To address this, we present CAD-SEL dataset, the first publicly available dual-modality colonoscopy dataset for SEL detection. The dataset comprises 4,912 images from 641 patients, collected across six medical centers in China, with paired white light endoscopy and endoscopic ultrasound images. Expert endoscopists provided histology-based multi-class annotations and clinically relevant binary classifications (potentially malignant versus benign) ensuring both research flexibility and AI-driven applicability. Initial technical validation with several state-of-the-art object detection models demonstrates the dataset's potential to support AI-based computer-assisted detection systems. CAD-SEL dataset provides a high-quality open-access benchmark to advance AI-assisted SEL analysis, support reproducibility, and facilitate broader clinical translation.",
+      "journal": "Sci Data",
+      "pub_date": "2026-May-04",
+      "doi": "10.1038/s41597-026-07331-y",
+      "authors": [
+        "Xu L",
+        "Chen S",
+        "Li C"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【データセット構築】大腸SEL検出用デュアルモダリティ公開データセット(641例4,912画像)の構築と技術的検証\n6施設から白色光内視鏡+超音波内視鏡ペア画像を収集し、組織学的多クラス・良悪性2値アノテーション付き；最新物体検出モデルで初期検証実施\n大腸SEL向け初の公開デュアルモダリティAIベンチマークデータセットとして再現性・臨床応用を促進",
+      "importance": 3,
+      "category": "endoscopy_ESD_EMR"
+    },
+    {
+      "pmid": "42071008",
+      "title": "Total neoadjuvant chemotherapy combined with PD‑1 blockade and IL‑2 in MSS/pMMR locally advanced rectal cancer: short-term results of a prospective, single-arm phase II study.",
+      "abstract": "Neoadjuvant therapy has become a cornerstone in the management of locally advanced rectal cancer (LARC). In this single-arm, open-label phase II study, we evaluated the efficacy and safety of total neoadjuvant chemotherapy (TNT) using a CapOX regimen combined with a programmed cell death protein 1 (PD‑1) antibody (sintilimab) and interleukin‑2 (IL‑2) in patients with microsatellite stable (MSS)/defining proficient mismatch repair (pMMR) LARC. A total of 33 patients, aged 18-75 years, with rectal tumors located within 12 cm from the anal verge and staged as cT3/4N_anyM0 or cT_anyN⁺M0, were enrolled. Patients received a regimen consisting of oxaliplatin, sintilimab, capecitabine, and IL‑2 administered in a three‑week cycle, with response evaluations performed after every two cycles. Following six cycles of treatment, 33 patients underwent radical surgery, achieving a 100% R0 resection rate. The pathological complete response (pCR) rate was 42.4% (95% CI: 25.68-59.16%) while the remaining 19 patients (57.6%, 95% CI: 41.07-74.09%) were assessed as having a partial response. The tumor regression grades (TRG) were, TRG1: 3 cases (9.1%, 95% CI: 1.90-25.97%), TRG2: 14 cases (42.4%, 95% CI: 26.27-60.38%), and TRG3: 2 cases (6.1%, 95% CI: 0.73-20.37%), respectively. Surgical safety reported as no cases of grade B/C anastomotic leakage or bowel obstruction. Adverse events (AEs) were manageable, with a 21.2% incidence of grade 3 events and no grade IV/V events or treatment‑related deaths. With a median follow‑up of 25.5 weeks, no recurrences were observed. Analysis of blood and tissue samples from patients with different treatment outcomes revealed significant activation of CD8+ T cells, NK cells, and M1 macrophage subsets in the tumor microenvironment of patients achieving pCR. These compelling data demonstrate promising efficacy with a favorable safety profile in MSS/pMMR LARC. These findings warrant studies to validate this regimen as a novel treatment paradigm for rectal cancer. ClinicalTrials.gov registration: NCT06108596.",
+      "journal": "Signal Transduct Target Ther",
+      "pub_date": "2026-May-04",
+      "doi": "10.1038/s41392-026-02683-8",
+      "authors": [
+        "Tang J",
+        "Wang L",
+        "Yang S"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Clinical Trial, Phase II"
+      ],
+      "summary_ja": "【第II相単群試験】MSS/pMMR局所進行直腸癌33例にTNT(CapOX)+シンチリマブ(PD-1抗体)+IL-2を投与し病理学的完全奏効率を評価\npCR率42.4%(95%CI:25.68-59.16%)、R0切除率100%、Grade3 AE発生率21.2%、Grade4/5なし、吻合部縫合不全(B/C)ゼロ\n免疫療法が効きにくいMSS/pMMR直腸癌でpCR率42%超は既存TNTを大幅に上回る可能性を示す",
+      "importance": 4,
+      "category": "CRC_treatment"
+    },
+    {
+      "pmid": "42070970",
+      "title": "Incidental serrated lesions of the appendix: analysis of 2,137 appendectomy specimens.",
+      "abstract": "BACKGROUND: Serrated lesions of the appendix are rare, often incidental findings in routine appendectomy specimens. Their true frequency, histopathologic spectrum, and anatomic distribution remain incompletely characterized, partly due to variability in sampling practices.\nMETHODS: We retrospectively reviewed 2,137 appendectomy specimens (2015-2025) from a single tertiary pathology center. Cases with histologically confirmed serrated lesions were reexamined, classified as hyperplastic polyp (HP) or sessile serrated lesion/polyp (SSL/P), and assessed for clinicopathologic parameters including lesion size, location, and associated pathologies. Nonparametric tests were used, with statistical significance defined as p < .05.\nRESULTS: Serrated lesions were identified in 34 cases (1.6%), comprising 17 HPs (0.8%) and 19 SSL/Ps (0.9%). SSL/Ps were significantly larger than HPs (median 10.0 vs. 2.7 mm, p < .001) and were more frequently located in the distal appendix (68.4% vs. 33.3%, p = .045, one-tailed Fisher's exact test). No dysplasia or traditional serrated adenoma was detected. Acute appendicitis was present in 88% of cases, and associated neoplasms in 9%.\nCONCLUSIONS: Appendiceal serrated lesions are uncommon and often incidental. In this large appendectomy series, SSL/Ps differed from HPs by larger size and distal predilection. These findings primarily support diagnostic awareness and optimized sampling/ grossing practices-particularly careful evaluation of the distal appendix-rather than clinical risk stratification. Further studies incorporating systematic clinical correlation and molecular/immunohistochemistry analyses are warranted.",
+      "journal": "J Pathol Transl Med",
+      "pub_date": "2026-May-04",
+      "doi": "10.4132/jptm.2026.02.08",
+      "authors": [
+        "Atmış Ö",
+        "Küçük ED",
+        "Mavili HS"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【後ろ向き観察研究】虫垂切除2,137例における虫垂鋸歯状病変の頻度・組織分類・臨床病理学的特徴\n鋸歯状病変は34例(1.6%)に検出(HP 17例0.8%、SSL/P 19例0.9%)。SSL/PはHPより有意に大きく(中央値10.0 vs 2.7 mm、p<0.001)、遠位部優位(68.4% vs 33.3%、p=0.045)。異形成・TSAは検出なし\n虫垂遠位部の丁寧な肉眼・組織サンプリングの重要性を示すが、臨床的リスク層別化への直接的影響は限定的",
+      "importance": 2,
+      "category": "pathology_molecular"
+    },
+    {
+      "pmid": "42011059",
+      "title": "Sorafenib-Loaded Mesoporous Fe-Hematoporphyrin Complex for Ferroptosis-Enhanced Photodynamic Therapy of Colorectal Tumor.",
+      "abstract": "Current colorectal cancer (CRC) therapies (e.g., surgery and radiotherapy) face challenges of invasiveness, drug resistance, and limited efficacy. Photodynamic therapy (PDT), a noninvasive modality, generates cytotoxic reactive oxygen species (ROS) via photosensitizers, offering a promising approach to overcome resistance. However, CRC and other solid tumors exhibit a hypoxic microenvironment with elevated glutathione (GSH) levels that scavenge ROS, severely compromising PDT efficacy. Developing advanced PDT systems to enhance ROS generation and overcome these microenvironmental barriers (e.g., hypoxia and GSH overexpression) is thus critical to improve CRC treatment outcomes and clinical translation. Herein, we report that a mesoporous Fe-hematoporphyrin complex (FeCP) was synthesized via covalent coordination of Fe3+ with hematoporphyrin. The FeCP exhibits a high surface area and tunable porosity, enabling efficient encapsulation of the ferroptosis inducer sorafenib (SOR) with a loading efficiency of 29.8%, as quantified by UV spectroscopy. Both in vitro and in vivo evaluations demonstrated that FeCP@SOR exhibited biocompatibility and synergistically enhanced photodynamic therapy (PDT) efficacy through dual redox modulation mechanisms. Mechanistically, FeCP@SOR significantly downregulated SLC7A11 expression, triggering substantial lipid peroxidation (LPO) and malondialdehyde (MDA) accumulation, as well as significant depletion of glutathione (GSH), ultimately inducing ferroptosis and alleviating tumor hypoxia. Concurrently, the amplified reactive oxygen species (ROS) generation disrupted intracellular redox homeostasis, intensifying tumor cell death and suppressing tumor growth. The FeCP@SOR nanocomposite demonstrated synergistic therapeutic effects against colorectal tumors, thereby offering a novel and reliable material platform for clinical photodynamic therapy (PDT) in colorectal cancer (CRC) management.",
+      "journal": "Mol Pharm",
+      "pub_date": "2026-May-04",
+      "doi": "10.1021/acs.molpharmaceut.5c01873",
+      "authors": [
+        "Zhang C",
+        "Bai Y",
+        "Zhang Y"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【基礎研究】大腸癌モデルにおけるFeCP@SOR（鉄-ヘマトポルフィリン複合体＋ソラフェニブ）のフェロトーシス増強PDT効果を検討\nFeCP@SORはSLC7A11発現を有意に抑制し、GSH枯渇・LPO/MDA蓄積を誘導、in vitro/in vivoで腫瘍増殖抑制の相乗効果を確認（ソラフェニブ封入効率29.8%）\n低酸素・高GSH環境下でのPDT限界をフェロトーシス誘導で克服する新規ナノ複合体プラットフォームの提示",
+      "importance": 2,
+      "category": "basic_science"
+    },
+    {
+      "pmid": "41988805",
+      "title": "Development of Liposomal Formulations Composed of Thermoresponsive Polymers to Enhance Tumor Accumulation in Combining with Local Tumor Heating.",
+      "abstract": "Liposomes, nanosized vesicles consisting of a lipid bilayer membrane, have been widely investigated as versatile drug delivery systems. Clinically, several liposomal formulations have been used as anticancer drug carriers owing to their enhanced permeability and retention (EPR) effects. Nevertheless, the accumulation of conventional liposomes in tumors remains insufficient to achieve optimal therapeutic efficacy. Therefore, the development of innovative liposomes with improved tumor selectivity and delivery efficiency is required. In this study, we designed and evaluated novel liposomes prepared from thermoresponsive polyoxazoline (POZ)-lipid conjugates (DSPE-POZ), cholesterol, and hydrogenated soybean phosphatidylcholine (HSPC). The obtained liposomes had a particle size of 50-60 nm and a slightly negative ζ-potential. POZ has a lower critical solution temperature (LCST), which enables liposomes to alter their physicochemical properties in response to mild hyperthermia. The fixed aqueous layer thickness (FALT) of the DSPE-POZ liposomes dramatically decreased above the LCST, indicating increased hydrophobicity of the liposomal surface. A cellular uptake study using mouse colon cancer cells (Colon26) demonstrated that DSPE-POZ liposomes containing POZ with an LCST of 37-38 °C were significantly highly taken up by tumor cells at 43 °C (above LCST) compared to 37 °C. Furthermore, biodistribution studies using Colon26 tumor-bearing mice revealed that DSPE-POZ liposomes were cleared from the blood and preferentially accumulated in heated tumors, achieving a 7-fold higher uptake than in nonheated tumors. These results indicate that liposomes composed of POZ-lipid conjugates represent a promising drug delivery platform capable of improving tumor accumulation when combined with local tumor heating.",
+      "journal": "Mol Pharm",
+      "pub_date": "2026-May-04",
+      "doi": "10.1021/acs.molpharmaceut.6c00414",
+      "authors": [
+        "Fukada T",
+        "Sano K",
+        "Nakata M"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【基礎研究】Colon26担癌マウスを用いたサーモレスポンシブPOZ修飾リポソームの腫瘍集積性評価\n局所加温(43°C)により非加温腫瘍比で7倍の腫瘍集積増加；細胞取り込みも43°C vs 37°Cで有意に上昇\nEPR効果に温熱療法を組み合わせた新規DDS戦略；大腸癌への臨床応用には更なる検証が必要",
+      "importance": 2,
+      "category": "basic_science"
+    },
+    {
+      "pmid": "41941275",
+      "title": "Targeting conserved domains of hypoxia-inducible factors for cancer therapy.",
+      "abstract": "Hypoxia-inducible factors 1 and 2 (HIF-1/2) function as master regulators of cancer progression by regulating angiogenesis, cancer stem cell specification, epithelial-mesenchymal transition, immune evasion, tissue invasion, and metastasis. We utilized computer-aided drug discovery and cell-based reporter assays to identify dual HIF-1/2 inhibitors, which bind directly to highly conserved domains of HIF-1α and HIF-2α, disrupt dimerization with HIF-1β, and trigger proteasomal degradation, thereby inhibiting HIF-1/2 transcriptional activity. These inhibitors and derivative compounds block growth and vascularization of breast, colorectal, head/neck, melanoma, and prostate tumors as monotherapy, and overcome resistance to anti-CTLA-4 or anti-PD-1 immunotherapy, with an aggregate complete response rate of over 50%, through reprogramming of the tumor immune cell microenvironment. Compared with the HIF-2-selective inhibitors belzutifan and PT2385, dual HIF-1/2 inhibitor 1.21S9N showed superior activity against breast and colorectal cancer models, respectively. PT2385 caused breathing abnormalities, whereas 1.21S9N did not. The drugs are orally bioavailable, and no safety concerns were identified even after extended or supratherapeutic dosing.",
+      "journal": "J Exp Med",
+      "pub_date": "2026-May-04",
+      "doi": "10.1084/jem.20251009",
+      "authors": [
+        "Salman S",
+        "Huang TY",
+        "Hwang Y"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【基礎研究】乳癌・大腸癌等複数癌モデルにおけるデュアルHIF-1/2阻害剤の有効性・安全性評価\nデュアルHIF-1/2阻害剤1.21S9NはHIF-2選択的阻害剤belzutifan/PT2385より大腸癌モデルで優位、免疫療法抵抗性克服で完全奏効率>50%\n大腸癌を含む固形腫瘍でHIF-1/2同時阻害が免疫療法耐性を打破する新戦略となりうる",
+      "importance": 3,
+      "category": "basic_science"
+    },
+    {
+      "pmid": "41824510",
+      "title": "IL1R2 Deficiency Unleashes Neutrophil-Mediated Antitumor Potential in Sarcoma.",
+      "abstract": "Interleukin 1 (IL1) plays dual functions in cancer. It promotes cancer-related inflammation and progression but also influences leukocyte functional activation. IL1 receptor 2 (IL1R2) functions as an IL1 decoy receptor, inhibiting IL1 activity. In this study, we investigated the contribution of IL1R2 in tuning IL1-dependent effects in mouse models of cancer, including colorectal cancer, lung cancer, and primary and metastatic transplantable and chemically induced sarcoma. Even though the prominent role of IL1 is protumoral, IL1R2 deficiency was selectively associated with reduced sarcoma growth, whereas it was irrelevant in other preclinical models investigated. IL1R2 deficiency was associated with a massive infiltration of neutrophils in the tumor, neutrophilia, and increased extramedullary emergency granulopoiesis. Neutrophils were crucial for tumor control in IL1R2-deficient mice. Immunophenotypic and transcriptional profiling of sarcoma-infiltrating neutrophils revealed that IL1R2 deficiency was associated with higher expression of activation or maturation markers and gene expression reprogramming, with downregulation of pathways associated with protumoral functions. In patients with sarcoma, the IL1R2 deficiency gene signature correlated with better clinical outcomes. Thus, this study shows that IL1R2 tunes IL1-driven cancer-associated emergency granulopoiesis and neutrophil functional activation to an antitumor mode in sarcomas and reveals the antitumor potential of neutrophils in this tumor.",
+      "journal": "Cancer Immunol Res",
+      "pub_date": "2026-May-04",
+      "doi": "10.1158/2326-6066.CIR-25-0651",
+      "authors": [
+        "Mariancini A",
+        "Supino D",
+        "Mapelli SN"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【基礎研究】マウス肉腫モデル・大腸癌等でIL1R2欠損の腫瘍増殖への影響を検討\nIL1R2欠損は肉腫で選択的に腫瘍縮小効果を示し、好中球大量浸潤・緊急顆粒球産生亢進を誘導。患者データでもIL1R2欠損シグネチャーが良好な臨床転帰と相関\n大腸癌モデルでは効果なく肉腫特異的。好中球の抗腫瘍機能再プログラムという新機序を提示",
+      "importance": 2,
+      "category": "basic_science"
+    },
+    {
+      "pmid": "41686262",
+      "title": "CLK1 Promotes Myeloid-Derived Suppressor Cell Trafficking and Reprograms the Tumor Microenvironment by Activating Hippo/YAP Signaling in Colorectal Cancer.",
+      "abstract": "Colorectal cancer is a highly heterogeneous malignancy characterized by complex interactions between tumor cells and the immune system. The tumor microenvironment (TME) plays a crucial role in colorectal cancer progression and response to therapy. However, the mechanisms regulating TME composition remain poorly understood because of the genetic and phenotypic diversity of tumor cells. In this study, we investigated the tumor-intrinsic factors contributing to TME formation and evaluated genotype-based combination strategies to enhance the efficacy of immunotherapy in colorectal cancer. Using RNA sequencing, single-cell analysis, and immunohistochemistry (IHC), we identified pro-oncogenic proteins associated with low immune activation. Functional studies using in vitro co-culture systems, subcutaneous colorectal tumor models, flow cytometry, and IHC revealed a role for CDC-like kinase 1 (CLK1) in tumor progression and immunosuppressive TME remodeling. Mechanistically, CLK1 activation led to hyperactivation of the Hippo signaling pathway, promoting nuclear translocation of Yes-associated protein (YAP) and subsequent transcriptional upregulation of the chemokine CXCL1. Elevated CLK1 expression correlated with increased infiltration of myeloid-derived suppressor cells (MDSC) and impaired antitumor immune responses. Knockdown (KD) of CLK1 significantly reduced MDSC recruitment and restored CD8+ T-cell activity. Moreover, combined CLK1 KD and anti-PD-1 therapy enhanced intratumoral CD8+ T-cell infiltration to a greater extent and elicited robust antitumor responses in murine colorectal cancer models. Collectively, our findings identify the CLK1-Hippo/YAP-CXCL1 signaling axis as a regulator of immune evasion and TME remodeling in colorectal cancer and highlight the potential of therapeutically targeting this axis to improve the efficacy of immune checkpoint blockade.",
+      "journal": "Cancer Immunol Res",
+      "pub_date": "2026-May-04",
+      "doi": "10.1158/2326-6066.CIR-25-0766",
+      "authors": [
+        "Li P",
+        "Xie Y",
+        "Zhou D"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【基礎研究】大腸癌におけるCLK1のTME免疫抑制機構をRNA-seq・単細胞解析・マウスモデルで検討\nCLK1がHippo/YAP活性化→CXCL1転写誘導→MDSC浸潤増加・CD8+T細胞抑制を促進；CLK1 KD+抗PD-1併用でCD8+T細胞浸潤が単独療法より有意に増加し抗腫瘍効果増強\nCLK1-YAP-CXCL1軸が免疫回避の新規標的となり、ICB耐性克服の戦略を提示",
+      "importance": 3,
+      "category": "basic_science"
+    },
+    {
+      "pmid": "41661673",
+      "title": "Subcellular Redistribution of Endomembrane GPR15 Promotes NAD+-Mediated Metabolic Reprogramming and Boosts 5-FU Chemosensitivity in Colorectal Cancer.",
+      "abstract": "UNLABELLED: G protein-coupled receptors (GPCR) are increasingly recognized for their organelle-specific functions in cancer. A better understanding of the mechanisms governing their dynamic subcellular distribution and functional coordination is essential for developing spatially targeted therapies that exploit the subcellular signaling networks of GPCRs. In this study, we found that Golgi-localized GPR15 underwent spatiotemporal trafficking to enhance 5-fluorouracil (5-FU) chemosensitivity in colorectal cancer. Dependent on Gαq, GPR15 associated with and restrained PARP4 enzymatic activity in the Golgi apparatus to drive cytosolic NAD+ accumulation. MGST1 interacted with and navigated GPR15 redistribution to mitochondria to increase mitochondrial NAD+ abundance, which fueled central carbon metabolism and activated downstream metabolic networks to prime tumors for 5-FU cytotoxicity. Treatment with the PARP inhibitor rucaparib showed potent synergy with 5-FU and demonstrated robust tumor suppression in patient-derived organoids and xenograft models through NAD+-mediated metabolic perturbation. This work establishes spatially encoded GPCR signaling as a druggable axis to potentiate chemotherapy efficacy, redefining intracellular receptor trafficking as an important regulator of metabolic plasticity in cancer therapy.\nSIGNIFICANCE: GPCR redistribution spatially regulates NAD+ metabolism and can be harnessed with clinically available PARP inhibitors to enhance chemosensitivity, offering a strategy to target nongenetic adaptive mechanisms for treating colorectal cancer.",
+      "journal": "Cancer Res",
+      "pub_date": "2026-May-04",
+      "doi": "10.1158/0008-5472.CAN-25-2586",
+      "authors": [
+        "Yue Z",
+        "Dai W",
+        "Cao Z"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【基礎研究】大腸癌におけるGPR15の細胞内再分布とNAD+代謝・5-FU感受性への影響を検討\nGPR15はGolgi→ミトコンドリアへ再分布しNAD+蓄積を促進、PARPi rucaparibと5-FUの併用がPDOおよびXenograftモデルで強力な腫瘍抑制効果を示した\nPARPiと5-FUの新規併用戦略を提示し、非遺伝的適応機構を標的とする治療軸を確立",
+      "importance": 4,
+      "category": "basic_science"
+    },
+    {
+      "pmid": "41661652",
+      "title": "The Farnesyl Transferase Inhibitor Darlifarnib (KO-2806) Resensitizes Relapsing Tumors to RAS Inhibition.",
+      "abstract": "UNLABELLED: Resistance remains a key issue limiting the clinical benefit from RAS-targeting therapeutic agents and necessitates combination approaches. In this study, we identified persistent mTORC1 activity in preclinical KRAS-mutant non-small cell lung cancer (NSCLC) and colorectal cancer models as a frequent, nongenetic driver of inherent and adaptive resistance to RAS inhibition. This vulnerability was targetable with the farnesyl transferase inhibitor darlifarnib (KO-2806), which blocks mTORC1 activation via RHEB while sparing mTORC2 to limit associated toxicities. The addition of KO-2806 to NSCLC or colorectal cancer tumors progressing on mutant-selective RAS inhibitors led to rapid and durable tumor regression. In contrast, switching from mutant-selective to pan-RAS inhibitor monotherapy resulted in only stasis of NSCLC tumors and had no effect on colorectal cancer tumor progression. Furthermore, the addition of KO-2806 rescued sensitivity of progressing tumors to the pan-RAS inhibitor RMC-6236. These results establish mTORC1 as an important mediator of escape from RAS inhibition and highlight KO-2806 as a promising RAS companion inhibitor in patients with prior RAS inhibitor exposure.\nSIGNIFICANCE: KO-2806 salvages RAS inhibitor activity by controlling parallel mTORC1 in RAS inhibitor-resistant tumors in which vertical inhibition of MAPK is insufficient to restore sensitivity, providing a combination strategy for resistant patients.",
+      "journal": "Cancer Res",
+      "pub_date": "2026-May-04",
+      "doi": "10.1158/0008-5472.CAN-25-2764",
+      "authors": [
+        "Patel HV",
+        "Smith AE",
+        "Chan S"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【前臨床研究】KRAS変異NSCLC・大腸癌モデルでRAS阻害剤耐性機序とdarlifarnib(KO-2806)の効果を検討\nmTORC1持続活性が非遺伝的耐性の主因。KO-2806追加でRAS阻害剤耐性腫瘍に急速かつ持続的な腫瘍退縮を達成。pan-RAS阻害剤単剤切替はNSCLC停止・大腸癌無効\nRHEB経由mTORC1遮断がRAS阻害剤耐性大腸癌の救済戦略となり得る新規コンビネーション根拠を提示",
+      "importance": 3,
+      "category": "basic_science"
+    },
+    {
+      "pmid": "41423587",
+      "title": "Lipophilic Statins Deplete GPX4 to Promote Ferroptosis and Sensitize Cancer Cells to Immune Checkpoint Blockade.",
+      "abstract": "Statins have been reported to exert anticancer activity, varying with cancer type and specific statins. These findings suggest that more mechanistic insights into the anticancer effects of statins are needed. In this study, we interrogated the ability of statins to induce cell death and ferroptosis in melanoma and colorectal cancer. First, we showed that statins induce cell death in patient-derived melanoma cell lines and that lower expression of mevalonate pathway genes correlates with increased CD8+ T-cell infiltration and improved overall survival in patients with melanoma. We found that lipophilic statins induce cell death with features of ferroptosis. Transcriptional data also revealed system-level changes to a variety of ferroptosis-related pathways. We found that mevalonate rescued statin-induced cell death. Mechanistically, mevalonate-derived isopentyl pyrophosphate is necessary for isopentylation of tRNA [Ser]Sec, which is required for efficient synthesis of the selenoprotein ferroptosis suppressor GPX4. Given the emerging role for ferroptosis in antitumor immunity, we tested lipophilic statins, including simvastatin, alone and in combination with α-PD1 in vivo and found that simvastatin and α-PD1 promoted tumor clearance and extended survival in 20% to 60% of mice alone but in nearly 100% of mice when administered together. Simvastatin also depleted GPX4 in vivo. These results highlight the therapeutic potential of statin use in combination with immunotherapies.",
+      "journal": "Mol Cancer Ther",
+      "pub_date": "2026-May-04",
+      "doi": "10.1158/1535-7163.MCT-25-0667",
+      "authors": [
+        "Talty R",
+        "Brooks VT",
+        "McGeary MK"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【前臨床研究】メラノーマ・大腸癌細胞株およびマウスモデルでスタチンの抗腫瘍機序を検討\n親油性スタチンはメバロン酸経路阻害→GPX4枯渇→フェロトーシス誘導。シムバスタチン+抗PD1併用でマウス腫瘍消失率ほぼ100%（単剤20〜60%）\nスタチンがGPX4を介してフェロトーシスを誘導しICIと相乗効果を示す新規機序を提示",
+      "importance": 3,
+      "category": "basic_science"
+    },
+    {
+      "pmid": "42054359",
+      "title": "Cytochrome P450 1B1 directs pathogenic Th17 cell generation and autoimmune disease by fine-tuning redox homeostasis and mitochondrial integrity.",
+      "abstract": "Th17 cell function is highly context-dependent and can be categorized into pathogenic and nonpathogenic Th17 cell subsets. Understanding the molecule control of pathogenic Th17 (pTh17) cell immunity will benefit the treatment for related autoimmune diseases. Here, we revealed that cytochrome P450 1B1 (CYP1B1) is highly upregulated during mice and human colitis. CYP1B1 promoted both colon inflammatory diseases and colitis-associated colorectal cancer via pTh17-dependent but microbiota-independent manner. Notably, CYP1B1 specifically dictated the differentiation and pathogenicity of pTh17 cells, while having no effects on nonpathogenic Th17 cell generation. Mechanistically, CYP1B1 deficiency disrupted intracellular redox homeostasis via decreased glutathione synthetase, leading to increased ROS and mitochondrial dysfunction of pTh17 cells. ROS elimination by N-acetylcysteine or ectopic glutathione synthetase expression restored mitochondrial fitness and promoted pTh17 cell survival and generation. Taken together, our findings uncover a T cell intrinsic CYP1B1-ROS-mitochondrial axis in driving pTh17 cell generation, interfering with this hub may be beneficial for pTh17 cell-related immunopathology.",
+      "journal": "Proc Natl Acad Sci U S A",
+      "pub_date": "2026-May-05",
+      "doi": "10.1073/pnas.2527753123",
+      "authors": [
+        "Hu W",
+        "Sun Y",
+        "Sun J"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【基礎研究】マウス・ヒト大腸炎モデルでCYP1B1の病原性Th17細胞分化への役割を検討\nCYP1B1欠損でグルタチオン合成酵素低下→ROS増加・ミトコンドリア機能障害→pTh17細胞減少；NAC投与またはGSS過剰発現でpTh17細胞生存が回復\nCYP1B1-ROS-ミトコンドリア軸が大腸炎・CAC治療標的となりうる新規知見",
+      "importance": 3,
+      "category": "basic_science"
+    },
+    {
+      "pmid": "42058266",
+      "title": "Prepackaged Low-Residue Diet \"Clear-Through\" Reduces the Required Volume of Polyethylene Glycol Solution for Colonoscopy Preparation: An Exploratory Randomized Controlled Study.",
+      "abstract": "OBJECTIVES: Large volumes of polyethylene glycol (PEG) solution reduce patient acceptance of colonoscopy. A prepackaged low-residue diet (PLRD; Clear-Through) may improve bowel cleansing and allow further PEG reduction. This exploratory randomized study evaluated whether PLRD permits decreased PEG with ascorbic acid (PEG-Asc) volume while maintaining cleansing quality.\nMETHODS: In this single-center, endoscopist-blinded, three-arm randomized trial, 180 patients were allocated to Group A (self-adjusted diet + 1.5 L PEG-Asc), Group B (PLRD + 1.5 L PEG-Asc), or Group C (PLRD + 1.0 L PEG-Asc). The primary endpoint was cleansing quality using the Ottawa Bowel Preparation Score (OBPS). Secondary endpoints included bubble score, bowel movement frequency, adherence, tolerability, patient satisfaction compared with the previous colonoscopy, and adverse events. Logistic regression identified predictors of inadequate cleansing.\nRESULTS: Baseline characteristics were comparable across groups. OBPS didn't differ significantly among the groups. Group C had significantly fewer bowel movements (p < 0.001) and a lower bubble score (p < 0.001). Adherence and tolerability were high, with no major adverse events. Reduced-volume preparation didn't negatively affect patient satisfaction; Group C had the highest proportion rating the preparation better than their previous experience (42.9%; p = 0.019). PLRD intake independently reduced the risk of inadequate right-colon cleansing (odds ratio 0.119; 95% confidence interval 0.043-0.327; p < 0.001).\nCONCLUSIONS: PLRD allowed reduction of PEG-Asc to 1.0 L without impairing cleansing quality, while maintaining favorable patient satisfaction. PLRD may serve as a practical strategy to lessen patient burden during colonoscopy preparation.\nTRIAL REGISTRATION: UMIN 000056459.",
+      "journal": "DEN Open",
+      "pub_date": "2027-Apr",
+      "doi": "10.1002/deo2.70332",
+      "authors": [
+        "Iida T",
+        "Kimoto Y",
+        "Yamabe E"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ],
+      "summary_ja": "【RCT】180例3群比較：PLRD併用によるPEG-Asc減量（1.5L vs 1.0L）の腸管洗浄効果\nOBPS群間差なし。PLRD摂取は右側結腸不十分洗浄リスクを独立して低減（OR 0.119, 95%CI 0.043-0.327, p<0.001）。1.0L群で患者満足度最高（42.9%, p=0.019）\nPLRD併用でPEG-Ascを1.0Lに削減可能。患者負担軽減と洗浄品質維持を両立する実践的戦略",
+      "importance": 3,
+      "category": "endoscopy_ESD_EMR"
+    }
+  ]
+}
