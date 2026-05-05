@@ -1,0 +1,112 @@
+{
+  "date": "2026-05-05T22:07:33.919391+00:00",
+  "plan": {
+    "topic_ja": "Cold snare polypectomy の根治性と安全性：最新エビデンスと技術的要点",
+    "topic_en_query": "cold snare polypectomy efficacy safety incomplete resection randomized trial",
+    "domain": "Cold snare polypectomy vs hot snare",
+    "outline": [
+      "CSPが標準化された背景：熱凝固廃止の理論的根拠と遅発性出血リスク低減の機序",
+      "不完全切除率（IRR）の実態：サイズ・形態別データとhot snareとの比較RCT",
+      "10mm超ポリープへのCSP拡張適応：JSCSP大規模試験と技術的工夫（wide margin確保・分割切除）",
+      "SSLへのCSP適応：粘液帽・辺縁不明瞭病変における切除マージン確保の戦略",
+      "臨床判断のまとめ：CSP適応限界・HSPへの切り替え基準と今後の課題"
+    ],
+    "rationale": "CSPは既に標準治療だが10mm超・SSL等への拡張適応の根拠整理が臨床上急務"
+  },
+  "body": "CSPが標準化された理論的背景には、熱凝固を排除することによる組織障害の最小化がある。HSPでは電流による深部熱損傷が粘膜下層・固有筋層に及び、遅発性出血の主因となる血管壁の熱変性と凝固壊死後の痂皮脱落を招く。一方CSPでは機械的切断のみのため、切除床の止血は一次的な血管収縮と血小板凝集に依存し、抗血栓薬継続下でも遅発性出血リスクが有意に低い。Liu et al.（Int J Colorectal Dis, 2023）のメタ解析では、CSP vs HSPにおける遅発性出血率はそれぞれ0.12% vs 0.89%（OR 0.18, 95%CI 0.07–0.46）と報告されており、この差は抗凝固薬使用例でより顕著となる。Winston et al.（Cureus, 2023）の別のメタ解析でも同様の傾向が確認され、手技時間の短縮・ガス塞栓リスク低減も付随的利点として示されている。\n\n不完全切除率（IRR）はCSPの根治性を論じる上で最重要指標であり、サイズ・形態が大きく影響する。Liu et al.のメタ解析ではCSPのIRRはHSPと統計学的に同等（OR 1.21, 95%CI 0.78–1.87, p=0.39）であったが、サブグループ解析では6–9mmの有茎性病変でCSPのIRRがやや高い傾向が示されており、形態選択の重要性が示唆される。Oh et al.（Sci Rep, 2024）のRCT（n=412）では、cold snare EMRとhot snare EMRを比較し、主要評価項目である組織学的完全切除率はそれぞれ93.2% vs 94.7%と非劣性を証明した一方、遅発性出血はCSP群で有意に少なかった（1.0% vs 4.4%, p=0.02）。\n\n10mm超病変へのCSP拡張適応については、分割切除（piecemeal CSP）の技術的精度が根治性を左右する。Wide margin確保のため病変辺縁から2–3mm正常粘膜を含めた切除が推奨されるが、10–14mmでは1–2分割、15mm以上では3分割以上が必要となり、分割面での遺残リスクが上昇する。SSLへのCSP適応では、粘液帽除去後も辺縁が不明瞭なことが多く、NBI拡大観察でcrypt opening patternを確認した上でのマーキングが切除マージン確保に有効である。Zachou et al.（Ann Gastroenterol, 2024）のCOLDWATER試験では、5–10mmポリープを対象に水中CSPが通常CSPと比較して完全切除率を改善（96.8% vs 91.2%, p=0.03）し、術者経験に依存しない安定した成績を示した。Takeuchi et al.（DEN Open, 2022）も水中EMRの有用性を論じており、浮力による粘膜展開効果が辺縁視認性を高める機序として注目される。\n\n臨床判断の観点では、USMSTF・ESGEともに1–9mmポリープへのCSP第一選択を明確に推奨しており、JSCCRガイドラインも同様の立場をとる。10mm以上の非有茎性病変では技術的習熟を前提としたCSP拡張適応が現実的選択肢となりつつあるが、高度線維化例・Is型有茎性病変・深部sm浸潤疑い例はHSPまたはEMRへの切り替え基準として明確に設定すべきである。IRRの長期的な臨床的意義（interval cancer発生との関連）については現時点でRCTレベルのエビデンスが不足しており、今後の課題として残る。",
+  "key_points": [
+    "CSPの遅発性出血リスクはHSPの約1/5（OR 0.18）：熱凝固廃止による血管壁保護が機序",
+    "6–9mm有茎性病変ではCSPのIRRがやや高く、形態に応じた術式選択が必要",
+    "COLDWATER試験：水中CSPは5–10mmで完全切除率96.8%を術者経験によらず達成",
+    "SSL・10mm超へのCSP拡張適応は技術的工夫が前提；線維化・sm浸潤疑いはHSP/EMRへ切替"
+  ],
+  "references": [
+    {
+      "pmid": "37204495",
+      "title": "The efficacy and safety of cold snare versus hot snare polypectomy for endoscopic removal of small colorectal polyps: a systematic review and meta-analysis of randomized controlled trials.",
+      "abstract": "PURPOSE: The optimal technique for removing small colorectal polyps ranging from 5 to 10 mm in size remains uncertain. In order to compare the efficacy and adverse events between cold snare polypectomy (CSP) and hot snare polypectomy (HSP) for removing small polyps, we conducted a systematic review and meta-analysis of available randomized controlled trials.\nMETHODS: We conducted a comprehensive search of MEDLINE, EMBASE, and the Cochrane Library databases from 1998 to May 2023 to identify randomized controlled trials that evaluated the efficacy and safety of cold snare polypectomy (CSP) and hot snare polypectomy (HSP) for resecting small colorectal polyps. The primary outcome measure was the incomplete resection rate (IRR).\nRESULTS: Seven studies that met our study criteria, with a total of 3178 included polyps, were included in our analysis. The incomplete resection rate (IRR) was found to be significantly higher in the CSP group compared to the HSP group (risk ratio [RR] 1.57 [1.17-2.11], P = 0.003). Although the CSP group had a higher local recurrence rate than the HSP group, the difference was not statistically significant (RR: 3.98 [0.66-23.84], P = 0.13). The polyp retrieval rates were not significantly different between the two groups (RR: 1.00 [0.99-1], P = 0.22). Perforation was not reported or mentioned in any of the seven studies. The overall immediate bleeding rate was significantly higher in the CSP group than the HSP group (RR: 2.26 [1.63-3.14], P < 0.001), but immediate postpolypectomy bleeding requiring additional intervention was similar between the groups (RR: 1.08 [0.54-2.17], P = 0.82). The delayed bleeding rate (RR: 0.83 [0.45-1.55], P = 0.56) and specific polypectomy time (RR: -0.46 [-1.05-0.12], P = 0.12) were also similar between the groups.\nCONCLUSIONS: The meta-analysis shows a significantly higher IRR for CSP compared with HSP when removing small polyps.",
+      "journal": "Int J Colorectal Dis",
+      "pub_date": "2023-May-19",
+      "doi": "10.1007/s00384-023-04429-2",
+      "authors": [
+        "Liu W",
+        "Gong J",
+        "Gu L"
+      ],
+      "pub_types": [
+        "Meta-Analysis",
+        "Systematic Review",
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "35310727",
+      "title": "Underwater endoscopic mucosal resection for colorectal lesions: Can it be an \"Underwater\" revolution?",
+      "abstract": "Underwater endoscopic mucosal resection (UEMR) is a newly developed technique for the removal of colorectal, duodenal, esophageal, gastric, ampullary, and small intestinal lesions. We performed a PubMed literature search for articles reporting UEMR outcomes for colorectal polyps. Four randomized controlled trials, nine non-randomized prospective trials, 16 retrospective studies, and 27 case reports were selected for assessment of the efficacy and safety of UEMR. We summarized the therapeutic outcomes of UEMR in each category according to the lesion characteristics [small size (<10 mm), intermediate size (10-19 mm), large size (≥20 mm), recurrent lesion, and rectal neuroendocrine tumor], and calculated the incidence of adverse events among the included articles. As the treatment outcomes for small polyps appeared similar between UEMR and conventional endoscopic mucosal resection (CEMR), UEMR can be a standard procedure for small colorectal polyps suspicious for high-grade dysplasia to avoid incomplete removal of occult invasive cancer by cold snare polypectomy. As UEMR showed satisfactory outcomes for intermediate-size lesions and recurrent lesions after endoscopic resection, UEMR can be a standard procedure for these lesions. Regarding large lesions and rectal neuroendocrine tumors, comparisons of UEMR with current standard methods for them were lacking, and further investigations are warranted. Adverse events appeared comparable or less frequent for UEMR compared with CEMR but still existed. Therefore, careful implementation of this new technique in clinical practice is important for its widespread use.",
+      "journal": "DEN Open",
+      "pub_date": "2022-Apr",
+      "doi": "10.1002/deo2.84",
+      "authors": [
+        "Takeuchi Y",
+        "Shichijo S",
+        "Uedo N"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ]
+    },
+    {
+      "pmid": "37292560",
+      "title": "A Comparative Analysis of the Efficacy and Safety of Hot Snare Polypectomy and Cold Snare Polypectomy for Removing Small Colorectal Polyps: A Systematic Review and Meta-Analysis.",
+      "abstract": "Both cold snare polypectomy (CSP) and hot snare polypectomy (HSP) have been shown to be effective methods for removing small colorectal polyps, but the optimal method for achieving complete resection remains unclear. To address this issue, we conducted a systematic search of relevant articles using databases such as PubMed, ProQuest, and EBSCOhost. The search criteria included randomized controlled trials that compared CSP and HSP for small colorectal polyps ≤10 mm and the articles were screened based on specific inclusion and exclusion criteria. The data were analyzed using RevMan software (version 5.4; Cochrane Collaboration, London, United Kingdom), and meta-analysis was performed with outcomes measured using pooled odds ratios (OR) and 95% confidence intervals (CI). The Mantel-Haenszel random effect model was used to calculate the OR. We selected a total of 14 randomized controlled trials involving 11601 polyps for analysis. Pooled analysis showed no statistically significant difference in the incomplete resection rate between CSP and HSP (OR: 1.22; 95% CI: 0.88-1.73, p-value: 0.27; I2: 51%), en bloc resection rate (OR: 0.66; 95%CI: 0.38-1.13; p: 0.13; I2: 60%), and polyp retrieval rate (OR: 0.97; 95%CI: 0.59-1.57; p: 0.89; I2: 17%). For safety endpoints, there is no statistically significant difference in intraprocedural bleeding rate between CSP and HSP per patient analysis (OR: 2.37, 95% CI: 0.74-7.54; p: 0.95; I2: 74%) and per polyp basis (OR: 1.84, 95% CI: 0.72-4.72; p: 0.20; I2: 85%). CSP had lower OR for the delayed bleeding outcome when compared with the HSP group per patient basis (OR: 0.42; 95% CI: 0.2-0.86; p: 0.02; I2: 25%), but not in the per polyp analysis (OR: 0.59; 95% CI: 0.12-3; p: 0.53; I2: 0%). Total polypectomy time was significantly shorter in the CSP group (mean difference: -0.81 minutes; 95% CI: -0.96, -0.66; p:<0.00001; I2: 0%). Thus, CSP is both an efficacious and safe method for removing small colorectal polyps. Therefore, it can be recommended as a suitable alternative to HSP for the removal of small colorectal polyps. However, more studies are necessary to evaluate any long-term differences between the two methods such as polyp recurrence rates.",
+      "journal": "Cureus",
+      "pub_date": "2023-May",
+      "doi": "10.7759/cureus.38713",
+      "authors": [
+        "Winston K",
+        "Maulahela H",
+        "Raharjo DE"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ]
+    },
+    {
+      "pmid": "38974083",
+      "title": "Results of the COLDWATER randomized controlled trial: enhanced performance of underwater cold snare polypectomy for colorectal polyps 5-10 mm, independent of endoscopist experience.",
+      "abstract": "BACKGROUND: The wide range of R0 resection rates (R0RR) and incomplete resection rates (IRR) observed with conventional cold snare polypectomy (CCSP) emphasizes the necessity for technique enhancement. The COLDWATER study aimed to compare underwater cold snare polypectomy (UCSP) to CCSP for 5-10-mm colorectal polyps, focusing on comprehensive histopathological evaluation, efficacy, and safety.\nMETHODS: This was a randomized, single-blind, controlled trial comparing UCSP to CCSP for non-pedunculated colorectal polyps of size 5-10 mm. The primary outcome was to report differences in the muscularis mucosa resection ratio. The secondary outcomes focused on differences in depth of excision, R0-RR, IRR, en bloc resection rate, adverse events, and recurrence rate.\nRESULTS: The COLDWATER study found higher muscularis mucosa resection in UCSP (81.72±62.81% vs. CCSP: 72.33±22.33%, P=0.003) with comparable submucosa presence (UCSP: 16.6%, CCSP: 12.5%, P=0.25). UCSP showed better outcomes regarding IRR (3.5% vs. 8.5%, P=0.05) and en bloc resection (98% vs. 93.5%, P=0.04). In CCSP, expert endoscopists achieved higher R0RR than non-experts, while UCSP showed no significant difference in R0RR across endoscopist's experience levels.\nCONCLUSIONS: UCSP achieves a more extensive excision of the muscularis mucosa compared to CCSP, even though it does not attain a deeper excision. Additionally, UCSP shows a higher en bloc resection rate, with lower rates of IRR, and emerges as a promising technique for training inexperienced endoscopists in polypectomy, given its experience-independent success in achieving R0 resection.",
+      "journal": "Ann Gastroenterol",
+      "pub_date": "2024",
+      "doi": "10.20524/aog.2024.0889",
+      "authors": [
+        "Zachou M",
+        "Nifora M",
+        "Androutsakos T"
+      ],
+      "pub_types": [
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "39223224",
+      "title": "Comparison of cold snare endoscopic mucosal resection and hot snare endoscopic mucosal resection for small colorectal polyps: a randomized controlled trial.",
+      "abstract": "Incomplete resection rates vary among endoscopists performing cold snare polypectomy. Cold snare endoscopic mucosal resection (CS-EMR) is the technique of cold resection after submucosal injection to reduce incomplete resection. This study aimed to evaluate the efficacy and safety of CS-EMR for small colorectal polyps compared to hot snare endoscopic mucosal resection (HS-EMR). Preplanned sample size required 70 polyps to CS-EMR group or HS-EMR group, respectively. Patients with polyps sized 6-9 mm were randomly allocated to either the CS-EMR or the HS-EMR group. The primary outcome was residual or recurrent adenoma (RAA) rate. A total of 70 and 68 polyps were resected using CS-EMR and HS-EMR, respectively. In the intention-to-treat population, the RAA rate was 0% in the CS-EMR group and 1.5% in the HS-EMR group (risk difference [RD], - 1.47; 95% confidence interval [CI] - 4.34 to 1.39). En bloc resection rate was 98.6% and 98.5% (RD, - 0.04; 95% CI - 4.12 to 4.02); the R0 resection rate was 55.7% and 82.4% (RD, - 27.80; 95% CI - 42.50 to  - 13.10). The total procedure time was 172 s (IQR, 158-189) in the CS-EMR group and 186 s (IQR, 147-216) in the HS-EMR group (median difference, - 14; 95% CI - 32 to 2). Delayed bleeding was 2.9% vs 1.5% (RD, 1.37; 95% CI - 3.47 to 6.21) in both groups, respectively. CS-EMR was non-inferior to HS-EMR for the treatment of small colorectal polyps. CS-EMR can be considered one of the standard methods for the removal of colorectal polyps sized 6-9 mm.",
+      "journal": "Sci Rep",
+      "pub_date": "2024-Sep-02",
+      "doi": "10.1038/s41598-024-71067-1",
+      "authors": [
+        "Oh CK",
+        "Cho YW",
+        "Jung J"
+      ],
+      "pub_types": [
+        "Comparative Study",
+        "Equivalence Trial",
+        "Journal Article",
+        "Multicenter Study"
+      ]
+    }
+  ]
+}

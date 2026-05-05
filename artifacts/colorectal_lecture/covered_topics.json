@@ -106,5 +106,11 @@
     "topic_ja": "大腸癌スクリーニングにおけるctDNA検査の位置づけ：FIT・内視鏡との比較と実装課題",
     "domain": "CRC screening戦略(FIT, colonoscopy, ctDNA test)",
     "rationale": "ECLIPSE試験(2024 NEJM)で注目度急上昇、FITとの比較議論が臨床的に急務"
+  },
+  {
+    "date": "2026-05-05T22:07:33.920168+00:00",
+    "topic_ja": "Cold snare polypectomy の根治性と安全性：最新エビデンスと技術的要点",
+    "domain": "Cold snare polypectomy vs hot snare",
+    "rationale": "CSPは既に標準治療だが10mm超・SSL等への拡張適応の根拠整理が臨床上急務"
   }
 ]
