@@ -112,5 +112,11 @@
     "topic_ja": "Cold snare polypectomy の根治性と安全性：最新エビデンスと技術的要点",
     "domain": "Cold snare polypectomy vs hot snare",
     "rationale": "CSPは既に標準治療だが10mm超・SSL等への拡張適応の根拠整理が臨床上急務"
+  },
+  {
+    "date": "2026-05-06T22:04:26.314869+00:00",
+    "topic_ja": "大腸癌FOLFOX/FOLFIRI耐性後のRAS野生型における抗EGFR再投与戦略",
+    "domain": "転移性CRCの1st/2nd line戦略",
+    "rationale": "液体生検普及でrechallenge戦略が現実的となり、CHRONOS試験後の実臨床判断を整理する好機"
   }
 ]

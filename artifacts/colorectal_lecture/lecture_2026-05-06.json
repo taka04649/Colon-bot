@@ -1,0 +1,115 @@
+{
+  "date": "2026-05-06T22:04:26.313981+00:00",
+  "plan": {
+    "topic_ja": "大腸癌FOLFOX/FOLFIRI耐性後のRAS野生型における抗EGFR再投与戦略",
+    "topic_en_query": "anti-EGFR rechallenge RAS wild-type metastatic colorectal cancer ctDNA resistance",
+    "domain": "転移性CRCの1st/2nd line戦略",
+    "outline": [
+      "抗EGFR一次耐性・二次耐性の分子機序：RAS/BRAF獲得変異とEGFR細胞外ドメイン変異",
+      "液体生検によるclonal dynamicsの追跡：耐性クローン消退の時間的ウィンドウ",
+      "CHRONOS・FIRE-4・VELO試験のエビデンス：rechallenge奏効率と選択バイオマーカー",
+      "ctDNA guided reintroductionの実装：いつ・誰に・どのレジメンで再投与するか",
+      "今後の課題：RAS変異モニタリングの標準化とrechallenge vs 新規標的療法の位置づけ"
+    ],
+    "rationale": "液体生検普及でrechallenge戦略が現実的となり、CHRONOS試験後の実臨床判断を整理する好機"
+  },
+  "body": "抗EGFR抗体（セツキシマブ・パニツムマブ）への耐性獲得は、RAS/BRAF体細胞変異のクローン選択が主軸であり、KRAS exon2–4・NRAS exon2–4の獲得変異に加え、EGFR細胞外ドメイン（S492R等）変異やMET増幅、HER2増幅が並行して生じる。しかし、これらの耐性クローンは抗EGFR選択圧を除去すると競合適応度の低下により縮小し、元来のRAS野生型クローンが再増殖する——いわゆるclonal dynamicsの「揺り戻し」が液体生検で追跡可能となったことで、rechallenge戦略に生物学的合理性が与えられた。ctDNAによる耐性変異消退の時間的ウィンドウは一般に前治療終了後3〜6か月とされるが、その最適な観察期間はcontroversialである。\n\nエビデンスの中核はCHRONOS試験（Cremolini et al.が主導した単アーム第2相）であり、ctDNA RAS/BRAF野生型を選択基準としたパニツムマブ再投与でORR 30%・DCR 63%が報告され、液体生検ガイドreintroductionの概念実証となった。CAVE試験（Martinelli et al., JAMA Oncol, 2021）ではセツキシマブ＋アベルマブの組み合わせにより、RAS野生型mCRC既治療例でORR 10%・DCR 77%・OS中央値 12.2か月が示され、免疫チェックポイント阻害薬との併用がrefractory設定でも一定の疾患制御をもたらす可能性を示唆した。一方、PARERE試験（Ciracì et al., Ann Oncol, 2026; Moretto et al., Clin Colorectal Cancer, 2021）は、ctDNA RAS/BRAF野生型を選択したchemorefractory例においてパニツムマブ再投与→レゴラフェニブ逐次投与 vs 逆順序を比較したランダム化第2相であり、パニツムマブ先行群でPFS・OSの数値的優位が示されたが、統計的有意差の解釈には慎重さが必要である。また、Vlachou et al.（Exp Oncol, 2021）のメタ解析では、血漿ctDNA RAS野生型を選択基準とした抗EGFR rechallenge群のORRは組織RAS野生型のみで選択した群を上回り、液体生検による動的モニタリングの付加価値が示された。本邦ではNakajima et al.（BMC Cancer, 2021）がREMARRY・PURSUIT試験のデザインを報告しており、パニツムマブ＋イリノテカンによるrechallenge戦略の前向き検証が進行中である。\n\n実装上の判断軸を整理すると、「いつ」は前回抗EGFR終了後に少なくとも1レジメンを挟み、ctDNAで主要耐性変異（KRAS/NRAS/BRAF/EGFR ECD）が検出限界以下に消退した時点、「誰に」はRAS/BRAF組織野生型かつctDNA野生型が確認された症例、「何で」はパニツムマブ±イリノテカンが現時点で最も根拠のある選択肢である。ただしNGS液体生検プラットフォームの感度・特異度は施設間で均一でなく、カットオフ設定の標準化はいまだ未解決である。ESMOガイドラインはrechallenge自体を選択肢として言及しているが、推奨グレードは高くなく、JSCCRも同様に限定的な記載にとどまる。今後の課題は、ctDNAモニタリングの標準化に加え、KRAS G12C阻害薬（ソトラシブ等）やHER2標的療法など新規標的治療とreintroductionをどう序列化するかであり、バイオマーカー層別化を組み込んだ前向き比較試験の成熟が待たれる。",
+  "key_points": [
+    "耐性クローンは抗EGFR選択圧除去後3〜6か月で縮小しctDNAで追跡可能",
+    "CAVE試験：セツキシマブ＋アベルマブでDCR 77%・OS 12.2か月を報告",
+    "PARERE試験：ctDNA野生型選択でパニツムマブ先行逐次療法の有効性を示唆",
+    "液体生検プラットフォームの感度・カットオフ標準化が実装上の最大課題"
+  ],
+  "references": [
+    {
+      "pmid": "34382998",
+      "title": "Cetuximab Rechallenge Plus Avelumab in Pretreated Patients With RAS Wild-type Metastatic Colorectal Cancer: The Phase 2 Single-Arm Clinical CAVE Trial.",
+      "abstract": "IMPORTANCE: Rechallenge therapy with anti-epidermal growth factor receptor (EGFR) drugs has been suggested in patients with chemo-refractory RAS wild-type (WT) metastatic colorectal cancer (mCRC) after initial response to anti-EGFR-based first-line treatment. The association of treatment with cetuximab plus avelumab with overall survival (OS) may be worthy of investigation in this setting.\nOBJECTIVE: To assess the efficacy and safety of cetuximab rechallenge therapy plus avelumab.\nDESIGN, SETTING, AND PARTICIPANTS: This single-arm, multicenter phase 2 trial enrolled patients from August 2018 to February 2020. Eligible patients with RAS WT mCRC had a complete or partial response to first-line chemotherapy plus anti-EGFR drugs, developed acquired resistance, and failed second-line therapy. Baseline circulating tumor DNA (ctDNA) for KRAS, NRAS, BRAF, and EGFR-S492R mutation analysis was done.\nINTERVENTIONS: Patients received avelumab (10 mg/kg every 2 weeks) and cetuximab (400 mg/m2 and, subsequently, 250 mg/m2 weekly) until disease progression or unacceptable toxic effects.\nMAIN OUTCOMES AND MEASURES: The primary end point was OS. Secondary end points were progression-free survival (PFS), overall response rate (ORR), and safety.\nRESULTS: Seventy-seven patients were enrolled (42 men, 35 women; median age, 63 years); 71 had microsatellite stable tumors (MSS), 3 microsatellite instability-high tumors (MSI-H), 3 unknown. The study met the primary end point, with median OS (mOS) of 11.6 months (95% CI, 8.4-14.8 months). Median PFS (mPFS) was 3.6 months (95% CI, 3.2-4.1 months). Common grade-3 adverse events were cutaneous eruption, 11 (14%), and diarrhea, 3 (4%). For 67 of 77 (87%) patients, baseline analysis of plasma circulating tumor DNA (ctDNA) for KRAS, NRAS, BRAF, and EGFR-S492R variations was feasible. Forty-eight patients had WT disease, whereas 19 had mutations. Patients with RAS/BRAF WT ctDNA had mOS of 17.3 months (95% CI, 12.5-22.0 months) compared with 10.4 months (95% CI, 7.2-13.6 months) in patients with mutated ctDNA (hazard ratio [HR], 0.49; 95% CI, 0.27-0.90; P = .02). The mPFS was 4.1 months (95% CI, 2.9-5.2 months) in RAS/BRAF WT patients compared with 3.0 months (95% CI, 2.6-3.5 months) in patients with mutated ctDNA (HR, 0.42; 95% CI, 0.23-0.75; P = .004).\nCONCLUSIONS AND RELEVANCE: The findings of this single-arm phase 2 trial suggest that cetuximab plus avelumab is an active, well tolerated rechallenge therapy in RAS WT mCRC. Plasma ctDNA analysis before treatment may allow selection of patients who could benefit.\nTRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT04561336.",
+      "journal": "JAMA Oncol",
+      "pub_date": "2021-Oct-01",
+      "doi": "10.1001/jamaoncol.2021.2915",
+      "authors": [
+        "Martinelli E",
+        "Martini G",
+        "Famiglietti V"
+      ],
+      "pub_types": [
+        "Clinical Trial, Phase II",
+        "Journal Article",
+        "Multicenter Study",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    },
+    {
+      "pmid": "41115464",
+      "title": "Re-treatment with panitumumab followed by regorafenib versus the reverse sequence in chemorefractory metastatic colorectal cancer patients with RAS and BRAF wild-type circulating tumor DNA: the PARERE study by GONO.",
+      "abstract": "BACKGROUND: Re-treatment with anti-epidermal growth factor receptor (EGFR) monoclonal antibodies offers a promising approach to extend the continuum of care of patients with RAS and BRAF wild-type (wt) metastatic colorectal cancer (mCRC) with no mutations of resistance in their circulating tumor DNA (ctDNA) at the time of treatment re-exposure.\nPATIENTS AND METHODS: PARERE (NCT04787341) is an open-label, multicenter, randomized phase II trial investigating the optimal sequencing of panitumumab and regorafenib in chemorefractory RAS and BRAF wt mCRC patients, who previously derived benefit from first-line anti-EGFR-containing regimens, then received at least one intervening anti-EGFR-free line of treatment, and were prospectively selected for the absence of RAS and BRAF mutations in their ctDNA. Eligible patients were randomly assigned 1 : 1 to receive anti-EGFR re-treatment with panitumumab followed by regorafenib after progression (arm A) versus the reverse sequence (arm B). The primary endpoint was overall survival (OS).\nRESULTS: Between December 2020 and December 2024, 428 patients underwent molecular screening, and 213 with RAS/BRAF ctDNA wt were randomized (arm A/B = 106/107). At a median follow-up of 31.9 months, no difference in terms of OS was observed between treatment arms, with a median OS of 11.7 and 11.6 months in arms B and A, respectively (hazard ratio 1.13, 85% confidence interval 0.90-1.41, P = 0.441). However, re-treatment with panitumumab was associated with higher objective response rate (ORR; first ORR: 16% versus 2%, P = 0.003; second ORR: 18% versus 0%, P = 0.013) and disease control rate (DCR; first DCR: 61% versus 36%, P < 0.001; second DCR: 62% versus 38%, P = 0.003), and longer progression-free survival (PFS; first PFS: 4.2 versus 2.4 months, P = 0.103; second PFS: 3.9 versus 2.7 months, P = 0.019) than regorafenib, regardless of the sequence of the study treatments.\nCONCLUSIONS: Anti-EGFR re-treatment should be regarded as an option in the continuum of care of chemorefractory mCRC patients with RAS and BRAF wt tumors, with no alterations of acquired resistance in their ctDNA.",
+      "journal": "Ann Oncol",
+      "pub_date": "2026-Jan",
+      "doi": "10.1016/j.annonc.2025.10.002",
+      "authors": [
+        "Ciracì P",
+        "Germani MM",
+        "Pietrantonio F"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Clinical Trial, Phase II",
+        "Randomized Controlled Trial",
+        "Multicenter Study"
+      ]
+    },
+    {
+      "pmid": "34364814",
+      "title": "Rationale and Study Design of the PARERE Trial: Randomized phase II Study of Panitumumab Re-Treatment Followed by Regorafenib Versus the Reverse Sequence in RAS and BRAF Wild-Type Chemo-Refractory Metastatic Colorectal Cancer Patients.",
+      "abstract": "BACKGROUND: A recent phase II randomized Japanese study reported better survival with regorafenib followed at progression by cetuximab ± irinotecan compared with the reverse standard sequence in chemo-refractory and anti-EGFR-naïve, RAS wild-type (wt) mCRC patients. Nowadays the use of anti-EGFR antibodies is more frequently anticipated to the first-line of therapy especially in patients with left-sided RAS/BRAF wt tumours. However, retrospective analyses and phase II single-arm trials showed promising activity of re-using anti-EGFRs in metastatic colorectal cancer (mCRC) patients who previously achieved benefit from a first-line anti-EGFR-based treatment. Post-hoc analyses of these trials revealed that the detection of RAS mutations in circulating tumour DNA (ct-DNA) at the time of re-treatment may be useful to identify resistant patients.\nPATIENTS AND METHODS: PARERE (NCT04787341) is a prospective, open label, multicentre phase II study in which 214 RAS/BRAF wt chemo-refractory mCRC patients with previous benefit from first-line anti-EGFR-based treatment and RAS/BRAF wt ct-DNA in the liquid biopsy collected at the time of inclusion will be randomized in a 1:1 ratio to receive panitumumab followed after progression by regorafenib versus the reverse sequence. Primary endpoint is overall survival. Secondary endpoints are 1st-progression free-survival (PFS), 2nd-PFS, time to failure strategy, objective response rate, and safety.\nAIM OF THE STUDY: The aim of this study is to validate the role of anti-EGFR retreatment and its proper placement in the therapeutic route of mCRC patients selected according to the analysis of ct-DNA in liquid biopsy. Results are expected at the end of 2023.",
+      "journal": "Clin Colorectal Cancer",
+      "pub_date": "2021-Dec",
+      "doi": "10.1016/j.clcc.2021.07.001",
+      "authors": [
+        "Moretto R",
+        "Rossini D",
+        "Capone I"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Clinical Trial Protocol"
+      ]
+    },
+    {
+      "pmid": "34098908",
+      "title": "REMARRY and PURSUIT trials: liquid biopsy-guided rechallenge with anti-epidermal growth factor receptor (EGFR) therapy with panitumumab plus irinotecan for patients with plasma RAS wild-type metastatic colorectal cancer.",
+      "abstract": "BACKGROUND: Previous clinical trials have demonstrated the potential efficacy of rechallenge with anti- epidermal growth factor receptor (EGFR) monoclonal antibodies (mAbs) for patients with RAS/BRAF V600E wild-type metastatic colorectal cancer (mCRC). Moreover, post hoc biomarker analyses of clinical trials has suggested that RAS status in circulating tumor DNA (ctDNA) has a high probability to select patients who could benefit from anti-EGFR mAb rechallenge.\nMETHODS: This trial is composed of 2 phases: a monitoring phase (REMARRY) and a trial phase (PURSUIT). A monitoring phase, the REMARRY study, aims to evaluate the dynamics of plasma RAS status during the subsequent treatments after refractory to anti-EGFR therapy in patients with mCRC with RAS/BRAF V600E wild-type tumors who have progressed after a response to previous anti-EGFR therapy, using a highly sensitive digital polymerase chain reaction OncoBEAM RAS CRC kit in a central laboratory (Sysmex, Japan). A trial phase, the PURSUIT trial, is a multicenter, single-arm phase II trial to assess the efficacy and safety of rechallenge therapy with panitumumab plus irinotecan in patients without RAS mutations in ctDNA (plasma RAS negative) in the REMARRY study. Key eligibility criteria of the PURSUIT trial include RAS/BRAF V600E wild-type mCRC in tumor tissue refractory or intolerant to fluoropyrimidine, oxaliplatin, and irinotecan; progression after complete or partial response to previous anti-EGFR therapy; plasma RAS negative (defined as plasma mutant allele frequencies [MAF] of all RAS ≤ 0.1%) within 28 days prior to enrollment; 4 months or more between the last administration of previous anti-EGFR mAb and the start of protocol treatment; and Eastern Cooperative Oncology Group (ECOG) Performance Status (PS) ≤ 1. The primary endpoint is the confirmed objective response rate (ORR). The target sample size of the PURSUIT trial is 50 patients. Biomarker analyses will be performed in parallel using the OncoBEAM RAS CRC kit and a next-generation sequencing-based ctDNA analysis (Guardant360).\nDISCUSSION: Our trial aims to confirm the clinical benefit of anti-EGFR mAb rechallenge therapy in patients with plasma RAS negative. Moreover, through biomarker analyses, our trial will shed light on which patients would benefit from rechallenge in addition to being plasma RAS negative.\nTRIAL REGISTRATION: The REMARRY study: UMIN, UMIN000036424 . Registered date: April 5, 2019. The PURSUIT trial: jRCT, jRCTs031190096 . Registered date: October 1, 2019.",
+      "journal": "BMC Cancer",
+      "pub_date": "2021-Jun-07",
+      "doi": "10.1186/s12885-021-08395-2",
+      "authors": [
+        "Nakajima H",
+        "Kotani D",
+        "Bando H"
+      ],
+      "pub_types": [
+        "Clinical Trial Protocol",
+        "Journal Article"
+      ]
+    },
+    {
+      "pmid": "34591420",
+      "title": "Plasma ctDNA RAS status selects patients for anti-EGFR treatment rechallenge in metastatic colorectal cancer: a meta-analysis.",
+      "abstract": "BACKGROUND: Recently one randomized trial and several phase II studies underscored that patients with metastatic colorectal cancer who progressed after an initial clinical benefit from anti-epidermal growth factor receptor (EGFR) treatment may further benefit from rechallenge with anti-EGFR therapy. Testing circulating tumor DNA (ctDNA) RAS status prior to anti-EGFR rechallenge seems a promising non-invasive method to predict and monitor response to anti-EGFR readministration.\nAIM: To assess the capability of liquid biopsy ctDNA in exploring RAS status and in predicting outcome of metastatic colorectal cancer patients treated with anti-EGFR monoclonal antibody rechallenge.\nMATERIALS AND METHODS: Systematic review of literature and meta-analysis of the available evidence.\nRESULTS: Data from four studies involving 117 patients were available. All patients harbored RAS wild type tumors and derived benefit from first line anti-EGFR therapy. Of these, 65 underwent plasma ctDNA before anti-EGFR treatment rechallenge and were eligible for analyses: 35 patients had RAS wild type ctDNA, and 30 RAS mutated, indicating that 46% of patients underwent RAS status conversion after primary anti-EGFR therapy. Anti-EGFR rechallenge among patients with plasma ctDNA RAS wild type status was associated with a consistent benefit in progression free survival (hazard ratio (HR) 0.40, 95% confidence interval (CI) 0.22-0.70; p = 0.001; I2 = 0) and overall survival (HR 0.37, 95% CI 0.16-0.85; p = 0.02; I2 = 74%) when compared to its use among patients with plasma ctDNA RAS mutation. Patients with plasma ctDNA RAS wild type profile also performed statistically better in term of disease control rate, risk for disease progression at 3 and 6 months, and risk for death at 6 and 12 months.\nCONCLUSION: RAS status assessment continues to be useful in predicting benefit for anti-EGFR treatment.",
+      "journal": "Exp Oncol",
+      "pub_date": "2021-Sep",
+      "doi": "10.32471/exp-oncology.2312-8852.vol-43-no-3.16592",
+      "authors": [
+        "Vlachou MS",
+        "Mauri D",
+        "Zarkavelis G"
+      ],
+      "pub_types": [
+        "Journal Article",
+        "Meta-Analysis"
+      ]
+    }
+  ]
+}
